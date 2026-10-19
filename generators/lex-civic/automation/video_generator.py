@@ -200,9 +200,45 @@ class TikTokVideoGenerator:
         return img
 
     async def _generate_audio_file(self, text: str, output_path: str):
-        """Generează fișierul audio MP3 cu Edge-TTS."""
-        # Curăță textul de emoticoane și simboluri ce pot distorsiona vocea
+        """Generează fișierul audio cu vocea umană Gemini Aoede (cu fallback la Edge-TTS)."""
+        import base64
+        import wave
+        import time
+        import requests
+        from automation.config import GEMINI_API_KEY
         clean_text = text.replace("🚫", "").replace("🔑", "").replace("🛑", "").replace("⏱️", "").replace("💼", "").replace("⚖️", "")
+        prompt = f"Citește cu o voce feminină deosebit de fermecătoare, caldă, melodioasă, sigură și perfect naturală în limba română următorul ghid juridic practic:\n\n{clean_text}"
+        api_keys = [k for k in [GEMINI_API_KEY, (os.getenv("GEMINI_API_KEY_FALLBACK") or "").strip()] if k]
+        for model in ["gemini-3.1-flash-tts-preview", "gemini-2.5-flash-preview-tts"]:
+            for attempt in range(3):
+                key_to_use = api_keys[attempt % len(api_keys)] if api_keys else ""
+                if not key_to_use:
+                    break
+                try:
+                    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key_to_use}"
+                    payload = {
+                        "contents": [{"parts": [{"text": prompt}]}],
+                        "generationConfig": {
+                            "responseModalities": ["AUDIO"],
+                            "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": "Aoede"}}}
+                        }
+                    }
+                    res = requests.post(url, json=payload, timeout=90)
+                    if res.status_code == 200:
+                        b64 = res.json()["candidates"][0]["content"]["parts"][0]["inlineData"]["data"]
+                        pcm = base64.b64decode(b64)
+                        with wave.open(output_path, "wb") as wf:
+                            wf.setnchannels(1)
+                            wf.setsampwidth(2)
+                            wf.setframerate(24000)
+                            wf.writeframes(pcm)
+                        return
+                    elif res.status_code in (429, 503):
+                        time.sleep(4 * (attempt + 1))
+                    else:
+                        break
+                except Exception:
+                    time.sleep(2)
         communicate = edge_tts.Communicate(clean_text, self.voice)
         await communicate.save(output_path)
 

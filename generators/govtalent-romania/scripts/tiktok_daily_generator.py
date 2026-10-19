@@ -179,16 +179,81 @@ def generate_scenario_with_gemini():
         print(f"Atenție la apelul Gemini: {e}. Se trece pe fallback.")
         return random.choice(FALLBACK_TOPICS)
 
-# ── 2. Romanian Neural Audio & Timestamps ─────────────────────────
+# ── 2. Romanian Neural Audio & Timestamps (Gemini Aoede) ──────────
+def compute_word_timestamps(script_text, total_duration):
+    words = script_text.split()
+    weights = []
+    for w in words:
+        clean = w.rstrip(".,?!:;")
+        base = max(1, len(clean))
+        pause = 3.5 if any(w.endswith(p) for p in [".", "?", "!"]) else (2.0 if any(w.endswith(p) for p in [",", ":", ";"]) else 0.0)
+        weights.append(base + pause)
+    total_w = sum(weights) or 1.0
+    scale = (total_duration - 0.4) / total_w
+    cur_t = 0.25
+    timed = []
+    for i, w in enumerate(words):
+        dur = weights[i] * scale
+        clean_len = max(1, len(w.rstrip(".,?!:;")))
+        speak_dur = max(0.18, (clean_len / weights[i]) * dur)
+        timed.append({"text": w, "start": cur_t, "end": cur_t + speak_dur})
+        cur_t += dur
+    return timed
+
 async def generate_audio_and_timestamps(script_text):
-    print("[2/4] Generare audio neuronal românesc și timestamp-uri pe cuvinte...")
-    voices = ["ro-RO-EmilNeural", "ro-RO-AlinaNeural"]
-    selected_voice = random.choice(voices)
-    
+    print("[2/4] Generare voce umană feminină caldă & sigură (Gemini Aoede)...")
+    import base64
+    import wave
+    import time
+
+    tts_models = [
+        "gemini-3.1-flash-tts-preview",
+        "gemini-2.5-flash-preview-tts",
+        "gemini-2.5-pro-preview-tts"
+    ]
+    prompt = f"Citește cu o voce feminină deosebit de fermecătoare, caldă, melodioasă, sigură și perfect naturală în limba română următorul ghid educațional pentru Concursul Național ANFP:\n\n{script_text}"
+    api_keys = [k for k in [GEMINI_API_KEY, (os.getenv("GEMINI_API_KEY_FALLBACK") or "").strip()] if k]
+
+    for model in tts_models:
+        for attempt in range(4):
+            key_to_use = api_keys[attempt % len(api_keys)] if api_keys else ""
+            if not key_to_use:
+                break
+            try:
+                url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key_to_use}"
+                payload = {
+                    "contents": [{"parts": [{"text": prompt}]}],
+                    "generationConfig": {
+                        "responseModalities": ["AUDIO"],
+                        "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": "Aoede"}}}
+                    }
+                }
+                res = requests.post(url, json=payload, timeout=90)
+                if res.status_code == 200:
+                    b64 = res.json()["candidates"][0]["content"]["parts"][0]["inlineData"]["data"]
+                    pcm = base64.b64decode(b64)
+                    with wave.open(AUDIO_PATH, "wb") as wf:
+                        wf.setnchannels(1)
+                        wf.setsampwidth(2)
+                        wf.setframerate(24000)
+                        wf.writeframes(pcm)
+                    duration = len(pcm) / 48000.0
+                    words = compute_word_timestamps(script_text, duration)
+                    print(f"✅ Voce feminină Aoede generată cu succes prin {model}: {duration:.2f}s ({len(words)} cuvinte)")
+                    return words, duration
+                elif res.status_code in (429, 503):
+                    time.sleep(5 * (attempt + 1))
+                else:
+                    break
+            except Exception as e:
+                print(f"Avertisment Aoede ({model}): {e}")
+                time.sleep(2)
+
+    selected_voice = "ro-RO-AlinaNeural"
     communicate = edge_tts.Communicate(
         script_text,
         voice=selected_voice,
-        rate="+12%",
+        rate="-2%",
         boundary="WordBoundary"
     )
     
