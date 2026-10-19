@@ -551,19 +551,26 @@ async def dispatch_to_telegram(scenario, duration):
         print("Atenție: Lipsesc credențialele Telegram în mediu. Sări peste expediere.")
         return False
 
-    from services.telegram_publisher import send_video_for_approval
-
     title = scenario.get("topic_title", "Capcană Admitere Politehnică UPB")
-    caption_txt = scenario.get("tiktok_caption", "Pregătește-te de concurs pe https://poliprep-upb-.vercel.app !")
+    caption_txt = scenario.get("tiktok_caption", "Pregătește-te de concurs pe https://poliprep-upb.vercel.app !")
 
-    result = await send_video_for_approval(
-        video_path=VIDEO_PATH,
-        caption=caption_txt,
-        title=title,
-        duration=duration,
-        bot_token=TELEGRAM_BOT_TOKEN,
-        chat_id=TELEGRAM_CHAT_ID
+    tg_caption = (
+        f"🎓 <b>[POLIPREP UPB • TIKTOK DAILY]</b>\n\n"
+        f"📌 <b>Subiect:</b> {title}\n"
+        f"⏱ <b>Durată:</b> {duration:.0f}s | Format 9:16 (1080x1920)\n\n"
+        f"📋 <b>Descriere TikTok (Click to Copy):</b>\n"
+        f"<code>{caption_txt}</code>"
     )
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendVideo"
+    with open(VIDEO_PATH, "rb") as vf:
+        res = requests.post(
+            url,
+            data={"chat_id": TELEGRAM_CHAT_ID, "caption": tg_caption, "parse_mode": "HTML", "supports_streaming": True},
+            files={"video": ("poliprep_tiktok.mp4", vf, "video/mp4")},
+            timeout=90
+        )
+    rj = res.json()
+    result = {"success": rj.get("ok", False), "error": rj.get("description")}
 
     if result.get("success"):
         print(f"✅ Videoclipul PoliPrep Pro a fost trimis cu succes pe Telegram!")

@@ -27,7 +27,7 @@ if hasattr(sys.stdout, "reconfigure"):
 GEMINI_API_KEY = (os.getenv("GEMINI_API_KEY") or "").strip()
 TELEGRAM_BOT_TOKEN = (os.getenv("TELEGRAM_BOT_TOKEN") or "").strip()
 TELEGRAM_CHAT_ID = (os.getenv("TELEGRAM_CHAT_ID") or "8867321650").strip()
-APP_URL = (os.getenv("APP_URL") or "https://vocastudio.vercel.app").strip()
+APP_URL = (os.getenv("APP_URL") or "https://traiectoria-academica.vercel.app").strip()
 
 OUTPUT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "video-generator"))
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -39,7 +39,7 @@ FALLBACK_TOPICS = [
     {
         "topic_title": "3 GREȘELI CÂND ÎȚI ALEGI FACULTATEA",
         "alert_badge": "ALERTĂ CARIERĂ & BAC",
-        "script_speech": "Ești în clasa a unsprezecea sau a douăsprezecea și nu știi ce facultate să alegi? Iată trei greșeli care distrug viitorul a mii de tineri! Unu: Alegerea după părerea părinților sau a prietenilor. Doi: Alegerea unei facultăți doar pentru prestigiu, fără să-ți placă domeniul. Trei: Ignorarea profilului tău psihologic Holland. Află ce carieră ți se potrivește cu adevărat pe vocastudio.vercel.app!",
+        "script_speech": "Ești în clasa a unsprezecea sau a douăsprezecea și nu știi ce facultate să alegi? Iată trei greșeli care distrug viitorul a mii de tineri! Unu: Alegerea după părerea părinților sau a prietenilor. Doi: Alegerea unei facultăți doar pentru prestigiu, fără să-ți placă domeniul. Trei: Ignorarea profilului tău psihologic Holland. Află ce carieră ți se potrivește cu adevărat pe traiectoria-academica.vercel.app!",
         "sections": [
             {"time_max": 6.5, "text": "ERORI ALEGERE FACULTATE", "color": "#EF4444"},
             {"time_max": 14.5, "text": "1 • PRESIUNEA PĂRINȚILOR", "color": "#F59E0B"},
@@ -47,12 +47,12 @@ FALLBACK_TOPICS = [
             {"time_max": 28.5, "text": "3 • IGNORAREA PROFILULUI", "color": "#DC2626"},
             {"time_max": 99.0, "text": "SOLUȚIE • TEST VOCAȚIONAL", "color": "#10B981"}
         ],
-        "tiktok_caption": "Nu alege facultatea la întâmplare! 3 greșeli majore care duc la abandon universitar sau frustrare profesională. Fă testul gratuit pe https://vocastudio.vercel.app ! 🧭🎓 #facultate #bac #orientare #cariera #vocastudio #student"
+        "tiktok_caption": "Nu alege facultatea la întâmplare! 3 greșeli majore care duc la abandon universitar sau frustrare profesională. Fă testul gratuit pe https://traiectoria-academica.vercel.app ! 🧭🎓 #facultate #bac #orientare #cariera #vocastudio #student"
     },
     {
         "topic_title": "MIT SAU REALITATE: IT-UL E SINGURUL DOMENIU DE VIITOR?",
         "alert_badge": "MIT VS REALITATE",
-        "script_speech": "Crezi că dacă nu faci informatică nu vei avea un salariu bun în România? Total fals! Piața muncii este suprasaturată de juniori fără experiență, în timp ce ingineria medicală, automatizările, dreptul comercial și managementul sustenabilității oferă venituri excelente și stabilitate. Secretul este să-ți aliniezi talentele native cu cererea reală din economie. Descoperă harta carierei tale pe vocastudio.vercel.app!",
+        "script_speech": "Crezi că dacă nu faci informatică nu vei avea un salariu bun în România? Total fals! Piața muncii este suprasaturată de juniori fără experiență, în timp ce ingineria medicală, automatizările, dreptul comercial și managementul sustenabilității oferă venituri excelente și stabilitate. Secretul este să-ți aliniezi talentele native cu cererea reală din economie. Descoperă harta carierei tale pe traiectoria-academica.vercel.app!",
         "sections": [
             {"time_max": 6.5, "text": "MITUL IT-ULUI EXCLUSIV", "color": "#EF4444"},
             {"time_max": 14.0, "text": "SATURAREA LA JUNIORI", "color": "#F59E0B"},
@@ -60,12 +60,12 @@ FALLBACK_TOPICS = [
             {"time_max": 27.5, "text": "ALINIERE CU VOCAȚIA TA", "color": "#DC2626"},
             {"time_max": 99.0, "text": "SOLUȚIE • HARTA CARIEREI", "color": "#10B981"}
         ],
-        "tiktok_caption": "Este programarea singura opțiune de carieră bine plătită? Iată ce caută companiile de top în 2026. Găsește-ți vocația pe https://vocastudio.vercel.app ! 💼🚀 #cariera #salariu #joburi #studenti #vocastudio"
+        "tiktok_caption": "Este programarea singura opțiune de carieră bine plătită? Iată ce caută companiile de top în 2026. Găsește-ți vocația pe https://traiectoria-academica.vercel.app ! 💼🚀 #cariera #salariu #joburi #studenti #vocastudio"
     },
     {
         "topic_title": "CE FACI DACĂ URĂȘTI FACULTATEA PE CARE AI ÎNCEPUT-O?",
         "alert_badge": "STUDIU DE CAZ ACADEMIC",
-        "script_speech": "Ai intrat la facultate și simți din primul semestru că nu este deloc locul tău? Iată planul de salvare în trei pași! Pasul unu: Nu renunța impulsiv fără o diagnoză clară. Identifică dacă problema este materia sau modul de predare. Pasul doi: Verifică opțiunile de transfer și echivalare a creditelor europene. Pasul trei: Fă o evaluare psihometrică obiectivă pentru a stabili noua traiectorie. Redefinește-ți parcursul pe vocastudio.vercel.app!",
+        "script_speech": "Ai intrat la facultate și simți din primul semestru că nu este deloc locul tău? Iată planul de salvare în trei pași! Pasul unu: Nu renunța impulsiv fără o diagnoză clară. Identifică dacă problema este materia sau modul de predare. Pasul doi: Verifică opțiunile de transfer și echivalare a creditelor europene. Pasul trei: Fă o evaluare psihometrică obiectivă pentru a stabili noua traiectorie. Redefinește-ți parcursul pe traiectoria-academica.vercel.app!",
         "sections": [
             {"time_max": 6.5, "text": "BLOCAT LA FACULTATE?", "color": "#DC2626"},
             {"time_max": 13.5, "text": "1 • MATERIE vs PROFESORI", "color": "#F59E0B"},
@@ -73,12 +73,12 @@ FALLBACK_TOPICS = [
             {"time_max": 27.0, "text": "3 • PSIHOMETRIE OBIECTIVĂ", "color": "#DC2626"},
             {"time_max": 99.0, "text": "SOLUȚIE • REORIENTARE COMPLETĂ", "color": "#10B981"}
         ],
-        "tiktok_caption": "Te simți blocat la o facultate care nu te reprezintă? Nu ești singurul! Pașii concreți pentru o reorientare de succes. https://vocastudio.vercel.app 🧭🔄 #facultate #studenti #orientareprofesionala #vocastudio"
+        "tiktok_caption": "Te simți blocat la o facultate care nu te reprezintă? Nu ești singurul! Pașii concreți pentru o reorientare de succes. https://traiectoria-academica.vercel.app 🧭🔄 #facultate #studenti #orientareprofesionala #vocastudio"
     },
     {
         "topic_title": "TEST RAPID ÎN 60 SEC: CE TIP DE PERSONALITATE AI?",
         "alert_badge": "TEST VOCAȚIONAL 60 SEC",
-        "script_speech": "Ești un profil investigativ, artistic, antreprenorial sau social? Fă acest test rapid în trei întrebări! Unu: Preferi să rezolvi probleme abstracte sau să lucrezi direct cu oamenii? Doi: Îți place să construiești strategii sau să creezi concepte vizuale? Trei: Cum iei deciziile: bazat pe date reci sau pe empatie? Descoperă compatibilitatea ta exactă cu peste două sute de facultăți pe vocastudio.vercel.app!",
+        "script_speech": "Ești un profil investigativ, artistic, antreprenorial sau social? Fă acest test rapid în trei întrebări! Unu: Preferi să rezolvi probleme abstracte sau să lucrezi direct cu oamenii? Doi: Îți place să construiești strategii sau să creezi concepte vizuale? Trei: Cum iei deciziile: bazat pe date reci sau pe empatie? Descoperă compatibilitatea ta exactă cu peste două sute de facultăți pe traiectoria-academica.vercel.app!",
         "sections": [
             {"time_max": 6.5, "text": "TESTUL RIASEC ÎN 60 SEC", "color": "#3B82F6"},
             {"time_max": 13.5, "text": "1 • DATE vs OAMENI", "color": "#2563EB"},
@@ -86,7 +86,7 @@ FALLBACK_TOPICS = [
             {"time_max": 27.0, "text": "3 • LOGICĂ vs EMPATIE", "color": "#DC2626"},
             {"time_max": 99.0, "text": "SOLUȚIE • POTRIVIRE FACULTĂȚI", "color": "#10B981"}
         ],
-        "tiktok_caption": "Investigativ, antreprenorial sau artistic? Află ce profil vocațional Holland ai și ce facultăți ți se potrivesc mănușă! Testează pe https://vocastudio.vercel.app ! 🎯📊 #psihologie #riasec #vocational #facultate #vocastudio"
+        "tiktok_caption": "Investigativ, antreprenorial sau artistic? Află ce profil vocațional Holland ai și ce facultăți ți se potrivesc mănușă! Testează pe https://traiectoria-academica.vercel.app ! 🎯📊 #psihologie #riasec #vocational #facultate #vocastudio"
     }
 ]
 
@@ -125,7 +125,7 @@ def generate_scenario_with_gemini():
             "Ești un expert de top în orientare vocațională, psihometrie educațională (RIASEC, Big Five) și admitere universitară în România pentru platforma VocaStudio. "
             "Generează un scenariu video scurt pentru TikTok (25-28 secunde rostit alert, aproximativ 65-75 cuvinte). "
             "Trebuie să fie extrem de util pentru elevi de liceu, părinți și studenți. "
-            "La final, include îndemnul: 'Descoperă-ți vocația pe vocastudio.vercel.app!'\n\n"
+            "La final, include îndemnul: 'Descoperă-ți vocația pe traiectoria-academica.vercel.app!'\n\n"
             "NORME OBLIGATORII PRIVIND LIMBA ROMÂNĂ (DOOM3 / ACADEMIA ROMÂNĂ):\n"
             "- Folosește EXCLUSIV LIMBA ROMÂNĂ OFICIALĂ LITERARĂ, conform normelor ortografice, ortoepice și de punctuație oficiale (DOOM3).\n"
             "- Este STRICT INTERZISĂ orice greșeală de ortografie, fonetizare sau tipar (de exemplu: scrie 'prestigiu', NICIODATĂ 'prestijiu'; 'succese', nu 'succesuri'; folosește diacritice corecte: ă, â, î, ș, ț).\n"
@@ -135,7 +135,7 @@ def generate_scenario_with_gemini():
             "alert_badge: badge scurt (max 3 cuvinte)\n"
             "script_speech: textul exact rostit de voce în limba română literară corectă (fără ghilimele sau paranteze)\n"
             "sections: listă cu 5 secțiuni având time_max (secunde crescătoare până la 99.0), text (text cadru scris corect), color (hex color de alertă: #EF4444, #F59E0B, #2563EB, #DC2626, #10B981)\n"
-            "tiktok_caption: descrierea pentru postare, max 150 caractere cu link https://vocastudio.vercel.app și 5 hashtag-uri relevante."
+            "tiktok_caption: descrierea pentru postare, max 150 caractere cu link https://traiectoria-academica.vercel.app și 5 hashtag-uri relevante."
         )
         payload = {
             "contents": [{"parts": [{"text": system_prompt}]}],
@@ -254,7 +254,7 @@ async def generate_audio_and_timestamps(script_text):
     import re
     phonetic_map = {
         # Platform & Domains
-        "vocastudio.vercel.app": "voca studio punct vercel punct app",
+        "traiectoria-academica.vercel.app": "voca studio punct vercel punct app",
         "VocaStudio": "VocaStudio",
         # English career, academic & tech terms
         "feedback-ul": "fidbacul", "feedback": "fidbac",
@@ -393,7 +393,7 @@ def render_video(scenario, words, total_duration, audio_path):
 
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.PIPE)
     brand_text = "🎓 TRAIECTORIA ACADEMICĂ • GHID FACULTĂȚI"
-    cta_main = "Descoperă facultatea ta pe vocastudio.vercel.app"
+    cta_main = "Descoperă facultatea ta pe traiectoria-academica.vercel.app"
     cta_sub = "Urmărește pentru ghiduri de admitere și carieră"
     disc1 = "Evaluare educațională orientativă bazată pe modelele psihometrice RIASEC & Big Five."
     disc2 = "Platformă autonomă de consiliere educațională și potrivire cu facultățile din România."
@@ -514,7 +514,7 @@ def dispatch_to_telegram(scenario, duration):
         return False
 
     title = scenario.get("topic_title", "Ghid Vocațional & Admitere Facultate")
-    caption_txt = scenario.get("tiktok_caption", "Descoperă-ți vocația pe https://vocastudio.vercel.app !")
+    caption_txt = scenario.get("tiktok_caption", "Descoperă-ți vocația pe https://traiectoria-academica.vercel.app !")
 
     tg_caption = (
         f"🎓 <b>[TRAIECTORIA ACADEMICĂ TIKTOK DAILY]</b>\n\n"

@@ -413,9 +413,10 @@ def render_video(scenario, words, total_duration):
             print(f"Progres randare: {(frame_idx / total_frames)*100:.1f}%...")
             
     proc.stdin.close()
-    _, stderr = proc.communicate()
+    stderr_text = proc.stderr.read().decode("utf-8", errors="ignore") if proc.stderr else ""
+    proc.wait()
     if proc.returncode != 0:
-        print("Eroare FFmpeg:", stderr.decode("utf-8", errors="ignore"))
+        print("Eroare FFmpeg:", stderr_text)
         return False
     print(f"✅ Video randat cu succes: {VIDEO_PATH} ({os.path.getsize(VIDEO_PATH)/(1024*1024):.2f} MB)")
     return True
