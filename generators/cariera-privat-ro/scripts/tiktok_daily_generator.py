@@ -44,7 +44,7 @@ load_dotenv(os.path.join(ROOT_DIR, ".env"))
 GEMINI_API_KEY = (os.getenv("GEMINI_API_KEY") or "").strip()
 TELEGRAM_BOT_TOKEN = (os.getenv("TELEGRAM_BOT_TOKEN") or "").strip()
 TELEGRAM_CHAT_ID = (os.getenv("TELEGRAM_CHAT_ID") or "8867321650").strip()
-APP_URL = os.getenv("APP_URL", "https://carierapro-romania.vercel.app")
+APP_URL = os.getenv("APP_URL") or "https://cariera-pro-romania.vercel.app/"
 
 OUTPUT_DIR = os.path.abspath(os.path.join(ROOT_DIR, "video-generator"))
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -56,7 +56,7 @@ FALLBACK_TOPICS = [
     {
         "topic_title": "3 GREȘELI FATALE LA INTERVIUL PENTRU MEDIUL PRIVAT",
         "alert_badge": "INTERVIU CORPORATIV",
-        "script_speech": "Mergi la un interviu pentru o multinațională sau o companie privată? Iată trei greșeli fatale care te pot descalifica instant! Unu: Capcana modestiei. Dacă spui 'am făcut noi' sau 'ne-am propus', recrutorul nu știe ce ai făcut TU. Folosește persoana întâi singular: 'am decis', 'am calculat', 'am optimizat'! Doi: Vorbești prea mult despre context și omiți acțiunea. La metoda STAR, șaizeci la sută din răspuns trebuie să fie despre pașii tăi concreți. Trei: Nu știi că recrutorul nu are voie legal să te întrebe salariul anterior conform Directivei Europene de Transparență! Testează-ți răspunsurile STAR gratuit pe carierapro-romania.vercel.app!",
+        "script_speech": "Mergi la un interviu pentru o multinațională sau o companie privată? Iată trei greșeli fatale care te pot descalifica instant! Unu: Capcana modestiei. Dacă spui 'am făcut noi' sau 'ne-am propus', recrutorul nu știe ce ai făcut TU. Folosește persoana întâi singular: 'am decis', 'am calculat', 'am optimizat'! Doi: Vorbești prea mult despre context și omiți acțiunea. La metoda STAR, șaizeci la sută din răspuns trebuie să fie despre pașii tăi concreți. Trei: Nu știi că recrutorul nu are voie legal să te întrebe salariul anterior conform Directivei Europene de Transparență! Testează-ți răspunsurile STAR gratuit pe cariera-pro-romania.vercel.app!",
         "sections": [
             {"time_max": 6.5, "text": "3 GREȘELI FATALE LA INTERVIU", "color": "#DC2626"},
             {"time_max": 14.0, "text": "1 • CAPCANA MODESTIEI: NOI VS EU", "color": "#2563EB"},
@@ -64,12 +64,12 @@ FALLBACK_TOPICS = [
             {"time_max": 27.5, "text": "3 • SALARIUL VECHI ESTE SECRET", "color": "#DC2626"},
             {"time_max": 99.0, "text": "SOLUȚIE • SIMULATOR STAR GRATUIT", "color": "#10B981"}
         ],
-        "tiktok_caption": "Nu pica interviul din cauza capcanei modestiei sau a lipsei de structură! Cele 3 secrete ale interviului STAR în corporații explicate. Antrenează-te gratuit pe https://carierapro-romania.vercel.app ! 💼🚀 #cariera #interviu #angajare #corporatie #starinterview #salariu #carierapro #jobromania"
+        "tiktok_caption": "Nu pica interviul din cauza capcanei modestiei sau a lipsei de structură! Cele 3 secrete ale interviului STAR în corporații explicate. Antrenează-te gratuit pe https://cariera-pro-romania.vercel.app/ ! 💼🚀 #cariera #interviu #angajare #corporatie #starinterview #salariu #carierastart #jobromania"
     },
     {
         "topic_title": "DE CE ÎȚI RESPINGE ATS-UL CV-UL ÎN 10 SECUNDE?",
         "alert_badge": "SCANNER ATS 2026",
-        "script_speech": "Trimiți zeci de CV-uri și nu te sună nimeni pentru interviu? Problema nu ești tu, ci sistemul automat ATS! Peste optzeci și cinci la sută din marile companii filtrează CV-urile prin roboți înainte să ajungă la un om. Iată de ce ești respins: Barele procentuale de abilități precum 'Engleză 80%' corup parsarea optică a robotului! La fel și CV-urile aranjate pe două coloane sau tabelele complexe. Soluția este un PDF nativ pe o singură pagină, redactat după formula X-Y-Z: Verb de acțiune, plus context, plus rezultat măsurabil. Scanează-ți CV-ul acum pe carierapro-romania.vercel.app!",
+        "script_speech": "Trimiți zeci de CV-uri și nu te sună nimeni pentru interviu? Problema nu ești tu, ci sistemul automat ATS! Peste optzeci și cinci la sută din marile companii filtrează CV-urile prin roboți înainte să ajungă la un om. Iată de ce ești respins: Barele procentuale de abilități precum 'Engleză 80%' corup parsarea optică a robotului! La fel și CV-urile aranjate pe două coloane sau tabelele complexe. Soluția este un PDF nativ pe o singură pagină, redactat după formula X-Y-Z: Verb de acțiune, plus context, plus rezultat măsurabil. Scanează-ți CV-ul acum pe cariera-pro-romania.vercel.app!",
         "sections": [
             {"time_max": 6.5, "text": "DE CE ÎȚI RESPINGE ROBOTUL CV-UL?", "color": "#EF4444"},
             {"time_max": 14.0, "text": "CAPCANA 1: BARELE DE PROCENTE 80%", "color": "#F59E0B"},
@@ -77,12 +77,12 @@ FALLBACK_TOPICS = [
             {"time_max": 27.5, "text": "FORMULA SALVATOARE: X - Y - Z", "color": "#2563EB"},
             {"time_max": 99.0, "text": "SOLUȚIE • SCANNER CV ATS GRATUIT", "color": "#10B981"}
         ],
-        "tiktok_caption": "Știai că robotul ATS îți respinge CV-ul din cauza barelor de procente sau a tabelelor? Cum construiești un CV care trece orice filtru corporativ. Verifică scorul CV-ului tău pe https://carierapro-romania.vercel.app ! 📄🤖 #cv #ats #resurseumane #recrutare #locuridemunca #carierapro #angajari"
+        "tiktok_caption": "Știai că robotul ATS îți respinge CV-ul din cauza barelor de procente sau a tabelelor? Cum construiești un CV care trece orice filtru corporativ. Verifică scorul CV-ului tău pe https://cariera-pro-romania.vercel.app/ ! 📄🤖 #cv #ats #resurseumane #recrutare #locuridemunca #carierastart #angajari"
     },
     {
         "topic_title": "ATENȚIE: CELE 90 DE ZILE DE PROBĂ DIN CODUL MUNCII!",
         "alert_badge": "ARTICOLUL 31 CODUL MUNCII",
-        "script_speech": "Ai semnat primul contract de muncă? Atenție mare la Articolul 31 din Codul Muncii! Pentru funcțiile de execuție, perioada de probă este de maximum nouăzeci de zile calendaristice. În acest interval, compania te poate concedia într-o singură secundă, printr-o simplă notificare scrisă, fără preaviz și fără nicio motivare! Cum te protejezi? Aplică planul strategic treizeci, șaizeci, nouăzeci de zile și folosește regula celor două soluții: nu duce niciodată o problemă managerului fără să ai pregătite două variante de rezolvare. Descarcă planul complet de pe carierapro-romania.vercel.app!",
+        "script_speech": "Ai semnat primul contract de muncă? Atenție mare la Articolul 31 din Codul Muncii! Pentru funcțiile de execuție, perioada de probă este de maximum nouăzeci de zile calendaristice. În acest interval, compania te poate concedia într-o singură secundă, printr-o simplă notificare scrisă, fără preaviz și fără nicio motivare! Cum te protejezi? Aplică planul strategic treizeci, șaizeci, nouăzeci de zile și folosește regula celor două soluții: nu duce niciodată o problemă managerului fără să ai pregătite două variante de rezolvare. Descarcă planul complet de pe cariera-pro-romania.vercel.app!",
         "sections": [
             {"time_max": 6.5, "text": "PERIOADA DE PROBĂ: REGULI DURE", "color": "#DC2626"},
             {"time_max": 14.0, "text": "MAXIM 90 ZILE CALENDARISTICE", "color": "#F59E0B"},
@@ -90,12 +90,12 @@ FALLBACK_TOPICS = [
             {"time_max": 27.5, "text": "REGULA CELOR 2 SOLUȚII RAPIDE", "color": "#2563EB"},
             {"time_max": 99.0, "text": "SOLUȚIE • PLANUL 30-60-90 ZILE", "color": "#10B981"}
         ],
-        "tiktok_caption": "Ce drepturi ai cu adevărat în cele 90 de zile de probă? Ce prevede Articolul 31 din Codul Muncii și cum eviți concedierea instantanee fără motivare. Descarcă ghidul pe https://carierapro-romania.vercel.app ! ⚖️🏢 #codulmuncii #perioadadeproba #angajat #dreptulmuncii #corporatie #carierapro"
+        "tiktok_caption": "Ce drepturi ai cu adevărat în cele 90 de zile de probă? Ce prevede Articolul 31 din Codul Muncii și cum eviți concedierea instantanee fără motivare. Descarcă ghidul pe https://cariera-pro-romania.vercel.app/ ! ⚖️🏢 #codulmuncii #perioadadeproba #angajat #dreptulmuncii #corporatie #carierastart"
     },
     {
         "topic_title": "CÂT SE CÂȘTIGĂ NET ȘI CUM NEGOCIEZI LEGAL ÎN 2026",
         "alert_badge": "TRANSPARENȚĂ SALARIALĂ",
-        "script_speech": "Cât se câștigă cu adevărat la debut în mediul privat? Conform datelor agregate, salariul mediu net de intrare este de patru mii două sute de lei în București și trei mii nouă sute de lei în Cluj, Timișoara și Iași. De la șapte iunie douăzeci douăzeci și șase, Directiva Europeană obligă companiile să publice grila de salariu și le interzice să-ți ceară fluturașul de la jobul anterior! Iar dacă ai fost intern, amintește-i recrutorului de Legea 176 pe 2018: compania primește o subvenție de peste patru mii cinci sute de lei dacă te angajează pe doi ani! Calculează-ți pachetul complet pe carierapro-romania.vercel.app!",
+        "script_speech": "Cât se câștigă cu adevărat la debut în mediul privat? Conform datelor agregate, salariul mediu net de intrare este de patru mii două sute de lei în București și trei mii nouă sute de lei în Cluj, Timișoara și Iași. De la șapte iunie douăzeci douăzeci și șase, Directiva Europeană obligă companiile să publice grila de salariu și le interzice să-ți ceară fluturașul de la jobul anterior! Iar dacă ai fost intern, amintește-i recrutorului de Legea 176 pe 2018: compania primește o subvenție de peste patru mii cinci sute de lei dacă te angajează pe doi ani! Calculează-ți pachetul complet pe cariera-pro-romania.vercel.app!",
         "sections": [
             {"time_max": 6.5, "text": "SALARII ENTRY-LEVEL ÎN ROMÂNIA", "color": "#3B82F6"},
             {"time_max": 13.5, "text": "BUCUREȘTI 4200 • CLUJ/TM 3900", "color": "#2563EB"},
@@ -103,7 +103,7 @@ FALLBACK_TOPICS = [
             {"time_max": 27.0, "text": "SUBVENȚIE 4586 LEI PRIN LEGE", "color": "#F59E0B"},
             {"time_max": 99.0, "text": "SOLUȚIE • CALCULATOR SALARIAL PRO", "color": "#10B981"}
         ],
-        "tiktok_caption": "Cât este salariul net de debut în București, Cluj și Timișoara? Cum folosești Directiva de Transparență și Legea Internshipului pentru a negocia cu 15% mai mult. Calculează pe https://carierapro-romania.vercel.app ! 💰📊 #salariu #negociere #bani #transparentasalariala #drepturilamunca #carierapro"
+        "tiktok_caption": "Cât este salariul net de debut în București, Cluj și Timișoara? Cum folosești Directiva de Transparență și Legea Internshipului pentru a negocia cu 15% mai mult. Calculează pe https://cariera-pro-romania.vercel.app/ ! 💰📊 #salariu #negociere #bani #transparentasalariala #drepturilamunca #carierastart"
     }
 ]
 
@@ -186,7 +186,7 @@ def generate_scenario_with_gemini():
         return FALLBACK_TOPICS[day_idx % len(FALLBACK_TOPICS)]
 
     prompt = (
-        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels / YouTube Shorts) al platformei CarieraPro România ({APP_URL}) - platforma strategică dedicată absolvenților și candidaților pentru ocuparea posturilor în mediul privat și corporativ.\n\n"
+        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels / YouTube Shorts) al platformei CarieraStart ({APP_URL}) - platforma strategică dedicată absolvenților și candidaților pentru ocuparea posturilor în mediul privat și corporativ.\n\n"
         f"NORME OBLIGATORII PRIVIND LIMBA ROMÂNĂ (DOOM3 / ACADEMIA ROMÂNĂ):\n"
         f"- Folosește EXCLUSIV LIMBA ROMÂNĂ OFICIALĂ LITERARĂ, conform normelor ortografice și morfologice oficiale (DOOM3).\n"
         f"- Este STRICT INTERZISĂ orice greșeală gramaticală sau ortografică (folosește diacritice corecte: ă, â, î, ș, ț).\n"
@@ -208,7 +208,7 @@ def generate_scenario_with_gemini():
         '    {"time_max": 27.5, "text": "PUNCTUL 3 / CONCLUZIE", "color": "#DC2626"},\n'
         '    {"time_max": 99.0, "text": "SOLUȚIE • VERIFICĂ ACUM", "color": "#10B981"}\n'
         '  ],\n'
-        '  "tiktok_caption": "Descriere captivantă pentru TikTok incluzând linkul ' + APP_URL + ' și 4-6 hashtag-uri relevante: #cariera #interviu #angajare #cv #ats #salariu #carierapro"\n'
+        '  "tiktok_caption": "Descriere captivantă pentru TikTok incluzând linkul ' + APP_URL + ' și 4-6 hashtag-uri relevante: #cariera #interviu #angajare #cv #ats #salariu #carierastart"\n'
         "}"
     )
 
@@ -396,9 +396,10 @@ def render_video_frames(scenario, duration, timed_words):
     # Header Card
     draw_bg.rounded_rectangle([60, 80, WIDTH - 60, 420], radius=28, fill="#1E293B", outline="#3B82F6", width=3)
     
-    badge_text = f"● {scenario.get('alert_badge', 'CARIERA PRIVAT 2026')}"
-    draw_bg.rounded_rectangle([100, 115, 520, 175], radius=16, fill="#2563EB")
-    draw_bg.text((120, 126), badge_text, font=font_badge, fill="#FFFFFF")
+    badge_text = f"● {scenario.get('alert_badge', 'CARIERASTART 2026')}"
+    top_pill_w = max(420, int(draw_bg.textlength(badge_text, font=font_badge)) + 48)
+    draw_bg.rounded_rectangle([100, 115, min(WIDTH - 100, 100 + top_pill_w), 175], radius=16, fill="#2563EB")
+    draw_bg.text((124, 126), badge_text, font=font_badge, fill="#FFFFFF")
 
     # Title with wrapping
     title_text = scenario.get("topic_title", "GHID STRATEGIC PENTRU MEDIUL PRIVAT")
@@ -420,10 +421,12 @@ def render_video_frames(scenario, duration, timed_words):
 
     # Footer Card
     draw_bg.rounded_rectangle([60, HEIGHT - 340, WIDTH - 60, HEIGHT - 80], radius=28, fill="#0F172A", outline="#10B981", width=3)
-    draw_bg.rounded_rectangle([100, HEIGHT - 315, 430, HEIGHT - 260], radius=14, fill="#10B981")
-    draw_bg.text((120, HEIGHT - 305), "ACCESEAZĂ PLATFORMA", font=font_badge, fill="#0F172A")
-    draw_bg.text((100, HEIGHT - 235), "carierapro-romania.vercel.app", font=font_url, fill="#38BDF8")
-    draw_bg.text((100, HEIGHT - 165), "ATS Scanner • Interviu STAR • In-Basket", font=font_footer, fill="#94A3B8")
+    cta_label = "ACCESEAZĂ PLATFORMA"
+    cta_pill_w = int(draw_bg.textlength(cta_label, font=font_badge)) + 48
+    draw_bg.rounded_rectangle([100, HEIGHT - 315, 100 + cta_pill_w, HEIGHT - 260], radius=14, fill="#10B981")
+    draw_bg.text((124, HEIGHT - 305), cta_label, font=font_badge, fill="#0F172A")
+    draw_bg.text((100, HEIGHT - 235), "cariera-pro-romania.vercel.app", font=font_url, fill="#38BDF8")
+    draw_bg.text((100, HEIGHT - 165), "CarieraStart • ATS Scanner • Interviu STAR", font=font_footer, fill="#94A3B8")
 
     ffmpeg_bin = imageio_ffmpeg.get_ffmpeg_exe()
     cmd = [
@@ -536,7 +539,7 @@ def dispatch_to_telegram(scenario):
     
     # Text ajutător de copiat cu 1 click
     msg_intro = (
-        f"🚀 <b>CarieraPro România — Videoclip TikTok Nou Generat!</b>\n\n"
+        f"🚀 <b>CarieraStart — Videoclip TikTok Nou Generat!</b>\n\n"
         f"📌 <b>Titlu:</b> {scenario.get('topic_title')}\n"
         f"🎯 <b>Format:</b> {scenario.get('alert_badge')}\n\n"
         f"📋 <b>Descriere TikTok (Click to Copy):</b>\n"

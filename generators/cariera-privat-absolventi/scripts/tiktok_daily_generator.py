@@ -26,7 +26,7 @@ if hasattr(sys.stdout, "reconfigure"):
 TELEGRAM_BOT_TOKEN = (os.getenv("TELEGRAM_BOT_TOKEN") or "").strip()
 TELEGRAM_CHAT_ID = (os.getenv("TELEGRAM_CHAT_ID") or "8867321650").strip()
 GEMINI_KEY = (os.getenv("GEMINI_API_KEY") or "").strip()
-APP_URL = os.getenv("APP_URL") or "https://cariera-privat-absolventi.vercel.app"
+APP_URL = os.getenv("APP_URL") or "https://cariera-pro-romania.vercel.app/"
 
 OUTPUT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "video-generator"))
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -38,7 +38,7 @@ FALLBACK_TOPICS = [
     {
         "topic_title": "3 GREȘELI ÎN CV CARE TE PICĂ ÎN 6 SECUNDE",
         "alert_badge": "FILTRELE ATS & CV",
-        "script_speech": "Ești proaspăt absolvent și nu te sună nimeni la interviu? Recrutorii scanează CV-ul în șase secunde, iar filtrele A T S elimină dosarele prost formatate! Greșeala unu: Barele procentuale de evaluare a abilităților. Softul le vede ca erori de parsare. Greșeala doi: Descrieri pasive fără cifre. Nu scrie am ajutat la proiecte, ci am analizat cinci mii de tranzacții. Greșeala trei: CV mai lung de o pagină. Construiește-ți gratuit un CV compatibil A T S pe cariera-privat-absolventi.vercel.app!",
+        "script_speech": "Ești proaspăt absolvent și nu te sună nimeni la interviu? Recrutorii scanează CV-ul în șase secunde, iar filtrele A T S elimină dosarele prost formatate! Greșeala unu: Barele procentuale de evaluare a abilităților. Softul le vede ca erori de parsare. Greșeala doi: Descrieri pasive fără cifre. Nu scrie am ajutat la proiecte, ci am analizat cinci mii de tranzacții. Greșeala trei: CV mai lung de o pagină. Construiește-ți gratuit un CV compatibil A T S pe cariera-pro-romania.vercel.app!",
         "sections": [
             {"time_max": 6.5, "text": "DE CE EȘTI RESPINS ÎN 6 SECUNDE", "color": "#EF4444"},
             {"time_max": 14.0, "text": "1 • GRAFICE PROCENTUALE DE SKILLS", "color": "#F59E0B"},
@@ -46,12 +46,12 @@ FALLBACK_TOPICS = [
             {"time_max": 27.5, "text": "3 • CV PESTE O SINGURĂ PAGINĂ", "color": "#EF4444"},
             {"time_max": 99.0, "text": "SOLUȚIE • GENERATOR ATS 100% CONFORM", "color": "#10B981"}
         ],
-        "tiktok_caption": "Știai că softurile ATS elimină peste 70% din CV-uri înainte să ajungă la un om? 3 greșeli majore pe care le fac tinerii absolvenți. Generează un CV conform pe https://cariera-privat-absolventi.vercel.app ! 📄💼 #absolvent #cv #angajare #primuljob #interviu #carieraprivat #romania"
+        "tiktok_caption": "Știai că softurile ATS elimină peste 70% din CV-uri înainte să ajungă la un om? 3 greșeli majore pe care le fac tinerii absolvenți. Generează un CV conform pe https://cariera-pro-romania.vercel.app/ ! 📄💼 #absolvent #cv #angajare #primuljob #interviu #carieraprivat #romania"
     },
     {
         "topic_title": "MIT SAU REALITATE: MAI MERITĂ SĂ CAUȚI JOB REMOTE CA DEBUTANT?",
         "alert_badge": "MIT VS REALITATE",
-        "script_speech": "Crezi că după facultate vei prinde ușor un job o sută la sută de acasă? Realitatea pieței din România te va surprinde! Posturile exclusiv remote reprezintă doar patru la sută din totalul ofertelor, dar atrag treisprezece la sută din aplicări, adică o concurență de peste trei ori mai acerbă. În schimb, peste nouăzeci și cinci la sută din companii solicită regim hibrid sau prezență la birou pentru mentorat operațional. Calculează-ți salariul real pe cariera-privat-absolventi.vercel.app!",
+        "script_speech": "Crezi că după facultate vei prinde ușor un job o sută la sută de acasă? Realitatea pieței din România te va surprinde! Posturile exclusiv remote reprezintă doar patru la sută din totalul ofertelor, dar atrag treisprezece la sută din aplicări, adică o concurență de peste trei ori mai acerbă. În schimb, peste nouăzeci și cinci la sută din companii solicită regim hibrid sau prezență la birou pentru mentorat operațional. Calculează-ți salariul real pe cariera-pro-romania.vercel.app!",
         "sections": [
             {"time_max": 6.5, "text": "ILUZIA JOBULUI REMOTE", "color": "#EF4444"},
             {"time_max": 13.5, "text": "DOAR 4% DIN OFERTE SUNT REMOTE", "color": "#F59E0B"},
@@ -59,12 +59,12 @@ FALLBACK_TOPICS = [
             {"time_max": 27.0, "text": ">95% ANGAJATORI CER HIBRID/ON-SITE", "color": "#3B82F6"},
             {"time_max": 99.0, "text": "SOLUȚIE • RADAR SALARIAL REGIONAL", "color": "#10B981"}
         ],
-        "tiktok_caption": "Mitul jobului full-remote pentru debutanți! De ce concurența e uriașă și unde sunt de fapt oportunitățile reale în 2026. Explorează ghidul pe https://cariera-privat-absolventi.vercel.app ! 🏢📊 #munca #remote #hibrid #salariu #absolventi #studenti #romania"
+        "tiktok_caption": "Mitul jobului full-remote pentru debutanți! De ce concurența e uriașă și unde sunt de fapt oportunitățile reale în 2026. Explorează ghidul pe https://cariera-pro-romania.vercel.app/ ! 🏢📊 #munca #remote #hibrid #salariu #absolventi #studenti #romania"
     },
     {
         "topic_title": "ARGUMENTUL SECRET DE NEGOCIERE: PRIMA DE 4.586 LEI",
         "alert_badge": "LEGEA 176/2018",
-        "script_speech": "Faci un internship și vrei să fii angajat definitiv? Iată asul din mânecă pe care nouăzeci la sută dintre debutanți nu îl știu! Conform articolului nouăsprezece din Legea o sută șaptezeci și șase pe două mii optsprezece, compania care semnează contract de muncă cu un intern și îl menține douăzeci și patru de luni primește o primă nerambursabilă de patru mii cinci sute optzeci și șase de lei de la stat. Menționează asta la interviu! Textul exact de negociere este pe cariera-privat-absolventi.vercel.app!",
+        "script_speech": "Faci un internship și vrei să fii angajat definitiv? Iată asul din mânecă pe care nouăzeci la sută dintre debutanți nu îl știu! Conform articolului nouăsprezece din Legea o sută șaptezeci și șase pe două mii optsprezece, compania care semnează contract de muncă cu un intern și îl menține douăzeci și patru de luni primește o primă nerambursabilă de patru mii cinci sute optzeci și șase de lei de la stat. Menționează asta la interviu! Textul exact de negociere este pe cariera-pro-romania.vercel.app!",
         "sections": [
             {"time_max": 6.5, "text": "CUM NEGOCIEZI CONTRACTUL DUPĂ STAGIU", "color": "#F59E0B"},
             {"time_max": 14.0, "text": "LEGEA 176/2018 • ARTICOLUL 19", "color": "#3B82F6"},
@@ -72,12 +72,12 @@ FALLBACK_TOPICS = [
             {"time_max": 27.5, "text": "AVANTAJUL TĂU DE CONVINGERE", "color": "#2563EB"},
             {"time_max": 99.0, "text": "SOLUȚIE • COPIAZĂ PITCH-UL DE NEGOCIERE", "color": "#10B981"}
         ],
-        "tiktok_caption": "Secretul din legea internshipului care te ajută să fii angajat definitiv! Angajatorul primește 4.586 lei de la stat. Folosește pitch-ul de negociere pe https://cariera-privat-absolventi.vercel.app ! 💰🤝 #internship #angajare #negociere #drepturilamunca #student #carieraprivat"
+        "tiktok_caption": "Secretul din legea internshipului care te ajută să fii angajat definitiv! Angajatorul primește 4.586 lei de la stat. Folosește pitch-ul de negociere pe https://cariera-pro-romania.vercel.app/ ! 💰🤝 #internship #angajare #negociere #drepturilamunca #student #carieraprivat"
     },
     {
         "topic_title": "ATENȚIE: AI 60 DE ZILE PENTRU PRIMA DE INSERȚIE DE LA ANOFM",
         "alert_badge": "LEGEA 76/2002",
-        "script_speech": "Ai terminat facultatea anul acesta? Nu rata banii gratuiți la care ai dreptul legal! Conform Legii șaptezeci și șase pe două mii doi, dacă te înregistrezi la agenția de șomaj în termen strict de șaizeci de zile de la absolvire și te angajezi cu normă întreagă, primești prima de inserție direct în contul tău bancar. Banii se acordă în două tranșe de cincizeci la sută. Verifică dacă mai ești în termen pe cariera-privat-absolventi.vercel.app!",
+        "script_speech": "Ai terminat facultatea anul acesta? Nu rata banii gratuiți la care ai dreptul legal! Conform Legii șaptezeci și șase pe două mii doi, dacă te înregistrezi la agenția de șomaj în termen strict de șaizeci de zile de la absolvire și te angajezi cu normă întreagă, primești prima de inserție direct în contul tău bancar. Banii se acordă în două tranșe de cincizeci la sută. Verifică dacă mai ești în termen pe cariera-pro-romania.vercel.app!",
         "sections": [
             {"time_max": 6.5, "text": "BANI DE LA STAT LA PRIMUL JOB", "color": "#10B981"},
             {"time_max": 13.5, "text": "TERMEN STRICT: 60 ZILE DE LA ABSOLVIRE", "color": "#DC2626"},
@@ -85,12 +85,12 @@ FALLBACK_TOPICS = [
             {"time_max": 27.0, "text": "DOUĂ TRANȘE DE PLATĂ ÎN CONTUL TĂU", "color": "#3B82F6"},
             {"time_max": 99.0, "text": "SOLUȚIE • VERIFICĂ-ȚI TERMENUL RAPID", "color": "#10B981"}
         ],
-        "tiktok_caption": "Nu pierde prima de inserție de la stat! Fereastra critică de 60 de zile de la absolvire. Calculează-ți termenul pe https://cariera-privat-absolventi.vercel.app ! 🕒💵 #anofm #primadeinsertie #absolvent #facultate #studenti #bani #romania"
+        "tiktok_caption": "Nu pierde prima de inserție de la stat! Fereastra critică de 60 de zile de la absolvire. Calculează-ți termenul pe https://cariera-pro-romania.vercel.app/ ! 🕒💵 #anofm #primadeinsertie #absolvent #facultate #studenti #bani #romania"
     },
     {
         "topic_title": "REGULA CELOR 3 NUMERE CÂND NEGOCIEZI SALARIUL",
         "alert_badge": "NEGOCIERE SALARIU",
-        "script_speech": "Ești la interviu și te întreabă ce salariu dorești? Nu da o singură cifră la întâmplare! Folosește regula celor trei numere din ghidul CarierăStart. Unu: Pragul minim de subzistență, calculat în privat ca să-ți acopere chiria și masa. Doi: Ținta realistă de piață, documentată din grilele locale. Trei: Ținta ambițioasă ca ancoră de negociere. Când ești întrebat, oferă un interval net și întreabă de pachetul total: tichete de masă și asigurare. Calculează-ți numerele pe cariera-privat-absolventi.vercel.app!",
+        "script_speech": "Ești la interviu și te întreabă ce salariu dorești? Nu da o singură cifră la întâmplare! Folosește regula celor trei numere din ghidul CarierăStart. Unu: Pragul minim de subzistență, calculat în privat ca să-ți acopere chiria și masa. Doi: Ținta realistă de piață, documentată din grilele locale. Trei: Ținta ambițioasă ca ancoră de negociere. Când ești întrebat, oferă un interval net și întreabă de pachetul total: tichete de masă și asigurare. Calculează-ți numerele pe cariera-pro-romania.vercel.app!",
         "sections": [
             {"time_max": 6.5, "text": "CE RĂSPUNZI LA: CE SALARIU VREI?", "color": "#F59E0B"},
             {"time_max": 13.5, "text": "1 • PRAGUL MINIM (CHIRIE & CHELTUIELI)", "color": "#EF4444"},
@@ -98,12 +98,12 @@ FALLBACK_TOPICS = [
             {"time_max": 27.0, "text": "3 • ȚINTA AMBIȚIOASĂ (ANCORA)", "color": "#10B981"},
             {"time_max": 99.0, "text": "SOLUȚIE • CALCULATOR PACHET TOTAL", "color": "#10B981"}
         ],
-        "tiktok_caption": "Cum răspunzi la întrebarea 'Ce salariu dorești?' la primul job? Regula celor 3 numere și pachetul total. Intră pe https://cariera-privat-absolventi.vercel.app ! 💵🤝 #salariu #negociere #interviu #primuljob #angajare #absolvent"
+        "tiktok_caption": "Cum răspunzi la întrebarea 'Ce salariu dorești?' la primul job? Regula celor 3 numere și pachetul total. Intră pe https://cariera-pro-romania.vercel.app/ ! 💵🤝 #salariu #negociere #interviu #primuljob #angajare #absolvent"
     },
     {
         "topic_title": "3 SEMNE DE ALARMĂ LA INTERVIU: NU SEMNA!",
         "alert_badge": "RED FLAGS & LEGE",
-        "script_speech": "Atenție la primul tău loc de muncă! Iată trei semnale de alarmă clare care ascund abuzuri. Semnalul unu: Ți se cer bani în avans pentru procesare sau uniforme. Este o tentativă de fraudă. Semnalul doi: Ți se spune vino de mâine, semnăm contractul peste două săptămâni. Muncă la negru fără asigurare. Semnalul trei: Proba de lucru durează zeci de ore neplătite pentru a înlocui munca unui angajat. Verifică contractul în registrul oficial pe cariera-privat-absolventi.vercel.app!",
+        "script_speech": "Atenție la primul tău loc de muncă! Iată trei semnale de alarmă clare care ascund abuzuri. Semnalul unu: Ți se cer bani în avans pentru procesare sau uniforme. Este o tentativă de fraudă. Semnalul doi: Ți se spune vino de mâine, semnăm contractul peste două săptămâni. Muncă la negru fără asigurare. Semnalul trei: Proba de lucru durează zeci de ore neplătite pentru a înlocui munca unui angajat. Verifică contractul în registrul oficial pe cariera-pro-romania.vercel.app!",
         "sections": [
             {"time_max": 6.5, "text": "3 SEMNALE DE ALARMĂ LA ANGAJARE", "color": "#DC2626"},
             {"time_max": 13.5, "text": "1 • BANI CERUȚI PENTRU ANGAJARE", "color": "#EF4444"},
@@ -111,7 +111,7 @@ FALLBACK_TOPICS = [
             {"time_max": 27.0, "text": "3 • PROBE URIAȘE DE MUNCĂ NEPLĂTITĂ", "color": "#DC2626"},
             {"time_max": 99.0, "text": "SOLUȚIE • SCANNER RED FLAGS & REGES", "color": "#10B981"}
         ],
-        "tiktok_caption": "Nu cădea în capcanele angajatorilor abuzivi! 3 semnale de alarmă pe care orice debutant trebuie să le știe. Regula celor 3 verificări pe https://cariera-privat-absolventi.vercel.app ! 🛡️⚖️ #redflags #drepturi #codulmuncii #angajare #primuljob #munca"
+        "tiktok_caption": "Nu cădea în capcanele angajatorilor abuzivi! 3 semnale de alarmă pe care orice debutant trebuie să le știe. Regula celor 3 verificări pe https://cariera-pro-romania.vercel.app/ ! 🛡️⚖️ #redflags #drepturi #codulmuncii #angajare #primuljob #munca"
     }
 ]
 
@@ -146,7 +146,7 @@ ROTATING_FORMATS = [
             "FORMATUL 1: TOP 3 CAPCANE / GREȘELI FRECVENTE LA PRIMUL JOB. "
             "Structură: Începe cu un Hook alert (primele 4 secunde) despre de ce absolvenții sunt respinși la interviuri sau de ce CV-urile lor sunt ignorate de ATS. "
             "Urmează 3 puncte numerotate Unu / Doi / Trei (solide, concise, cu impact direct) "
-            "și un îndemn final de testare pe https://cariera-privat-absolventi.vercel.app."
+            "și un îndemn final de testare pe https://cariera-pro-romania.vercel.app/."
         ),
         "section_structure": "Secțiunea 1 (problemă #DC2626), Punctul 1 (#2563EB), Punctul 2 (#D97706), Punctul 3 (#DC2626), CTA final (#10B981)."
     },
@@ -157,7 +157,7 @@ ROTATING_FORMATS = [
             "FORMATUL 2: MIT VS. REALITATE (Munca remote, salarii debutanți, transparență salarială Directiva UE 2023/970). "
             "Structură: Începe cu o întrebare provocatoare sau un mit larg răspândit ('Crezi că la primul job contează notele din facultate? Total fals!'). "
             "Explică de ce este greșit ce crede majoritatea, oferă perspectiva corectă a recrutorilor "
-            "și un îndemn final de verificare pe https://cariera-privat-absolventi.vercel.app."
+            "și un îndemn final de verificare pe https://cariera-pro-romania.vercel.app/."
         ),
         "section_structure": "Secțiunea 1 (titlu mit #EF4444), De ce e fals (#F59E0B), Realitatea corectă (#2563EB), Regula de aur (#DC2626), CTA final (#10B981)."
     },
@@ -168,7 +168,7 @@ ROTATING_FORMATS = [
             "FORMATUL 3: STUDIU DE CAZ / SITUAȚIE CONCRETĂ LA INTERVIU. "
             "Structură: Începe cu o dilemă practică de interviu ('Ce răspunzi când recrutorul te întreabă: Povestește-mi despre cel mai mare eșec al tău?'). "
             "Prezintă greșeala tipică pe care o fac debutanții (defensivitate sau scuze), soluția salvatoare folosind metoda STAR la persoana I singular "
-            "și îndemnul de a simula pe https://cariera-privat-absolventi.vercel.app."
+            "și îndemnul de a simula pe https://cariera-pro-romania.vercel.app/."
         ),
         "section_structure": "Secțiunea 1 (întrebare interviu #DC2626), Greșeala comună (#F59E0B), Răspunsul STAR corect (#2563EB), Concluzie (#DC2626), CTA final (#10B981)."
     },
@@ -179,7 +179,7 @@ ROTATING_FORMATS = [
             "FORMATUL 4: GHID RAPID / TEST DE VERIFICARE ÎN 60 SECUNDE PENTRU CV SAU PERIOADA DE PROBĂ (Art. 31 Codul Muncii). "
             "Structură: Începe cu 'Fă acest test rapid în 3 pași înainte să trimiți CV-ul / înainte de perioada de probă de 90 de zile...'. "
             "Prezintă pasul 1, pasul 2 și regula decisivă (pasul 3), "
-            "urmat de îndemnul de verificare pe https://cariera-privat-absolventi.vercel.app."
+            "urmat de îndemnul de verificare pe https://cariera-pro-romania.vercel.app/."
         ),
         "section_structure": "Secțiunea 1 (titlu test #3B82F6), Pasul 1 (#2563EB), Pasul 2 (#F59E0B), Pasul 3 (#DC2626), CTA final (#10B981)."
     }
@@ -195,7 +195,7 @@ def generate_scenario_with_gemini():
         return FALLBACK_TOPICS[day_idx % len(FALLBACK_TOPICS)]
 
     prompt = (
-        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei CarierăStart (https://cariera-privat-absolventi.vercel.app) - ghid strategic și analitic pentru tinerii absolvenți de facultate (ASE, Politehnică, Drept, Litere, Științe) care vor un job competitiv în mediul privat din România.\n\n"
+        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei CarierăStart (https://cariera-pro-romania.vercel.app/) - ghid strategic și analitic pentru tinerii absolvenți de facultate (ASE, Politehnică, Drept, Litere, Științe) care vor un job competitiv în mediul privat din România.\n\n"
         f"NORME OBLIGATORII PRIVIND LIMBA ROMÂNĂ (DOOM3 / ACADEMIA ROMÂNĂ):\n"
         f"- Folosește EXCLUSIV LIMBA ROMÂNĂ OFICIALĂ LITERARĂ, conform normelor ortografice oficiale (DOOM3).\n"
         f"- Este STRICT INTERZISĂ orice greșeală de ortografie sau fonetizare greșită (folosește diacritice corecte: ă, â, î, ș, ț).\n"
@@ -217,7 +217,7 @@ def generate_scenario_with_gemini():
         '    {"time_max": 27.5, "text": "PUNCTUL 3 / CONCLUZIE", "color": "#DC2626"},\n'
         '    {"time_max": 99.0, "text": "SOLUȚIE • VERIFICĂ ACUM", "color": "#10B981"}\n'
         '  ],\n'
-        '  "tiktok_caption": "Descriere captivantă pentru TikTok incluzând linkul https://cariera-privat-absolventi.vercel.app și hashtag-uri relevante: #absolvent #job #interviu #carieraprivat #salariu #studenti #cv #romania"\n'
+        '  "tiktok_caption": "Descriere captivantă pentru TikTok incluzând linkul https://cariera-pro-romania.vercel.app/ și hashtag-uri relevante: #absolvent #job #interviu #carieraprivat #salariu #studenti #cv #romania"\n'
         "}"
     )
 
@@ -448,7 +448,7 @@ def render_video(scenario, words, total_duration, audio_path):
     sections = scenario.get("sections", [])
     phrases = build_phrases(words)
     
-    cta_main = "CARIERA-PRIVAT-ABSOLVENTI.VERCEL.APP"
+    cta_main = "CARIERA-PRO-ROMANIA.VERCEL.APP"
     cta_sub = "ACCESEAZĂ SIMULATOARELE & GHIDUL COMPLET"
     disc1 = "Resursă educațională & metodologică pentru absolvenți"
     disc2 = "Operat legal de TEODORESCU O.DIANA PFA • Nu garantează angajarea"
