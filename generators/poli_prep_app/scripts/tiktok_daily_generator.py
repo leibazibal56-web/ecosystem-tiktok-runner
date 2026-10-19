@@ -407,7 +407,7 @@ def render_video(scenario, words, total_duration, audio_path):
         VIDEO_PATH
     ]
 
-    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.PIPE)
+    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
     brand_text = "POLIPREP PRO • ADMITERE POLITEHNICĂ UPB"
     cta_main = "https://poliprep-upb.vercel.app/"
     cta_sub = "Exersează pe https://poliprep-upb.vercel.app/ • 794 Grile UPB"

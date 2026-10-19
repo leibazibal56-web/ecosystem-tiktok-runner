@@ -286,8 +286,8 @@ async def generate_audio_and_timestamps(script_text):
     import time
 
     tts_models = [
-        "gemini-3.1-flash-tts-preview",
         "gemini-2.5-flash-preview-tts",
+        "gemini-3.1-flash-tts-preview",
         "gemini-2.5-pro-preview-tts"
     ]
 
@@ -429,7 +429,7 @@ def render_video(scenario, words, total_duration, audio_path):
         VIDEO_PATH
     ]
     
-    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE)
+    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     
     font_badge = get_font(32, bold=True)
     font_title = get_font(52, bold=True)

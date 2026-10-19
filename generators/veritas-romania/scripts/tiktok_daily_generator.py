@@ -300,7 +300,7 @@ def render_video_mp4(scenario, words, total_duration, audio_path):
         VIDEO_PATH
     ]
 
-    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.PIPE)
+    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
     brand_text = "⚖️ VERITAS ROMÂNIA • RADAR ANTI-FAKE & DREPT"
     cta_main = "Testează gratuit pe veritas-gandire-critica.vercel.app"
     cta_sub = "Urmărește pentru deconstrucții zilnice și grile de admitere"

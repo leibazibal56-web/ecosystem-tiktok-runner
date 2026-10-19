@@ -276,8 +276,8 @@ async def generate_audio_and_timestamps(script_text):
     import wave
 
     tts_models = [
-        "gemini-3.1-flash-tts-preview",
         "gemini-2.5-flash-preview-tts",
+        "gemini-3.1-flash-tts-preview",
         "gemini-2.5-pro-preview-tts"
     ]
 
@@ -287,7 +287,7 @@ async def generate_audio_and_timestamps(script_text):
 {script_text}"""
     )
 
-    api_keys = [k for k in [GEMINI_API_KEY, (os.getenv("GEMINI_API_KEY_FALLBACK") or "").strip()] if k]
+    api_keys = [k for k in [(os.getenv("GEMINI_API_KEY_FALLBACK") or "").strip(), GEMINI_API_KEY] if k]
 
     for model in tts_models:
         for attempt in range(4):
@@ -453,7 +453,7 @@ def render_video_frames(scenario, duration, timed_words):
         VIDEO_PATH
     ]
 
-    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.PIPE)
+    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
 
     sections = scenario.get("sections", [])
     

@@ -263,7 +263,7 @@ async def generate_audio_and_timestamps(script_text):
     print("[2/4] Generare voce neurală feminină în limba română...")
     import base64
     import wave
-    tts_models = ["gemini-3.1-flash-tts-preview", "gemini-2.5-flash-preview-tts", "gemini-2.5-pro-preview-tts"]
+    tts_models = ["gemini-2.5-flash-preview-tts", "gemini-3.1-flash-tts-preview", "gemini-2.5-pro-preview-tts"]
     prompt = f"Citește cu o voce feminină caldă, clară, naturală și sigură în limba română următorul text educațional:\n\n{script_text}"
     if GEMINI_API_KEY:
         for model in tts_models:
@@ -368,7 +368,7 @@ def render_video(scenario, words, total_duration, audio_path):
         "-c:v", "libx264", "-pix_fmt", "yuv420p", "-preset", "faster", "-crf", "22",
         "-c:a", "aac", "-b:a", "192k", "-shortest", VIDEO_PATH
     ]
-    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.PIPE)
+    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
     brand_text = "🌐 LSP ROMÂNIA • LIMBAJE SPECIALIZATE"
     cta_main = "Stăpânește limbajul tehnic pe lsp-romania.vercel.app"
     cta_sub = "Limbi pentru Scopuri Specifice: Medical, IT, Juridic, Automotive & BPO"

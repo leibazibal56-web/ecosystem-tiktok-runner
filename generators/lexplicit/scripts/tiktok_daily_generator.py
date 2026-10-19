@@ -338,8 +338,8 @@ async def generate_audio_and_timestamps(script_text):
     import time
 
     tts_models = [
-        "gemini-3.1-flash-tts-preview",
         "gemini-2.5-flash-preview-tts",
+        "gemini-3.1-flash-tts-preview",
         "gemini-2.5-pro-preview-tts"
     ]
 
@@ -506,7 +506,7 @@ def render_video(scenario, words, total_duration, audio_path):
         VIDEO_PATH
     ]
     
-    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.PIPE)
+    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
     brand_text = "LEXPLICIT  •  NLP & DOCUMENTE"
     cta_main = "Verifică gratuit pe lexplicit.vercel.app"
     cta_sub = "+ Urmărește pentru mai multe sfaturi practice"

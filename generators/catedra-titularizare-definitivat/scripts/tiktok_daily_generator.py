@@ -457,7 +457,7 @@ def render_video(scenario, words, total_duration, audio_path):
         VIDEO_PATH
     ]
     
-    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.PIPE)
+    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
     brand_text = "EDUTITULARIZARE • TITULARIZARE & DEFINITIVAT"
     cta_main = "Pregătește-te pe titularizare-si-definitivat.vercel.app"
     cta_sub = "+ Urmărește pentru trucuri didactice de nota 10"

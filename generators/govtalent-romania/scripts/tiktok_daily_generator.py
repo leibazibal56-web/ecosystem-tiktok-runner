@@ -207,8 +207,8 @@ async def generate_audio_and_timestamps(script_text):
     import time
 
     tts_models = [
-        "gemini-3.1-flash-tts-preview",
         "gemini-2.5-flash-preview-tts",
+        "gemini-3.1-flash-tts-preview",
         "gemini-2.5-pro-preview-tts"
     ]
     prompt = f"Citește cu o voce feminină deosebit de fermecătoare, caldă, melodioasă, sigură și perfect naturală în limba română următorul ghid educațional pentru Concursul Național ANFP:\n\n{script_text}"
@@ -359,7 +359,7 @@ def render_video(scenario, words, total_duration):
         VIDEO_PATH
     ]
     
-    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.PIPE)
+    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
     brand_text = "GOVTALENT ROMÂNIA  •  CONCURSURI DE STAT"
     cta_main = "Testează gratuit pe govtalent-romania.vercel.app"
     cta_sub = "Calculator vechime legală • Grile ANFP • Test psihometric"
