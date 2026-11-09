@@ -2,7 +2,7 @@
 """
 LexSinteză - TikTok Daily Video Generator
 Generare automată de conținut video vertical 1080x1920 (TikTok / Reels / Shorts)
-Aplicația: https://lex-sinteza.vercel.app
+Aplicația: https://lexsinteza.ro
 """
 import os
 import sys
@@ -37,7 +37,7 @@ FALLBACK_TOPICS = [
     {
         "topic_title": "3 CAPCANE DOCTRINALE: NULITATEA ÎN CIVIL",
         "alert_badge": "DOCTRINĂ CIVILĂ",
-        "script_speech": "Te pregătești pentru admiterea la Barou sau INM? Iată trei capcane clasice din tratatele de drept civil! Unu: Nulitatea relativă nu poate fi invocată de instanță din oficiu, oricât de gravă pare neregula. Doi: Confirmarea expresă sau tacită a actului anulează dreptul de a cere nulitatea relativă. Trei: Prescripția de trei ani curge diferit în caz de violență sau dol. Consultă matricele comparative și sintezele pe lex-sinteza.vercel.app!",
+        "script_speech": "Te pregătești pentru admiterea la Barou sau INM? Iată trei capcane clasice din tratatele de drept civil! Unu: Nulitatea relativă nu poate fi invocată de instanță din oficiu, oricât de gravă pare neregula. Doi: Confirmarea expresă sau tacită a actului anulează dreptul de a cere nulitatea relativă. Trei: Prescripția de trei ani curge diferit în caz de violență sau dol. Consultă matricele comparative și sintezele pe lexsinteza.ro!",
         "sections": [
             {"time_max": 6.5, "text": "CAPCANE LA NULITATE", "color": "#DC2626"},
             {"time_max": 14.5, "text": "1 • INVOCARE DIN OFICIU", "color": "#2563EB"},
@@ -45,12 +45,12 @@ FALLBACK_TOPICS = [
             {"time_max": 28.5, "text": "3 • CURGEREA PRESCRIPȚIEI", "color": "#DC2626"},
             {"time_max": 99.0, "text": "SOLUȚIE • MATRICE COMPARATIVĂ", "color": "#10B981"}
         ],
-        "tiktok_caption": "Stăpânești distincțiile fine dintre nulitatea absolută și cea relativă? 3 capcane doctrinale din tratatele Boroi și Bîrsan. Învață logic pe https://lex-sinteza.vercel.app ! ⚖️🏛️ #lexsinteza #dreptcivil #nulitate #barou #inm #romania"
+        "tiktok_caption": "Stăpânești distincțiile fine dintre nulitatea absolută și cea relativă? 3 capcane doctrinale din tratatele Boroi și Bîrsan. Învață logic pe https://lexsinteza.ro ! ⚖️🏛️ #lexsinteza #dreptcivil #nulitate #barou #inm #romania"
     },
     {
         "topic_title": "MIT SAU REALITATE: TOATE TERMENELE SE CALCULEAZĂ PE ZILE LIBERE?",
         "alert_badge": "MIT VS REALITATE",
-        "script_speech": "Crezi că orice termen de procedură se calculează după regula zilelor libere? Total fals! În timp ce Codul de Procedură Civilă aplică regula zilelor libere conform Articolului 181, Codul de Procedură Penală impune regula zilelor pline conform Articolului 269. O confuzie de o singură zi îți poate anula calea de atac! Folosește calculatorul automat de termene procedurale pe lex-sinteza.vercel.app!",
+        "script_speech": "Crezi că orice termen de procedură se calculează după regula zilelor libere? Total fals! În timp ce Codul de Procedură Civilă aplică regula zilelor libere conform Articolului 181, Codul de Procedură Penală impune regula zilelor pline conform Articolului 269. O confuzie de o singură zi îți poate anula calea de atac! Folosește calculatorul automat de termene procedurale pe lexsinteza.ro!",
         "sections": [
             {"time_max": 6.5, "text": "MITUL TERMENELOR PROCEDURALE", "color": "#EF4444"},
             {"time_max": 14.0, "text": "CIVIL: ZILE LIBERE (ART 181)", "color": "#F59E0B"},
@@ -58,12 +58,12 @@ FALLBACK_TOPICS = [
             {"time_max": 27.5, "text": "RISCUL DECĂDERII", "color": "#DC2626"},
             {"time_max": 99.0, "text": "SOLUȚIE • CALCULATOR TERMENE", "color": "#10B981"}
         ],
-        "tiktok_caption": "Atenție maximă la calculul termenelor procedurale! Zile libere în Civil vs. zile pline în Penal. Calculează exact și evită decăderea pe https://lex-sinteza.vercel.app ! ⏱️⚖️ #lexsinteza #proceduracivila #procedurapenala #termene #barou #inm"
+        "tiktok_caption": "Atenție maximă la calculul termenelor procedurale! Zile libere în Civil vs. zile pline în Penal. Calculează exact și evită decăderea pe https://lexsinteza.ro ! ⏱️⚖️ #lexsinteza #proceduracivila #procedurapenala #termene #barou #inm"
     },
     {
         "topic_title": "ORDINEA EXCEPȚIILOR: ARBORELE DECIZIONAL ART 248 CPC",
         "alert_badge": "ARBORE DECIZIONAL",
-        "script_speech": "Cum soluționează instanța excepțiile când pârâtul invocă simultan necompetența, prescripția și lipsa de interes? Iată regula de aur din Articolul 248! Instanța se pronunță mai întâi asupra excepțiilor de procedură și abia apoi asupra celor de fond. Astfel, necompetența este analizată prioritar, înainte de orice discuție pe fond sau prescripție. Explorează schemele logice și arborii decizionali pe lex-sinteza.vercel.app!",
+        "script_speech": "Cum soluționează instanța excepțiile când pârâtul invocă simultan necompetența, prescripția și lipsa de interes? Iată regula de aur din Articolul 248! Instanța se pronunță mai întâi asupra excepțiilor de procedură și abia apoi asupra celor de fond. Astfel, necompetența este analizată prioritar, înainte de orice discuție pe fond sau prescripție. Explorează schemele logice și arborii decizionali pe lexsinteza.ro!",
         "sections": [
             {"time_max": 6.5, "text": "CONFLICT DE EXCEPȚII?", "color": "#DC2626"},
             {"time_max": 13.5, "text": "REGULA ART. 248 CPC", "color": "#F59E0B"},
@@ -71,12 +71,12 @@ FALLBACK_TOPICS = [
             {"time_max": 27.0, "text": "PRIORITATEA NECOMPETENȚEI", "color": "#DC2626"},
             {"time_max": 99.0, "text": "SOLUȚIE • ARBORI DECIZIONALI", "color": "#10B981"}
         ],
-        "tiktok_caption": "Cum rezolvi ordinea de soluționare a excepțiilor procesuale? Schema logică conform Art. 248 CPC explicată pe https://lex-sinteza.vercel.app ! 🔀⚖️ #lexsinteza #exceptiiprocesuale #dpc #boroi #magistratura #barou"
+        "tiktok_caption": "Cum rezolvi ordinea de soluționare a excepțiilor procesuale? Schema logică conform Art. 248 CPC explicată pe https://lexsinteza.ro ! 🔀⚖️ #lexsinteza #exceptiiprocesuale #dpc #boroi #magistratura #barou"
     },
     {
         "topic_title": "AUDIT ÎN 60 SEC: CALCULUL TERMENULUI DE APEL",
         "alert_badge": "AUDIT ÎN 60 SECUNDE",
-        "script_speech": "Ai primit o hotărâre civilă și vrei să calculezi termenul de apel de treizeci de zile? Fă acest test rapid în trei pași! Pasul unu: Nu număra ziua comunicării și nici ziua împlinirii termenului, fiind un termen pe zile libere. Pasul doi: Dacă ultima zi este o zi nelucrătoare sau sărbătoare legală, termenul se prorogă automat până la sfârșitul primei zile lucrătoare. Pasul trei: Verifică data ștampilei poștei. Calculează termenele instant pe lex-sinteza.vercel.app!",
+        "script_speech": "Ai primit o hotărâre civilă și vrei să calculezi termenul de apel de treizeci de zile? Fă acest test rapid în trei pași! Pasul unu: Nu număra ziua comunicării și nici ziua împlinirii termenului, fiind un termen pe zile libere. Pasul doi: Dacă ultima zi este o zi nelucrătoare sau sărbătoare legală, termenul se prorogă automat până la sfârșitul primei zile lucrătoare. Pasul trei: Verifică data ștampilei poștei. Calculează termenele instant pe lexsinteza.ro!",
         "sections": [
             {"time_max": 6.5, "text": "TESTUL TERMENULUI DE APEL", "color": "#3B82F6"},
             {"time_max": 13.5, "text": "1 • REGULA ZILELOR LIBERE", "color": "#2563EB"},
@@ -84,7 +84,7 @@ FALLBACK_TOPICS = [
             {"time_max": 27.0, "text": "3 • ȘTAMPILA POȘTEI", "color": "#DC2626"},
             {"time_max": 99.0, "text": "SOLUȚIE • CALCULEAZĂ PE SITE", "color": "#10B981"}
         ],
-        "tiktok_caption": "Cum calculezi fără greșeală termenul de apel de 30 de zile în civil? Testul rapid de 60 de secunde cu regulile de prorogare. Verifică pe https://lex-sinteza.vercel.app ! 📅⚖️ #lexsinteza #apel #termeneprocedurale #proceduracivila #drept"
+        "tiktok_caption": "Cum calculezi fără greșeală termenul de apel de 30 de zile în civil? Testul rapid de 60 de secunde cu regulile de prorogare. Verifică pe https://lexsinteza.ro ! 📅⚖️ #lexsinteza #apel #termeneprocedurale #proceduracivila #drept"
     }
 ]
 
@@ -118,7 +118,7 @@ ROTATING_FORMATS = [
             "FORMATUL 1: TOP 3 CAPCANE / GREȘELI FRECVENTE. "
             "Structură: Începe cu un Hook alert (primele 4 secunde) despre capcane teoretice și doctrinare majore. "
             "Urmează 3 puncte numerotate Unu / Doi / Trei (solide, concise, cu impact direct) "
-            "și un îndemn final de testare pe https://lex-sinteza.vercel.app."
+            "și un îndemn final de testare pe https://lexsinteza.ro."
         ),
         "section_structure": "Secțiunea 1 (problemă #DC2626), Punctul 1 (#2563EB), Punctul 2 (#D97706), Punctul 3 (#DC2626), CTA final (#10B981)."
     },
@@ -129,7 +129,7 @@ ROTATING_FORMATS = [
             "FORMATUL 2: MIT VS. REALITATE / ADEVĂRAT SAU FALS. "
             "Structură: Începe cu o întrebare provocatoare sau un mit larg răspândit ('Crezi că...? Total fals!'). "
             "Explică de ce este greșit ce crede majoritatea, oferă perspectiva doctrinară corectă "
-            "și un îndemn final de verificare pe https://lex-sinteza.vercel.app."
+            "și un îndemn final de verificare pe https://lexsinteza.ro."
         ),
         "section_structure": "Secțiunea 1 (titlu mit #EF4444), De ce e fals (#F59E0B), Realitatea corectă (#2563EB), Regula de aur (#DC2626), CTA final (#10B981)."
     },
@@ -140,7 +140,7 @@ ROTATING_FORMATS = [
             "FORMATUL 3: STUDIU DE CAZ / SITUAȚIE CONCRETĂ & ARBORE DECIZIONAL. "
             "Structură: Începe cu o dilemă practică sau calificare juridică ('Ce faci dacă te confrunți cu...?'). "
             "Prezintă greșeala tipică pe care o fac candidații, pasul corect de rezolvare conform legii "
-            "și îndemnul de a rezolva pe https://lex-sinteza.vercel.app."
+            "și îndemnul de a rezolva pe https://lexsinteza.ro."
         ),
         "section_structure": "Secțiunea 1 (dilemă #DC2626), Greșeala comună (#F59E0B), Soluția pas cu pas (#2563EB), Concluzie (#DC2626), CTA final (#10B981)."
     },
@@ -151,7 +151,7 @@ ROTATING_FORMATS = [
             "FORMATUL 4: GHID RAPID / TEST DE VERIFICARE ÎN 60 SECUNDE. "
             "Structură: Începe cu 'Fă acest test rapid în 3 pași înainte să...'. "
             "Prezintă pasul 1, pasul 2 și regula decisivă (pasul 3), "
-            "urmat de îndemnul de verificare pe https://lex-sinteza.vercel.app."
+            "urmat de îndemnul de verificare pe https://lexsinteza.ro."
         ),
         "section_structure": "Secțiunea 1 (titlu test #3B82F6), Pasul 1 (#2563EB), Pasul 2 (#F59E0B), Pasul 3 (#DC2626), CTA final (#10B981)."
     }
@@ -167,7 +167,7 @@ def generate_scenario_with_gemini():
         return FALLBACK_TOPICS[day_idx % len(FALLBACK_TOPICS)]
 
     prompt = (
-        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei LexSinteză (https://lex-sinteza.vercel.app) - Arhitectura Minții Juridice: platformă de pregătire teoretică, matrice de sinteze comparative în 10 puncte, scheme logice, arbori decizionali și calcul procedural (Art. 181 CPC vs Art. 269 CPP) pentru Magistratură (INM), Avocatură (Barou), Notariat (INR) și Consilieri Juridici.\n\n"
+        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei LexSinteză (https://lexsinteza.ro) - Arhitectura Minții Juridice: platformă de pregătire teoretică, matrice de sinteze comparative în 10 puncte, scheme logice, arbori decizionali și calcul procedural (Art. 181 CPC vs Art. 269 CPP) pentru Magistratură (INM), Avocatură (Barou), Notariat (INR) și Consilieri Juridici.\n\n"
         f"NORME OBLIGATORII PRIVIND LIMBA ROMÂNĂ (DOOM3 / ACADEMIA ROMÂNĂ):\n"
         f"- Folosește EXCLUSIV LIMBA ROMÂNĂ OFICIALĂ LITERARĂ, conform normelor ortografice, ortoepice și morfologice oficiale (DOOM3).\n"
         f"- Este STRICT INTERZISĂ orice greșeală de ortografie, fonetizare greșită sau tipar (de exemplu: scrie 'prestigiu', NICIODATĂ 'prestijiu'; 'succese', nu 'succesuri'; folosește diacritice corecte: ă, â, î, ș, ț).\n"
@@ -189,7 +189,7 @@ def generate_scenario_with_gemini():
         '    {"time_max": 27.5, "text": "PUNCTUL 3 / CONCLUZIE", "color": "#DC2626"},\n'
         '    {"time_max": 99.0, "text": "SOLUȚIE • VERIFICĂ ACUM", "color": "#10B981"}\n'
         '  ],\n'
-        '  "tiktok_caption": "Descriere captivantă pentru TikTok incluzând linkul https://lex-sinteza.vercel.app și 4-6 hashtag-uri relevante: #lexsinteza #drept #barou #inm #magistratura #notariat #teorie #romania"\n'
+        '  "tiktok_caption": "Descriere captivantă pentru TikTok incluzând linkul https://lexsinteza.ro și 4-6 hashtag-uri relevante: #lexsinteza #drept #barou #inm #magistratura #notariat #teorie #romania"\n'
         "}"
     )
 
@@ -427,7 +427,7 @@ def render_video(scenario, words, total_duration, audio_path):
     
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
     brand_text = "LEXSINTEZĂ  •  ARHITECTURA MINȚII JURIDICE"
-    cta_main = "Sinteze și arbori decizionali pe lex-sinteza.vercel.app"
+    cta_main = "Sinteze și arbori decizionali pe lexsinteza.ro"
     cta_sub = "+ Urmărește pentru pregătire teoretică de elită"
     disc1 = "Informații cu caracter educativ și teoretic."
     disc2 = "Conform Legii 51/1995, LexSinteză oferă asistență teoretică educațională."
@@ -561,7 +561,7 @@ def dispatch_to_telegram(scenario, duration):
         return False
 
     title = scenario.get("topic_title", "Sinteză Teoretică & Calcul Procedural")
-    caption_txt = scenario.get("tiktok_caption", "Aprofundează teoria juridică pe https://lex-sinteza.vercel.app !")
+    caption_txt = scenario.get("tiktok_caption", "Aprofundează teoria juridică pe https://lexsinteza.ro !")
     
     tg_caption = (
         f"🎬 <b>[LEXSINTEZĂ TIKTOK DAILY]</b>\n\n"
