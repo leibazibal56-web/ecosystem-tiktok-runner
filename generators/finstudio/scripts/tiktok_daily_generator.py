@@ -36,7 +36,7 @@ load_dotenv(os.path.join(ROOT_DIR, ".env"))
 GEMINI_API_KEY = (os.getenv("GEMINI_API_KEY") or "").strip()
 TELEGRAM_BOT_TOKEN = (os.getenv("TELEGRAM_BOT_TOKEN") or "").strip()
 TELEGRAM_CHAT_ID = (os.getenv("TELEGRAM_CHAT_ID") or "8867321650").strip()
-APP_URL = (os.getenv("APP_URL") or "https://finstudio-ro.vercel.app").strip()
+APP_URL = (os.getenv("APP_URL") or "https://finstudio.ro").strip()
 
 OUTPUT_DIR = os.path.abspath(os.path.join(ROOT_DIR, "video-generator"))
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -47,7 +47,7 @@ FALLBACK_TOPICS = [
     {
         "topic_title": "3 CAPCANE LA CONTABILITATE LA ADMITEREA CECCAR",
         "alert_badge": "ACCES STAGIU CECCAR",
-        "script_speech": "Te pregătești pentru examenul de acces la stagiu C E C C A R? Iată trei capcane din Ordinul o mie opt sute doi pe două mii paisprezece care fac diferența la grilă! Unu: Reducerile comerciale primite ulterior facturării pentru stocuri care nu mai sunt în gestiune se înregistrează în contul șase sute nouă, nu prin conturile de stocuri! Doi: Reevaluarea imobilizărilor corporale se face la valoarea justă, iar plusul de valoare merge în rezerve din reevaluare. Trei: Atenție la plafonul de T V A la încasare! Rezolvă grilele explicate pe finstudio-ro.vercel.app!",
+        "script_speech": "Te pregătești pentru examenul de acces la stagiu C E C C A R? Iată trei capcane din Ordinul o mie opt sute doi pe două mii paisprezece care fac diferența la grilă! Unu: Reducerile comerciale primite ulterior facturării pentru stocuri care nu mai sunt în gestiune se înregistrează în contul șase sute nouă, nu prin conturile de stocuri! Doi: Reevaluarea imobilizărilor corporale se face la valoarea justă, iar plusul de valoare merge în rezerve din reevaluare. Trei: Atenție la plafonul de T V A la încasare! Rezolvă grilele explicate pe finstudio.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -75,7 +75,7 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Te pregătești pentru admiterea la stagiu CECCAR? 3 capcane din OMFP 1802/2014 explicate pe https://finstudio-ro.vercel.app ! 📊🧾 #ceccar #contabilitate #expertcontabil #fiscalitate #finstudio"
+        "tiktok_caption": "Te pregătești pentru admiterea la stagiu CECCAR? 3 capcane din OMFP 1802/2014 explicate pe https://finstudio.ro ! 📊🧾 #ceccar #contabilitate #expertcontabil #fiscalitate #finstudio"
     }
 ]
 
@@ -106,7 +106,7 @@ def generate_scenario_with_gemini():
         return FALLBACK_TOPICS[day_idx]
 
     prompt = (
-        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei FinStudio CECCAR (https://finstudio-ro.vercel.app) - specializată în admiterea la stagiu CECCAR (Expert Contabil și Contabil Autorizat) și Camera Consultanților Fiscali (CCF): OMFP 1802/2014, Codul Fiscal, TVA, monografii contabile și audit.\n"
+        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei FinStudio CECCAR (https://finstudio.ro) - specializată în admiterea la stagiu CECCAR (Expert Contabil și Contabil Autorizat) și Camera Consultanților Fiscali (CCF): OMFP 1802/2014, Codul Fiscal, TVA, monografii contabile și audit.\n"
         "Folosește EXCLUSIV limba română literară corectă conform DOOM3, cu diacritice complete.\n"
         "Creează un scenariu alert de 25-30 secunde (65-75 cuvinte) cu Hook în primele 4 secunde, 3 puncte clare și îndemn final de accesare a platformei.\n"
         "RĂSPUNDE EXCLUSIV ÎN FORMAT JSON VALID:\n"
@@ -121,7 +121,7 @@ def generate_scenario_with_gemini():
         '    {"time_max": 27.5, "text": "3 • PUNCTUL TREI", "color": "#06B6D4"},\n'
         '    {"time_max": 99.0, "text": "SOLUȚIE • VERIFICĂ ACUM", "color": "#10B981"}\n'
         '  ],\n'
-        '  "tiktok_caption": "Descriere captivantă cu linkul https://finstudio-ro.vercel.app și hashtag-uri: #ceccar #expertcontabil #contabilitate #fiscalitate #finstudio #examen"\n'
+        '  "tiktok_caption": "Descriere captivantă cu linkul https://finstudio.ro și hashtag-uri: #ceccar #expertcontabil #contabilitate #fiscalitate #finstudio #examen"\n'
         "}"
     )
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
@@ -271,7 +271,7 @@ def render_video(scenario, words, total_duration, audio_path):
     ]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
     brand_text = "📊 FINSTUDIO • ADMITERE STAGIU CECCAR & CCF"
-    cta_main = "Simulează examenul CECCAR pe finstudio-ro.vercel.app"
+    cta_main = "Simulează examenul CECCAR pe finstudio.ro"
     cta_sub = "Contabilitate, Fiscalitate, Audit, Evaluare & Drept Societar"
     disc1 = "Platformă de pregătire pentru examenul de acces la stagiu CECCAR (Expert Contabil) și CCF."
     disc2 = "Monografii contabile OMFP 1802/2014, Codul Fiscal actualizat și studii de caz."
@@ -382,7 +382,7 @@ def dispatch_to_telegram(scenario, duration):
         print("Lipsesc credențialele Telegram.")
         return False
     title = scenario.get("topic_title", "FinStudio CECCAR TikTok")
-    caption_txt = scenario.get("tiktok_caption", "Accesează https://finstudio-ro.vercel.app !")
+    caption_txt = scenario.get("tiktok_caption", "Accesează https://finstudio.ro !")
     tg_caption = (
         f"🎬 <b>[FINSTUDIO CECCAR TIKTOK DAILY]</b>\n\n"
         f"📌 <b>Subiect:</b> {title}\n"
