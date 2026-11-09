@@ -37,7 +37,7 @@ FALLBACK_TOPICS = [
     {
         "topic_title": "3 GREȘELI LA LICENȚĂ CARE TE POT PICA",
         "alert_badge": "LICENȚĂ & DIZERTAȚIE",
-        "script_speech": "Ești pe ultima sută de metri cu lucrarea de licență sau dizertație? Iată trei greșeli care enervează comisia la culme! Unu: Bibliografie învechită. Dacă peste jumătate din surse sunt mai vechi de zece ani, comisia va depuncta stadiul cunoașterii. Doi: Citare incorectă. Nu amesteca formatul A P A cu I S O șase sute nouăzeci. Trei: Lipsa ipotezelor clare. Structurează și validează lucrarea gratuit pe academic-copilot.vercel.app!",
+        "script_speech": "Ești pe ultima sută de metri cu lucrarea de licență sau dizertație? Iată trei greșeli care enervează comisia la culme! Unu: Bibliografie învechită. Dacă peste jumătate din surse sunt mai vechi de zece ani, comisia va depuncta stadiul cunoașterii. Doi: Citare incorectă. Nu amesteca formatul A P A cu I S O șase sute nouăzeci. Trei: Lipsa ipotezelor clare. Structurează și validează lucrarea gratuit pe academiccopilot.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -65,12 +65,12 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Nu lăsa greșelile de formă să-ți strice nota la licență sau dizertație! 3 erori care enervează comisia. Validează-ți lucrarea pe https://academic-copilot.vercel.app ! 🎓📚 #licenta #dizertatie #studenti #facultate #academiccopilot"
+        "tiktok_caption": "Nu lăsa greșelile de formă să-ți strice nota la licență sau dizertație! 3 erori care enervează comisia. Validează-ți lucrarea pe https://academiccopilot.ro ! 🎓📚 #licenta #dizertatie #studenti #facultate #academiccopilot"
     },
     {
         "topic_title": "MIT SAU REALITATE: PARAFRAZAREA FĂRĂ CITARE E PLAGIAT?",
         "alert_badge": "MIT VS REALITATE",
-        "script_speech": "Crezi că dacă schimbi câteva cuvinte și nu pui ghilimele, softul antiplagiat nu te prinde? Total fals! Preluarea unei idei sau structuri fără a cita autorul original este considerată plagiat de conținut de orice comisie universitară. Secretul este parafrazarea autentică însoțită mereu de referința sursei. Organizează-ți bibliografia și citările corecte pe academic-copilot.vercel.app!",
+        "script_speech": "Crezi că dacă schimbi câteva cuvinte și nu pui ghilimele, softul antiplagiat nu te prinde? Total fals! Preluarea unei idei sau structuri fără a cita autorul original este considerată plagiat de conținut de orice comisie universitară. Secretul este parafrazarea autentică însoțită mereu de referința sursei. Organizează-ți bibliografia și citările corecte pe academiccopilot.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -98,12 +98,12 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Atenție la mitul parafrazării! Chiar și ideile rescrise trebuie citate corect conform standardelor. Folosește asistentul tău pe https://academic-copilot.vercel.app ! 📖🔍 #antiplagiat #licenta #cercetare #student #academiccopilot"
+        "tiktok_caption": "Atenție la mitul parafrazării! Chiar și ideile rescrise trebuie citate corect conform standardelor. Folosește asistentul tău pe https://academiccopilot.ro ! 📖🔍 #antiplagiat #licenta #cercetare #student #academiccopilot"
     },
     {
         "topic_title": "PROFESORUL COORDONATOR ȚI-A RESPINS CAPITOLUL 2?",
         "alert_badge": "STUDIU DE CAZ ACADEMIC",
-        "script_speech": "Profesorul ți-a returnat capitolul doi spunând că este doar o înșiruire de citate fără spirit critic? Iată cum îl transformi în douăzeci și patru de ore! Pasul unu: Nu descrie fiecare autor izolat, ci creează o matrice comparativă de sinteză. Pasul doi: Identifică limitele studiilor actuale. Pasul trei: Conectează teoria direct cu cercetarea ta practică. Generează matrice de sinteză pe academic-copilot.vercel.app!",
+        "script_speech": "Profesorul ți-a returnat capitolul doi spunând că este doar o înșiruire de citate fără spirit critic? Iată cum îl transformi în douăzeci și patru de ore! Pasul unu: Nu descrie fiecare autor izolat, ci creează o matrice comparativă de sinteză. Pasul doi: Identifică limitele studiilor actuale. Pasul trei: Conectează teoria direct cu cercetarea ta practică. Generează matrice de sinteză pe academiccopilot.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -131,12 +131,12 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Cum transformi stadiul cunoașterii într-o analiză apreciată de comisie? Pașii concreți pentru un capitol impecabil! https://academic-copilot.vercel.app 📊🎓 #licenta #dizertatie #coordonator #studiudecaz #academiccopilot"
+        "tiktok_caption": "Cum transformi stadiul cunoașterii într-o analiză apreciată de comisie? Pașii concreți pentru un capitol impecabil! https://academiccopilot.ro 📊🎓 #licenta #dizertatie #coordonator #studiudecaz #academiccopilot"
     },
     {
         "topic_title": "AUDIT ÎN 60 SEC: BIBLIOGRAFIA TA RESPECTĂ APA 7?",
         "alert_badge": "AUDIT ÎN 60 SECUNDE",
-        "script_speech": "Predai lucrarea săptămâna aceasta? Fă acest test rapid în 60 de secunde pentru bibliografie! Pasul unu: Toate sursele citate în text se regăsesc exact în lista finală? Pasul doi: Articolele științifice au link D O I valid? Pasul trei: Respectă ordinea alfabetică strictă fără numerotare manuală greșită? Validează și formatează bibliografia în câteva secunde pe academic-copilot.vercel.app!",
+        "script_speech": "Predai lucrarea săptămâna aceasta? Fă acest test rapid în 60 de secunde pentru bibliografie! Pasul unu: Toate sursele citate în text se regăsesc exact în lista finală? Pasul doi: Articolele științifice au link D O I valid? Pasul trei: Respectă ordinea alfabetică strictă fără numerotare manuală greșită? Validează și formatează bibliografia în câteva secunde pe academiccopilot.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -164,7 +164,7 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Nu lăsa formatarea bibliografiei să-ți scadă nota finală! Testează în 60 de secunde pe https://academic-copilot.vercel.app ! 📚✨ #bibliografie #apa7 #licenta #dizertatie #academiccopilot"
+        "tiktok_caption": "Nu lăsa formatarea bibliografiei să-ți scadă nota finală! Testează în 60 de secunde pe https://academiccopilot.ro ! 📚✨ #bibliografie #apa7 #licenta #dizertatie #academiccopilot"
     }
 ]
 
@@ -198,7 +198,7 @@ ROTATING_FORMATS = [
             "FORMATUL 1: TOP 3 CAPCANE / GREȘELI FRECVENTE. "
             "Structură: Începe cu un Hook alert (primele 4 secunde) despre pericole sau greșeli majore. "
             "Urmează 3 puncte numerotate Unu / Doi / Trei (solide, concise, cu impact direct) "
-            "și un îndemn final de testare pe https://academic-copilot.vercel.app."
+            "și un îndemn final de testare pe https://academiccopilot.ro."
         ),
         "section_structure": "Secțiunea 1 (problemă #DC2626), Punctul 1 (#2563EB), Punctul 2 (#D97706), Punctul 3 (#DC2626), CTA final (#10B981)."
     },
@@ -209,7 +209,7 @@ ROTATING_FORMATS = [
             "FORMATUL 2: MIT VS. REALITATE / ADEVĂRAT SAU FALS. "
             "Structură: Începe cu o întrebare provocatoare sau un mit larg răspândit ('Crezi că...? Total fals!'). "
             "Explică de ce este greșit ce crede majoritatea, oferă perspectiva corectă "
-            "și un îndemn final de verificare pe https://academic-copilot.vercel.app."
+            "și un îndemn final de verificare pe https://academiccopilot.ro."
         ),
         "section_structure": "Secțiunea 1 (titlu mit #EF4444), De ce e fals (#F59E0B), Realitatea corectă (#2563EB), Regula de aur (#DC2626), CTA final (#10B981)."
     },
@@ -220,7 +220,7 @@ ROTATING_FORMATS = [
             "FORMATUL 3: STUDIU DE CAZ / SITUAȚIE CONCRETĂ. "
             "Structură: Începe cu o dilemă practică concretă ('Ce faci dacă te confrunți cu...?'). "
             "Prezintă greșeala tipică pe care o fac oamenii, pasul salvator sau soluția corectă "
-            "și îndemnul de a rezolva pe https://academic-copilot.vercel.app."
+            "și îndemnul de a rezolva pe https://academiccopilot.ro."
         ),
         "section_structure": "Secțiunea 1 (dilemă #DC2626), Greșeala comună (#F59E0B), Soluția pas cu pas (#2563EB), Concluzie (#DC2626), CTA final (#10B981)."
     },
@@ -231,7 +231,7 @@ ROTATING_FORMATS = [
             "FORMATUL 4: GHID RAPID / TEST DE VERIFICARE ÎN 60 SECUNDE. "
             "Structură: Începe cu 'Fă acest test rapid în 3 pași înainte să...'. "
             "Prezintă pasul 1, pasul 2 și regula decisivă (pasul 3), "
-            "urmat de îndemnul de verificare pe https://academic-copilot.vercel.app."
+            "urmat de îndemnul de verificare pe https://academiccopilot.ro."
         ),
         "section_structure": "Secțiunea 1 (titlu test #3B82F6), Pasul 1 (#2563EB), Pasul 2 (#F59E0B), Pasul 3 (#DC2626), CTA final (#10B981)."
     }
@@ -247,7 +247,7 @@ def generate_scenario_with_gemini():
         return FALLBACK_TOPICS[day_idx % len(FALLBACK_TOPICS)]
 
     prompt = (
-        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei universitare Academic Copilot (https://academic-copilot.vercel.app) - asistent academic dedicat studenților și masteranzilor (ASE, Drept, Medicină, Politehnică, Litere) pentru redactarea licenței și dizertației, căutare bibliografică automată prin OpenAlex, matrice de sinteză, citare automată (APA 7, ISO 690, Harvard, IEEE) și ghidare împotriva plagiatului.\n\n"
+        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei universitare Academic Copilot (https://academiccopilot.ro) - asistent academic dedicat studenților și masteranzilor (ASE, Drept, Medicină, Politehnică, Litere) pentru redactarea licenței și dizertației, căutare bibliografică automată prin OpenAlex, matrice de sinteză, citare automată (APA 7, ISO 690, Harvard, IEEE) și ghidare împotriva plagiatului.\n\n"
         f"NORME OBLIGATORII PRIVIND LIMBA ROMÂNĂ (DOOM3 / ACADEMIA ROMÂNĂ):\n"
         f"- Folosește EXCLUSIV LIMBA ROMÂNĂ OFICIALĂ LITERARĂ, conform normelor ortografice, ortoepice și morfologice oficiale (DOOM3).\n"
         f"- Este STRICT INTERZISĂ orice greșeală de ortografie, fonetizare greșită sau tipar (de exemplu: scrie 'prestigiu', NICIODATĂ 'prestijiu'; 'succese', nu 'succesuri'; folosește diacritice corecte: ă, â, î, ș, ț).\n"
@@ -269,7 +269,7 @@ def generate_scenario_with_gemini():
         '    {"time_max": 27.5, "text": "PUNCTUL 3 / CONCLUZIE", "color": "#DC2626"},\n'
         '    {"time_max": 99.0, "text": "SOLUȚIE • VERIFICĂ ACUM", "color": "#10B981"}\n'
         '  ],\n'
-        '  "tiktok_caption": "Descriere captivantă pentru TikTok incluzând linkul https://academic-copilot.vercel.app și 4-6 hashtag-uri relevante: #licenta #dizertatie #facultate #studenti #cercetare #apa7 #academiccopilot #romania"\n'
+        '  "tiktok_caption": "Descriere captivantă pentru TikTok incluzând linkul https://academiccopilot.ro și 4-6 hashtag-uri relevante: #licenta #dizertatie #facultate #studenti #cercetare #apa7 #academiccopilot #romania"\n'
         "}"
     )
 
@@ -513,7 +513,7 @@ def render_video(scenario, words, total_duration, audio_path):
     
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
     brand_text = "ACADEMIC COPILOT • LICENȚĂ & DIZERTAȚIE"
-    cta_main = "Cercetează pe academic-copilot.vercel.app"
+    cta_main = "Cercetează pe academiccopilot.ro"
     cta_sub = "+ Urmărește pentru sfaturi de licență și cercetare"
     disc1 = "Asistent inteligent de cercetare academică și analiză bibliografică."
     disc2 = "Ghidare metodologică, citări corecte APA / ISO 690 și integritate academică."
@@ -648,7 +648,7 @@ def dispatch_to_telegram(scenario, duration):
         return False
 
     title = scenario.get("topic_title", "Ghid Lucrare de Licență & Dizertație")
-    caption_txt = scenario.get("tiktok_caption", "Structurează-ți lucrarea pe https://academic-copilot.vercel.app !")
+    caption_txt = scenario.get("tiktok_caption", "Structurează-ți lucrarea pe https://academiccopilot.ro !")
     
     tg_caption = (
         f"🎓 <b>[ACADEMIC COPILOT TIKTOK DAILY]</b>\n\n"
