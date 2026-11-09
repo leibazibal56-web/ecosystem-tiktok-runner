@@ -29,7 +29,7 @@ if hasattr(sys.stdout, "reconfigure"):
 TELEGRAM_BOT_TOKEN = (os.getenv("TELEGRAM_BOT_TOKEN") or "").strip()
 TELEGRAM_CHAT_ID = (os.getenv("TELEGRAM_CHAT_ID") or "8867321650").strip()
 GEMINI_KEY = (os.getenv("GEMINI_API_KEY") or "").strip()
-APP_URL = os.getenv("APP_URL") or "https://med-studio-admitere.vercel.app"
+APP_URL = os.getenv("APP_URL") or "https://medstudio.ro"
 
 OUTPUT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "video-generator"))
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -61,7 +61,7 @@ TIKTOK_SCENARIOS = [
     {
         "topic_title": "CAPCANA DIN BARRON'S: POMPA NA+/K+ & SINAPSA",
         "alert_badge": "🩺 ADMITERE MEDICINĂ 2026",
-        "script_speech": "Dai admiterea la Medicină la Carol Davila, Cluj sau Iași? Iată întrebarea capcană din Barron's care triază primii o sută de candidați la buget! La potențialul de acțiune, pompa de Sodiu-Potasiu nu participă direct la repolarizare, ci doar restabilește gradientul ionic de repaus! Repolarizarea este realizată exclusiv prin deschiderea canalelor voltaj-dependente de Potasiu. Dacă ai bifat pompa la faza descendentă, ai pierdut grila! Rezolvă mii de grile explicate pe med-studio-admitere.vercel.app!",
+        "script_speech": "Dai admiterea la Medicină la Carol Davila, Cluj sau Iași? Iată întrebarea capcană din Barron's care triază primii o sută de candidați la buget! La potențialul de acțiune, pompa de Sodiu-Potasiu nu participă direct la repolarizare, ci doar restabilește gradientul ionic de repaus! Repolarizarea este realizată exclusiv prin deschiderea canalelor voltaj-dependente de Potasiu. Dacă ai bifat pompa la faza descendentă, ai pierdut grila! Rezolvă mii de grile explicate pe medstudio.ro!",
         "sections": [
             {"time_max": 5.5, "text": "🩺 CAPCANĂ BARRON'S MEDICINĂ", "color": "#10B981"},
             {"time_max": 12.5, "text": "POTENȚIALUL DE ACȚIUNE", "color": "#06B6D4"},
@@ -69,12 +69,12 @@ TIKTOK_SCENARIOS = [
             {"time_max": 26.5, "text": "CANALELE VOLTAJ-DEPENDENTE", "color": "#10B981"},
             {"time_max": 99.0, "text": "🎓 SIMULATOR OFICIAL UMF", "color": "#06B6D4"}
         ],
-        "tiktok_caption": "🩺 Detaliul din Barron's care decide dacă intri la buget la Medicină! Știai rolul exact al pompei Na+/K+ la potențialul de acțiune? Antrenează-te pe https://med-studio-admitere.vercel.app ! 🧬📚 #medstudio #admiteremedicina #umfcd #umfcluj #barrons #biologie #medstudent #viitormedic"
+        "tiktok_caption": "🩺 Detaliul din Barron's care decide dacă intri la buget la Medicină! Știai rolul exact al pompei Na+/K+ la potențialul de acțiune? Antrenează-te pe https://medstudio.ro ! 🧬📚 #medstudio #admiteremedicina #umfcd #umfcluj #barrons #biologie #medstudent #viitormedic"
     },
     {
         "topic_title": "TOP 3 REACȚII LA CHIMIE ORGANICĂ CARE DECID BUGETUL",
         "alert_badge": "🧪 CHIMIE ORGANICĂ UMF",
-        "script_speech": "La proba de Chimie Organică la UMF, diferența dintre buget și taxă se face la reacțiile de adiție și condensare! Atenție maximă: adiția apei la alchine în prezență de sulfat de mercur dă intermediar un enol instabil, transformat prin tautomerie în cetonă sau aldehidă! La condensarea crotonică, eliminarea apei are loc întotdeauna spre carbonul cel mai sărac în hidrogen, respectând regula Zaițev. Învață mecanismele complete pe simulatorul med-studio-admitere.vercel.app!",
+        "script_speech": "La proba de Chimie Organică la UMF, diferența dintre buget și taxă se face la reacțiile de adiție și condensare! Atenție maximă: adiția apei la alchine în prezență de sulfat de mercur dă intermediar un enol instabil, transformat prin tautomerie în cetonă sau aldehidă! La condensarea crotonică, eliminarea apei are loc întotdeauna spre carbonul cel mai sărac în hidrogen, respectând regula Zaițev. Învață mecanismele complete pe simulatorul medstudio.ro!",
         "sections": [
             {"time_max": 5.5, "text": "🧪 CHIMIE ORGANICĂ PENTRU BUGET", "color": "#06B6D4"},
             {"time_max": 13.0, "text": "REACȚIA KUCEROV: TAUTOMERIE", "color": "#F59E0B"},
@@ -82,12 +82,12 @@ TIKTOK_SCENARIOS = [
             {"time_max": 26.5, "text": "CONDENSARE CROTONICĂ & ZAIȚEV", "color": "#10B981"},
             {"time_max": 99.0, "text": "🧬 EXERSEAZĂ PE MEDSTUDIO", "color": "#06B6D4"}
         ],
-        "tiktok_caption": "🧪 Nu pierde puncte la reacțiile de Chimie Organică la admiterea la Medicină! Exersează sintezele și coeficienții pe https://med-studio-admitere.vercel.app ! ⚗️🩺 #chimieorganica #admiteremedicina #umfiasi #umfcd #umfcluj #medstudio #admitere2026"
+        "tiktok_caption": "🧪 Nu pierde puncte la reacțiile de Chimie Organică la admiterea la Medicină! Exersează sintezele și coeficienții pe https://medstudio.ro ! ⚗️🩺 #chimieorganica #admiteremedicina #umfiasi #umfcd #umfcluj #medstudio #admitere2026"
     },
     {
         "topic_title": "STRATEGIA SECRETĂ PENTRU COMPLEMENTUL MULTIPLU",
         "alert_badge": "🎯 METODOLOGIE EXAMEN UMF",
-        "script_speech": "De ce pică la Medicină elevi cu media zece la simulări? Pentru că nu știu regula eliminării rapide la complementul compus! Dacă afirmația unu este cert falsă, elimini instant variantele A, B și E, rămânând doar între C și D! Verifici direct varianta patru, iar dacă patru e corectă, ai marcat răspunsul în mai puțin de zece secunde, fără să citești două afirmații lungi. Antrenează-ți viteza de reacție pe simulatorul oficial med-studio-admitere.vercel.app!",
+        "script_speech": "De ce pică la Medicină elevi cu media zece la simulări? Pentru că nu știu regula eliminării rapide la complementul compus! Dacă afirmația unu este cert falsă, elimini instant variantele A, B și E, rămânând doar între C și D! Verifici direct varianta patru, iar dacă patru e corectă, ai marcat răspunsul în mai puțin de zece secunde, fără să citești două afirmații lungi. Antrenează-ți viteza de reacție pe simulatorul oficial medstudio.ro!",
         "sections": [
             {"time_max": 5.5, "text": "🎯 STRATEGIE COMPLEMENT MULTIPLU", "color": "#EF4444"},
             {"time_max": 13.0, "text": "AFIRMAȚIA 1 FALSĂ -> ELIMINI A, B, E", "color": "#F59E0B"},
@@ -95,7 +95,7 @@ TIKTOK_SCENARIOS = [
             {"time_max": 26.5, "text": "REZOLVARE ÎN 10 SECUNDE", "color": "#06B6D4"},
             {"time_max": 99.0, "text": "🩺 BAREM OFICIAL MEDSTUDIO", "color": "#10B981"}
         ],
-        "tiktok_caption": "🎯 Cum rezolvi complementul multiplu la admiterea la Medicină în sub 10 secunde? Tehnica eliminării rapide pe simulatorul https://med-studio-admitere.vercel.app ! 🩺🧠 #admiteremedicina #umfcd #umfcraiova #umftimisoara #medstudio #viitoridoctori #grilemedicina"
+        "tiktok_caption": "🎯 Cum rezolvi complementul multiplu la admiterea la Medicină în sub 10 secunde? Tehnica eliminării rapide pe simulatorul https://medstudio.ro ! 🩺🧠 #admiteremedicina #umfcd #umfcraiova #umftimisoara #medstudio #viitoridoctori #grilemedicina"
     }
 ]
 
@@ -184,7 +184,7 @@ async def generate_voice_and_timed_words(script_text):
         "online": "onlain", "site": "sait", "site-ul": "saitul",
         "feedback": "fidbac", "AI": "A I", "UMF": "U M F", "UMFCD": "U M F C D",
         "Na+/K+": "Sodiu Potasiu", "Na/K": "Sodiu Potasiu",
-        "med-studio-admitere.vercel.app": "Med Studio punct vercel punct app"
+        "medstudio.ro": "Med Studio punct vercel punct app"
     }
     spoken_text = script_text
     for en_word, ro_phonetic in phonetic_map.items():
@@ -304,7 +304,7 @@ def render_video_mp4(scenario, words, total_duration, audio_path):
     badge_txt = scenario.get("alert_badge", "🩺 MEDSTUDIO • ADMITERE MEDICINĂ")
     title_txt = scenario.get("topic_title", "ADMITERE MEDICINĂ 2026")
     cta_main = "🩺 SIMULATOR OFICIAL ADMITERE MEDICINĂ"
-    cta_sub = "med-studio-admitere.vercel.app  •  Grile Barron's & Chimie Organică"
+    cta_sub = "medstudio.ro  •  Grile Barron's & Chimie Organică"
 
     for frame_idx in range(total_frames):
         t = frame_idx / fps
@@ -400,7 +400,7 @@ def dispatch_video_to_telegram(scenario, duration):
         return False
 
     title = scenario.get("topic_title", "Admitere Medicină 2026")
-    caption_txt = scenario.get("tiktok_caption", "Pregătește-te pe simulatorul https://med-studio-admitere.vercel.app !")
+    caption_txt = scenario.get("tiktok_caption", "Pregătește-te pe simulatorul https://medstudio.ro !")
 
     tg_caption = (
         f"🩺 <b>[MEDSTUDIO - TIKTOK DAILY VIDEO]</b>\n\n"
