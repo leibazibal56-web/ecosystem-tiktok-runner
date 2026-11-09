@@ -36,7 +36,7 @@ load_dotenv(os.path.join(ROOT_DIR, ".env"))
 GEMINI_API_KEY = (os.getenv("GEMINI_API_KEY") or "").strip()
 TELEGRAM_BOT_TOKEN = (os.getenv("TELEGRAM_BOT_TOKEN") or "").strip()
 TELEGRAM_CHAT_ID = (os.getenv("TELEGRAM_CHAT_ID") or "8867321650").strip()
-APP_URL = (os.getenv("APP_URL") or "https://techstudio-ro.vercel.app").strip()
+APP_URL = (os.getenv("APP_URL") or "https://techstudio.ro").strip()
 
 OUTPUT_DIR = os.path.abspath(os.path.join(ROOT_DIR, "video-generator"))
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -47,7 +47,7 @@ FALLBACK_TOPICS = [
     {
         "topic_title": "3 ÎNTREBĂRI DE SYSTEM DESIGN CARE DECID SALARIUL LA INTERVIUL IT",
         "alert_badge": "INTERVIU TEHNIC IT",
-        "script_speech": "Mergi la un interviu tehnic pentru un rol de Mid sau Senior Developer în România? Iată trei întrebări de arhitectură și baze de date care fac diferența la ofertă! Unu: De ce nu ajută un index B-Tree în S Q L atunci când cauți cu wildcard la începutul șirului? Pentru că motorul face Full Table Scan! Doi: Cum previi fenomenul de Cache Stampede în Redis când expiră o cheie populară? Folosești blocare distribuită sau recalculare asincronă! Trei: Diferența dintre idempotență la P U T și P O S T în microservicii! Exersează pe techstudio-ro.vercel.app!",
+        "script_speech": "Mergi la un interviu tehnic pentru un rol de Mid sau Senior Developer în România? Iată trei întrebări de arhitectură și baze de date care fac diferența la ofertă! Unu: De ce nu ajută un index B-Tree în S Q L atunci când cauți cu wildcard la începutul șirului? Pentru că motorul face Full Table Scan! Doi: Cum previi fenomenul de Cache Stampede în Redis când expiră o cheie populară? Folosești blocare distribuită sau recalculare asincronă! Trei: Diferența dintre idempotență la P U T și P O S T în microservicii! Exersează pe techstudio.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -75,7 +75,7 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Te pregătești pentru un interviu tehnic în IT? 3 întrebări clasice de SQL, Caching și System Design explicate pe https://techstudio-ro.vercel.app ! 💻🚀 #itromania #programare #systemdesign #devops"
+        "tiktok_caption": "Te pregătești pentru un interviu tehnic în IT? 3 întrebări clasice de SQL, Caching și System Design explicate pe https://techstudio.ro ! 💻🚀 #itromania #programare #systemdesign #devops"
     }
 ]
 
@@ -106,7 +106,7 @@ def generate_scenario_with_gemini():
         return FALLBACK_TOPICS[day_idx]
 
     prompt = (
-        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei TechStudio IT (https://techstudio-ro.vercel.app) - specializată în pregătirea interviurilor tehnice în IT în România (Software Engineering, System Design, Structuri de Date și Algoritmi, SQL indexing, DevOps & Cloud Architecture).\n"
+        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei TechStudio IT (https://techstudio.ro) - specializată în pregătirea interviurilor tehnice în IT în România (Software Engineering, System Design, Structuri de Date și Algoritmi, SQL indexing, DevOps & Cloud Architecture).\n"
         "Folosește EXCLUSIV limba română literară corectă conform DOOM3, cu diacritice complete.\n"
         "Creează un scenariu alert de 25-30 secunde (65-75 cuvinte) cu Hook în primele 4 secunde, 3 puncte clare și îndemn final de accesare a platformei.\n"
         "RĂSPUNDE EXCLUSIV ÎN FORMAT JSON VALID:\n"
@@ -121,7 +121,7 @@ def generate_scenario_with_gemini():
         '    {"time_max": 27.5, "text": "3 • PUNCTUL TREI", "color": "#06B6D4"},\n'
         '    {"time_max": 99.0, "text": "SOLUȚIE • VERIFICĂ ACUM", "color": "#10B981"}\n'
         '  ],\n'
-        '  "tiktok_caption": "Descriere captivantă cu linkul https://techstudio-ro.vercel.app și hashtag-uri: #programare #interviuit #softwareengineer #systemdesign #itromania #techstudio"\n'
+        '  "tiktok_caption": "Descriere captivantă cu linkul https://techstudio.ro și hashtag-uri: #programare #interviuit #softwareengineer #systemdesign #itromania #techstudio"\n'
         "}"
     )
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
@@ -271,7 +271,7 @@ def render_video(scenario, words, total_duration, audio_path):
     ]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
     brand_text = "💻 TECHSTUDIO • INTERVIURI TEHNICE IT & ARHITECTURĂ"
-    cta_main = "Antrenează-te pentru interviul IT pe techstudio-ro.vercel.app"
+    cta_main = "Antrenează-te pentru interviul IT pe techstudio.ro"
     cta_sub = "Algoritmi, System Design, Cloud, DevOps & Securitate Cibernetică"
     disc1 = "Platformă de pregătire pentru interviurile tehnice din industria IT & Software Engineering."
     disc2 = "Structuri de date, arhitectură distribuită, baze de date SQL/NoSQL și studii de caz."
@@ -382,7 +382,7 @@ def dispatch_to_telegram(scenario, duration):
         print("Lipsesc credențialele Telegram.")
         return False
     title = scenario.get("topic_title", "TechStudio IT TikTok")
-    caption_txt = scenario.get("tiktok_caption", "Accesează https://techstudio-ro.vercel.app !")
+    caption_txt = scenario.get("tiktok_caption", "Accesează https://techstudio.ro !")
     tg_caption = (
         f"🎬 <b>[TECHSTUDIO IT TIKTOK DAILY]</b>\n\n"
         f"📌 <b>Subiect:</b> {title}\n"
