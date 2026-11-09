@@ -36,7 +36,7 @@ load_dotenv(os.path.join(ROOT_DIR, ".env"))
 GEMINI_API_KEY = (os.getenv("GEMINI_API_KEY") or "").strip()
 TELEGRAM_BOT_TOKEN = (os.getenv("TELEGRAM_BOT_TOKEN") or "").strip()
 TELEGRAM_CHAT_ID = (os.getenv("TELEGRAM_CHAT_ID") or "8867321650").strip()
-APP_URL = (os.getenv("APP_URL") or "https://sanitasstudio.vercel.app").strip()
+APP_URL = (os.getenv("APP_URL") or "https://sanitasstudio.ro").strip()
 
 OUTPUT_DIR = os.path.abspath(os.path.join(ROOT_DIR, "video-generator"))
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -47,7 +47,7 @@ FALLBACK_TOPICS = [
     {
         "topic_title": "3 ÎNTREBĂRI CARE PICĂ MEREU LA CONCURSURILE PENTRU ASISTENȚI MEDICALI",
         "alert_badge": "CONCURS SPITAL & OAMGMAMR",
-        "script_speech": "Dai concurs pe post la spital sau examenul de grad principal pentru asistenți medicali? Nu rata aceste trei întrebări clasice din bibliografie! Unu: În șocul anafilactic, medicația de primă intenție este adrenalina administrată intramuscular, nu hemisuccinatul de hidrocortizon! Doi: Conform Ordinului privitor la infecțiile asociate asistenței medicale, dezinfecția de nivel înalt nu înlocuiește sterilizarea instrumentarului critic! Trei: Ordinea corectă a eprubetelor la recoltarea venoasă începe cu hemocultura și citratul! Antrenează-te pe sanitasstudio.vercel.app!",
+        "script_speech": "Dai concurs pe post la spital sau examenul de grad principal pentru asistenți medicali? Nu rata aceste trei întrebări clasice din bibliografie! Unu: În șocul anafilactic, medicația de primă intenție este adrenalina administrată intramuscular, nu hemisuccinatul de hidrocortizon! Doi: Conform Ordinului privitor la infecțiile asociate asistenței medicale, dezinfecția de nivel înalt nu înlocuiește sterilizarea instrumentarului critic! Trei: Ordinea corectă a eprubetelor la recoltarea venoasă începe cu hemocultura și citratul! Antrenează-te pe sanitasstudio.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -75,7 +75,7 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Dai concurs de asistent medical la spital sau examenul de grad principal OAMGMAMR? 3 grile esențiale explicate pe https://sanitasstudio.vercel.app ! 🏥💉 #asistentmedical #nursing #oamgmamr #spital"
+        "tiktok_caption": "Dai concurs de asistent medical la spital sau examenul de grad principal OAMGMAMR? 3 grile esențiale explicate pe https://sanitasstudio.ro ! 🏥💉 #asistentmedical #nursing #oamgmamr #spital"
     }
 ]
 
@@ -106,7 +106,7 @@ def generate_scenario_with_gemini():
         return FALLBACK_TOPICS[day_idx]
 
     prompt = (
-        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei SanitasStudio (https://sanitasstudio.vercel.app) - specializată în concursurile de ocupare a posturilor de asistenți medicali în spitalele publice și examenul de grad principal OAMGMAMR: nursing clinic, urgențe Lucreția Titircă, OMS 1101/2016 infecții nosocomiale și OUG 144/2008.\n"
+        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei SanitasStudio (https://sanitasstudio.ro) - specializată în concursurile de ocupare a posturilor de asistenți medicali în spitalele publice și examenul de grad principal OAMGMAMR: nursing clinic, urgențe Lucreția Titircă, OMS 1101/2016 infecții nosocomiale și OUG 144/2008.\n"
         "Folosește EXCLUSIV limba română literară corectă conform DOOM3, cu diacritice complete.\n"
         "Creează un scenariu alert de 25-30 secunde (65-75 cuvinte) cu Hook în primele 4 secunde, 3 puncte clare și îndemn final de accesare a platformei.\n"
         "RĂSPUNDE EXCLUSIV ÎN FORMAT JSON VALID:\n"
@@ -121,7 +121,7 @@ def generate_scenario_with_gemini():
         '    {"time_max": 27.5, "text": "3 • PUNCTUL TREI", "color": "#06B6D4"},\n'
         '    {"time_max": 99.0, "text": "SOLUȚIE • VERIFICĂ ACUM", "color": "#10B981"}\n'
         '  ],\n'
-        '  "tiktok_caption": "Descriere captivantă cu linkul https://sanitasstudio.vercel.app și hashtag-uri: #asistentmedical #oamgmamr #concursspital #gradprincipal #nursing #sanitasstudio"\n'
+        '  "tiktok_caption": "Descriere captivantă cu linkul https://sanitasstudio.ro și hashtag-uri: #asistentmedical #oamgmamr #concursspital #gradprincipal #nursing #sanitasstudio"\n'
         "}"
     )
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
@@ -271,7 +271,7 @@ def render_video(scenario, words, total_duration, audio_path):
     ]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
     brand_text = "🏥 SANITASSTUDIO • CONCURSURI SPITALE & OAMGMAMR"
-    cta_main = "Pregătește concursul pe sanitasstudio.vercel.app"
+    cta_main = "Pregătește concursul pe sanitasstudio.ro"
     cta_sub = "Grile Asistenți Medicali, Examen Grad Principal & Posturi Spitale"
     disc1 = "Platformă de pregătire pentru concursurile de angajare în spitale și examenul de grad principal OAMGMAMR."
     disc2 = "Urgențe medico-chirurgicale, nursing clinic, OMS 1101/2016 și OUG 144/2008."
@@ -382,7 +382,7 @@ def dispatch_to_telegram(scenario, duration):
         print("Lipsesc credențialele Telegram.")
         return False
     title = scenario.get("topic_title", "SanitasStudio TikTok")
-    caption_txt = scenario.get("tiktok_caption", "Accesează https://sanitasstudio.vercel.app !")
+    caption_txt = scenario.get("tiktok_caption", "Accesează https://sanitasstudio.ro !")
     tg_caption = (
         f"🎬 <b>[SANITASSTUDIO TIKTOK DAILY]</b>\n\n"
         f"📌 <b>Subiect:</b> {title}\n"
