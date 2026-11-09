@@ -36,7 +36,7 @@ load_dotenv(os.path.join(ROOT_DIR, ".env"))
 GEMINI_API_KEY = (os.getenv("GEMINI_API_KEY") or "").strip()
 TELEGRAM_BOT_TOKEN = (os.getenv("TELEGRAM_BOT_TOKEN") or "").strip()
 TELEGRAM_CHAT_ID = (os.getenv("TELEGRAM_CHAT_ID") or "8867321650").strip()
-APP_URL = (os.getenv("APP_URL") or "https://metodika-edu.vercel.app").strip()
+APP_URL = (os.getenv("APP_URL") or "https://metodika.ro").strip()
 
 OUTPUT_DIR = os.path.abspath(os.path.join(ROOT_DIR, "video-generator"))
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -47,7 +47,7 @@ FALLBACK_TOPICS = [
     {
         "topic_title": "DE CE PIERZI PUNCTE CÂND COPIEZI ESEUL GENERAT DE CHATBOT LA BAC?",
         "alert_badge": "CAPCANA HALUCINAȚIILOR AI",
-        "script_speech": "Folosești inteligența artificială ca să-ți scrie eseul la Română sau la Istorie pentru Bacalaureat? Atenție maximă! Peste șaizeci la sută dintre eseurile generate de boți generici inventează citate inexistente, încurcă personajele din Baltagul sau Harap-Alb și ignoră complet cele patru repere din baremul oficial al Ministerului Educației! Nu risca să fii depunctat: antrenează-te pe simulatorul Detectivul de Halucinații și verifică-ți ciorna pe barem pe metodika-edu.vercel.app!",
+        "script_speech": "Folosești inteligența artificială ca să-ți scrie eseul la Română sau la Istorie pentru Bacalaureat? Atenție maximă! Peste șaizeci la sută dintre eseurile generate de boți generici inventează citate inexistente, încurcă personajele din Baltagul sau Harap-Alb și ignoră complet cele patru repere din baremul oficial al Ministerului Educației! Nu risca să fii depunctat: antrenează-te pe simulatorul Detectivul de Halucinații și verifică-ți ciorna pe barem pe metodika.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -75,12 +75,12 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "De ce îți scad profesorii nota când folosești AI generic la eseurile de BAC? Află cum depistezi halucinațiile și cum verifici baremul pe https://metodika-edu.vercel.app ! 🕵️‍♂️📚 #bac #romana #eseu #metodika #liceu"
+        "tiktok_caption": "De ce îți scad profesorii nota când folosești AI generic la eseurile de BAC? Află cum depistezi halucinațiile și cum verifici baremul pe https://metodika.ro ! 🕵️‍♂️📚 #bac #romana #eseu #metodika #liceu"
     },
     {
         "topic_title": "METODA CELOR 4 LENTILE: ÎNȚELEGE ORICE LECȚIE GREA ÎN 2 MINUTE",
         "alert_badge": "TRANSLATOR MULTI-LENTILĂ",
-        "script_speech": "Citești definiția din manual la fizică, biologie sau literatură și simți că e scrisă într-o limbă străină? Aplică metoda celor patru lentile cognitive de pe Metodika! Lentila unu: analogia din viața de zi cu zi. Lentila doi: definiția academică cu termenii-cheie punctați în barem. Lentila trei: scheletul conceptual în trei idei-forță. Lentila patru: întrebarea socratică de verificare! Tradu orice noțiune abstractă pe înțelesul tău pe metodika-edu.vercel.app!",
+        "script_speech": "Citești definiția din manual la fizică, biologie sau literatură și simți că e scrisă într-o limbă străină? Aplică metoda celor patru lentile cognitive de pe Metodika! Lentila unu: analogia din viața de zi cu zi. Lentila doi: definiția academică cu termenii-cheie punctați în barem. Lentila trei: scheletul conceptual în trei idei-forță. Lentila patru: întrebarea socratică de verificare! Tradu orice noțiune abstractă pe înțelesul tău pe metodika.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -108,12 +108,12 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Cum transformi orice lecție abstractă într-o explicație clară de nota 10 prin Metoda celor 4 Lentile! Încearcă gratuit pe https://metodika-edu.vercel.app ! 🧠✨ #invatare #scoala #bac2026 #metodika"
+        "tiktok_caption": "Cum transformi orice lecție abstractă într-o explicație clară de nota 10 prin Metoda celor 4 Lentile! Încearcă gratuit pe https://metodika.ro ! 🧠✨ #invatare #scoala #bac2026 #metodika"
     },
     {
         "topic_title": "PROTOCOLUL 15/15: DE CE TE DOARE MÂNA LA SIMULAREA DE BAC",
         "alert_badge": "PROTOCOLUL FOAIE & PIX",
-        "script_speech": "Înveți doar de pe telefon și laptop, iar la simularea scrisă de trei ore ți se blochează mâna și nu reușești să termini Subiectul trei? Este pierderea anduranței neuromusculare pentru scrisul de mână! Soluția este protocolul cincisprezece pe cincisprezece: cincisprezece minute studiezi conceptele pe ecran, apoi închizi ecranul și transcrii cincisprezece minute pe foaie, cu pixul, folosind ciorna de aur de cinci minute! Descarcă ghidul complet pe metodika-edu.vercel.app!",
+        "script_speech": "Înveți doar de pe telefon și laptop, iar la simularea scrisă de trei ore ți se blochează mâna și nu reușești să termini Subiectul trei? Este pierderea anduranței neuromusculare pentru scrisul de mână! Soluția este protocolul cincisprezece pe cincisprezece: cincisprezece minute studiezi conceptele pe ecran, apoi închizi ecranul și transcrii cincisprezece minute pe foaie, cu pixul, folosind ciorna de aur de cinci minute! Descarcă ghidul complet pe metodika.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -141,12 +141,12 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Nu mai învăța doar din priviri pe ecran! Cum îți antrenezi viteza de scris pe hârtie pentru examenul de 3 ore cu Protocolul 15/15: https://metodika-edu.vercel.app ! ✍️⏱️ #bac #evaluarenationala #examen #metodika"
+        "tiktok_caption": "Nu mai învăța doar din priviri pe ecran! Cum îți antrenezi viteza de scris pe hârtie pentru examenul de 3 ore cu Protocolul 15/15: https://metodika.ro ! ✍️⏱️ #bac #evaluarenationala #examen #metodika"
     },
     {
         "topic_title": "TEHNICA FEYNMAN CU AI: CUM DEVII PROPRIA TA COMISIE DE EXAMEN",
         "alert_badge": "SPARRING COGNITIV AI",
-        "script_speech": "Vrei să reții nouăzeci la sută din materie fără să tocești mecanic? În loc să-i ceri inteligenței artificiale să-ți rezolve tema, inversează rolurile prin tehnica Feynman! Explică-i tu conceptul cu propriile cuvinte în căsuța de dialog socratic și cere-i să îți găsească exact nuanța din barem pe care ai omis-o. Când ești capabil să explici simplu o teoremă sau un curent literar, nota zece este garantată! Antrenează-te pe metodika-edu.vercel.app!",
+        "script_speech": "Vrei să reții nouăzeci la sută din materie fără să tocești mecanic? În loc să-i ceri inteligenței artificiale să-ți rezolve tema, inversează rolurile prin tehnica Feynman! Explică-i tu conceptul cu propriile cuvinte în căsuța de dialog socratic și cere-i să îți găsească exact nuanța din barem pe care ai omis-o. Când ești capabil să explici simplu o teoremă sau un curent literar, nota zece este garantată! Antrenează-te pe metodika.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -174,7 +174,7 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Cum folosești Tehnica Feynman și dialogul socratic ca să reții 90% din materie fără tocit! Testează pe https://metodika-edu.vercel.app ! 🎓💡 #feynman #invatarerapida #bac #studenti #metodika"
+        "tiktok_caption": "Cum folosești Tehnica Feynman și dialogul socratic ca să reții 90% din materie fără tocit! Testează pe https://metodika.ro ! 🎓💡 #feynman #invatarerapida #bac #studenti #metodika"
     }
 ]
 
@@ -205,7 +205,7 @@ def generate_scenario_with_gemini():
         return FALLBACK_TOPICS[day_idx]
 
     prompt = (
-        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei Metodika AI (https://metodika-edu.vercel.app) - specializată în învățarea socratică, evaluarea obiectivă pe baremul oficial al Ministerului Educației (BAC & Evaluare Națională), detectarea halucinațiilor AI în teme și traducerea conceptelor grele pe înțelesul elevilor.\n"
+        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei Metodika AI (https://metodika.ro) - specializată în învățarea socratică, evaluarea obiectivă pe baremul oficial al Ministerului Educației (BAC & Evaluare Națională), detectarea halucinațiilor AI în teme și traducerea conceptelor grele pe înțelesul elevilor.\n"
         "Folosește EXCLUSIV limba română literară corectă conform DOOM3, cu diacritice complete.\n"
         "Creează un scenariu alert de 25-30 secunde (65-75 cuvinte) cu Hook în primele 4 secunde, 3 puncte clare și îndemn final de accesare a platformei.\n"
         "RĂSPUNDE EXCLUSIV ÎN FORMAT JSON VALID:\n"
@@ -220,7 +220,7 @@ def generate_scenario_with_gemini():
         '    {"time_max": 27.5, "text": "3 • PUNCTUL TREI", "color": "#06B6D4"},\n'
         '    {"time_max": 99.0, "text": "SOLUȚIE • VERIFICĂ ACUM", "color": "#10B981"}\n'
         '  ],\n'
-        '  "tiktok_caption": "Descriere captivantă cu linkul https://metodika-edu.vercel.app și hashtag-uri: #metodika #educatie #bac2026 #evaluarenationala #profesori #elevi #aiineducatie"\n'
+        '  "tiktok_caption": "Descriere captivantă cu linkul https://metodika.ro și hashtag-uri: #metodika #educatie #bac2026 #evaluarenationala #profesori #elevi #aiineducatie"\n'
         "}"
     )
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
@@ -370,7 +370,7 @@ def render_video(scenario, words, total_duration, audio_path):
     ]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
     brand_text = "🧭 METODIKA AI • PEDAGOGIE SOCRATICĂ & BAREM"
-    cta_main = "Învață socratic pe metodika-edu.vercel.app"
+    cta_main = "Învață socratic pe metodika.ro"
     cta_sub = "Translator Multi-Lentilă, Evaluator pe Barem & Detectiv de Halucinații AI"
     disc1 = "Platformă de orientare metodologică și utilizare etică a AI în educație (Cod CAEN 8559)."
     disc2 = "Operator: TEODORESCU O. DIANA PFA • CUI 44874282."
@@ -481,7 +481,7 @@ def dispatch_to_telegram(scenario, duration):
         print("Lipsesc credențialele Telegram.")
         return False
     title = scenario.get("topic_title", "Metodika AI TikTok")
-    caption_txt = scenario.get("tiktok_caption", "Accesează https://metodika-edu.vercel.app !")
+    caption_txt = scenario.get("tiktok_caption", "Accesează https://metodika.ro !")
     tg_caption = (
         f"🎬 <b>[METODIKA AI TIKTOK DAILY]</b>\n\n"
         f"📌 <b>Subiect:</b> {title}\n"
