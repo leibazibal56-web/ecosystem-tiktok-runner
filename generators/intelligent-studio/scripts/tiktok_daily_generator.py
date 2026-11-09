@@ -48,7 +48,7 @@ FALLBACK_TOPICS = [
     {
         "topic_title": "3 GREȘELI FATALE LA ROMÂNĂ LA BAC",
         "alert_badge": "BACALAUREAT ROMÂNĂ",
-        "script_speech": "Dai BAC-ul la Română anul acesta? Iată trei greșeli care te pot costa două puncte din start! Unu: Nerespectarea numărului minim de cuvinte la Subiectul trei. Dacă nu atingi patru sute de cuvinte, pierzi instant punctajul de redactare. Doi: Confundarea temei cu motivul literar. Fără citate sau secvențe comentate, argumentarea este nulă. Trei: Ignorarea reperelor din cerință. Testează-ți eseurile gratuit pe intelligent-studio-ro.vercel.app!",
+        "script_speech": "Dai BAC-ul la Română anul acesta? Iată trei greșeli care te pot costa două puncte din start! Unu: Nerespectarea numărului minim de cuvinte la Subiectul trei. Dacă nu atingi patru sute de cuvinte, pierzi instant punctajul de redactare. Doi: Confundarea temei cu motivul literar. Fără citate sau secvențe comentate, argumentarea este nulă. Trei: Ignorarea reperelor din cerință. Testează-ți eseurile gratuit pe intelligentstudio.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -76,12 +76,12 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Nu pierde puncte prețioase la Subiectul 3 la Română! 3 greșeli frecvente la eseu conform baremului. Antrenează-te gratuit pe https://intelligent-studio-ro.vercel.app ! 📚🎓 #bac #romana #eseu #subiectul3 #liceu #intelligentstudio"
+        "tiktok_caption": "Nu pierde puncte prețioase la Subiectul 3 la Română! 3 greșeli frecvente la eseu conform baremului. Antrenează-te gratuit pe https://intelligentstudio.ro ! 📚🎓 #bac #romana #eseu #subiectul3 #liceu #intelligentstudio"
     },
     {
         "topic_title": "MIT SAU REALITATE: ESEUL DE BAC TREBUIE SĂ AIBĂ 6 PAGINI?",
         "alert_badge": "MIT VS REALITATE",
-        "script_speech": "Crezi că dacă scrii șase pagini la Subiectul trei la Română iei garantat nota zece? Total fals! Baremul oficial cere doar minimum patru sute de cuvinte, adică aproximativ două pagini și jumătate. Corectorii caută precizie, secvențe ilustrative și respectarea reperelor, nu compuneri interminabile fără sens. Verifică-ți eseurile direct pe baremul oficial pe intelligent-studio-ro.vercel.app!",
+        "script_speech": "Crezi că dacă scrii șase pagini la Subiectul trei la Română iei garantat nota zece? Total fals! Baremul oficial cere doar minimum patru sute de cuvinte, adică aproximativ două pagini și jumătate. Corectorii caută precizie, secvențe ilustrative și respectarea reperelor, nu compuneri interminabile fără sens. Verifică-ți eseurile direct pe baremul oficial pe intelligentstudio.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -109,12 +109,12 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Cât trebuie să scrii de fapt la Subiectul 3 la Română? Demontăm mitul paginilor nesfârșite! Antrenează-te gratuit pe https://intelligent-studio-ro.vercel.app ! 📖✨ #bac2026 #bacromana #baremoficial #intelligentstudio"
+        "tiktok_caption": "Cât trebuie să scrii de fapt la Subiectul 3 la Română? Demontăm mitul paginilor nesfârșite! Antrenează-te gratuit pe https://intelligentstudio.ro ! 📖✨ #bac2026 #bacromana #baremoficial #intelligentstudio"
     },
     {
         "topic_title": "CE FACI CÂND TE BLOCHEZI LA O GRILĂ DE ADMITERE?",
         "alert_badge": "STUDIU DE CAZ EXAMEN",
-        "script_speech": "Ești în sala de examen la admitere la Medicină sau Drept și te blochezi la o grilă capcană? Iată tactica de salvare în trei pași! Pasul unu: Nu pierde mai mult de două minute pe o singură întrebare, treci mai departe. Pasul doi: Aplică metoda eliminării variantelor sigur greșite. Pasul trei: Reia grila la final când tensiunea a scăzut. Antrenează-te pe mii de grile oficiale pe intelligent-studio-ro.vercel.app!",
+        "script_speech": "Ești în sala de examen la admitere la Medicină sau Drept și te blochezi la o grilă capcană? Iată tactica de salvare în trei pași! Pasul unu: Nu pierde mai mult de două minute pe o singură întrebare, treci mai departe. Pasul doi: Aplică metoda eliminării variantelor sigur greșite. Pasul trei: Reia grila la final când tensiunea a scăzut. Antrenează-te pe mii de grile oficiale pe intelligentstudio.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -142,12 +142,12 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Cum reacționezi când o grilă capcană te blochează la admitere? Trucul psihologic care îți salvează punctele! Testează pe https://intelligent-studio-ro.vercel.app ! ⏱️🎯 #admitere #grile #strategie #medicina #drept #intelligentstudio"
+        "tiktok_caption": "Cum reacționezi când o grilă capcană te blochează la admitere? Trucul psihologic care îți salvează punctele! Testează pe https://intelligentstudio.ro ! ⏱️🎯 #admitere #grile #strategie #medicina #drept #intelligentstudio"
     },
     {
         "topic_title": "AUDIT ÎN 60 SEC: SCHEMA ESEULUI PERFECT DE BAC",
         "alert_badge": "AUDIT ÎN 60 SECUNDE",
-        "script_speech": "Vrei să știi dacă eseul tău la Română atinge punctajul maxim? Fă acest test rapid în trei pași! Pasul unu: Ai prezentat două trăsături ale curentului literar? Pasul doi: Ai integrat două secvențe comentate care susțin tema? Pasul trei: Ai analizat două elemente de structură, precum titlul și conflictul? Verifică-ți automat eseul cu feedback pe barem pe intelligent-studio-ro.vercel.app!",
+        "script_speech": "Vrei să știi dacă eseul tău la Română atinge punctajul maxim? Fă acest test rapid în trei pași! Pasul unu: Ai prezentat două trăsături ale curentului literar? Pasul doi: Ai integrat două secvențe comentate care susțin tema? Pasul trei: Ai analizat două elemente de structură, precum titlul și conflictul? Verifică-ți automat eseul cu feedback pe barem pe intelligentstudio.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -175,7 +175,7 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Fă acest test rapid în 60 de secunde și află dacă eseul tău respectă baremul complet de BAC! Testează gratuit pe https://intelligent-studio-ro.vercel.app ! 📝🎓 #bac #eseubac #romana #barem #intelligentstudio"
+        "tiktok_caption": "Fă acest test rapid în 60 de secunde și află dacă eseul tău respectă baremul complet de BAC! Testează gratuit pe https://intelligentstudio.ro ! 📝🎓 #bac #eseubac #romana #barem #intelligentstudio"
     }
 ]
 
@@ -209,7 +209,7 @@ ROTATING_FORMATS = [
             "FORMATUL 1: TOP 3 CAPCANE / GREȘELI FRECVENTE. "
             "Structură: Începe cu un Hook alert (primele 4 secunde) despre pericole sau greșeli majore. "
             "Urmează 3 puncte numerotate Unu / Doi / Trei (solide, concise, cu impact direct) "
-            "și un îndemn final de testare pe https://intelligent-studio-ro.vercel.app."
+            "și un îndemn final de testare pe https://intelligentstudio.ro."
         ),
         "section_structure": "Secțiunea 1 (problemă #DC2626), Punctul 1 (#2563EB), Punctul 2 (#D97706), Punctul 3 (#DC2626), CTA final (#10B981)."
     },
@@ -220,7 +220,7 @@ ROTATING_FORMATS = [
             "FORMATUL 2: MIT VS. REALITATE / ADEVĂRAT SAU FALS. "
             "Structură: Începe cu o întrebare provocatoare sau un mit larg răspândit ('Crezi că...? Total fals!'). "
             "Explică de ce este greșit ce crede majoritatea, oferă perspectiva corectă "
-            "și un îndemn final de verificare pe https://intelligent-studio-ro.vercel.app."
+            "și un îndemn final de verificare pe https://intelligentstudio.ro."
         ),
         "section_structure": "Secțiunea 1 (titlu mit #EF4444), De ce e fals (#F59E0B), Realitatea corectă (#2563EB), Regula de aur (#DC2626), CTA final (#10B981)."
     },
@@ -231,7 +231,7 @@ ROTATING_FORMATS = [
             "FORMATUL 3: STUDIU DE CAZ / SITUAȚIE CONCRETĂ. "
             "Structură: Începe cu o dilemă practică concretă ('Ce faci dacă te confrunți cu...?'). "
             "Prezintă greșeala tipică pe care o fac oamenii, pasul salvator sau soluția corectă "
-            "și îndemnul de a rezolva pe https://intelligent-studio-ro.vercel.app."
+            "și îndemnul de a rezolva pe https://intelligentstudio.ro."
         ),
         "section_structure": "Secțiunea 1 (dilemă #DC2626), Greșeala comună (#F59E0B), Soluția pas cu pas (#2563EB), Concluzie (#DC2626), CTA final (#10B981)."
     },
@@ -242,7 +242,7 @@ ROTATING_FORMATS = [
             "FORMATUL 4: GHID RAPID / TEST DE VERIFICARE ÎN 60 SECUNDE. "
             "Structură: Începe cu 'Fă acest test rapid în 3 pași înainte să...'. "
             "Prezintă pasul 1, pasul 2 și regula decisivă (pasul 3), "
-            "urmat de îndemnul de verificare pe https://intelligent-studio-ro.vercel.app."
+            "urmat de îndemnul de verificare pe https://intelligentstudio.ro."
         ),
         "section_structure": "Secțiunea 1 (titlu test #3B82F6), Pasul 1 (#2563EB), Pasul 2 (#F59E0B), Pasul 3 (#DC2626), CTA final (#10B981)."
     }
@@ -258,7 +258,7 @@ def generate_scenario_with_gemini():
         return FALLBACK_TOPICS[day_idx % len(FALLBACK_TOPICS)]
 
     prompt = (
-        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei educaționale Intelligent Studio (https://intelligent-studio-ro.vercel.app) - platformă AI românească de pregătire pentru Bacalaureat, Evaluare Națională și admitere facultate (Drept, Medicină, Poliție) cu 33+ materii, mii de grile oficiale explicate și evaluare de eseuri pe baremul CNPEE.\n\n"
+        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei educaționale Intelligent Studio (https://intelligentstudio.ro) - platformă AI românească de pregătire pentru Bacalaureat, Evaluare Națională și admitere facultate (Drept, Medicină, Poliție) cu 33+ materii, mii de grile oficiale explicate și evaluare de eseuri pe baremul CNPEE.\n\n"
         f"NORME OBLIGATORII PRIVIND LIMBA ROMÂNĂ (DOOM3 / ACADEMIA ROMÂNĂ):\n"
         f"- Folosește EXCLUSIV LIMBA ROMÂNĂ OFICIALĂ LITERARĂ, conform normelor ortografice, ortoepice și morfologice oficiale (DOOM3).\n"
         f"- Este STRICT INTERZISĂ orice greșeală de ortografie, fonetizare greșită sau tipar (de exemplu: scrie 'prestigiu', NICIODATĂ 'prestijiu'; 'succese', nu 'succesuri'; folosește diacritice corecte: ă, â, î, ș, ț).\n"
@@ -280,7 +280,7 @@ def generate_scenario_with_gemini():
         '    {"time_max": 27.5, "text": "PUNCTUL 3 / CONCLUZIE", "color": "#DC2626"},\n'
         '    {"time_max": 99.0, "text": "SOLUȚIE • VERIFICĂ ACUM", "color": "#10B981"}\n'
         '  ],\n'
-        '  "tiktok_caption": "Descriere captivantă pentru TikTok incluzând linkul https://intelligent-studio-ro.vercel.app și 4-6 hashtag-uri relevante: #bac #bacalaureat #liceu #admitere #medicina #drept #eseu #intelligentstudio #romania"\n'
+        '  "tiktok_caption": "Descriere captivantă pentru TikTok incluzând linkul https://intelligentstudio.ro și 4-6 hashtag-uri relevante: #bac #bacalaureat #liceu #admitere #medicina #drept #eseu #intelligentstudio #romania"\n'
         "}"
     )
 
@@ -524,7 +524,7 @@ def render_video(scenario, words, total_duration, audio_path):
     
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
     brand_text = "INTELLIGENT STUDIO • BAC & EXAMENE"
-    cta_main = "Pregătește-te pe intelligent-studio-ro.vercel.app"
+    cta_main = "Pregătește-te pe intelligentstudio.ro"
     cta_sub = "+ Urmărește pentru trucuri zilnice de nota 10"
     disc1 = "Platformă educațională AI pentru Bacalaureat și Evaluare Națională."
     disc2 = "33+ materii, mii de grile explicate și corectare automată de eseuri pe barem CNPEE."
@@ -659,7 +659,7 @@ async def dispatch_to_telegram(scenario, duration):
         return False
 
     title = scenario.get("topic_title", "Truc Rapid pentru BAC & Examene")
-    caption_txt = scenario.get("tiktok_caption", "Pregătește-te inteligent pe https://intelligent-studio-ro.vercel.app !")
+    caption_txt = scenario.get("tiktok_caption", "Pregătește-te inteligent pe https://intelligentstudio.ro !")
 
     # 1. Încercare prin telegram_publisher dacă este disponibil
     try:
