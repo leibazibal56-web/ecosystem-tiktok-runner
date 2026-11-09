@@ -36,7 +36,7 @@ load_dotenv(os.path.join(ROOT_DIR, ".env"))
 GEMINI_API_KEY = (os.getenv("GEMINI_API_KEY") or "").strip()
 TELEGRAM_BOT_TOKEN = (os.getenv("TELEGRAM_BOT_TOKEN") or "").strip()
 TELEGRAM_CHAT_ID = (os.getenv("TELEGRAM_CHAT_ID") or "8867321650").strip()
-APP_URL = (os.getenv("APP_URL") or "https://anre-electrician-pro.vercel.app").strip()
+APP_URL = (os.getenv("APP_URL") or "https://anrepro.ro").strip()
 
 OUTPUT_DIR = os.path.abspath(os.path.join(ROOT_DIR, "video-generator"))
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -47,7 +47,7 @@ FALLBACK_TOPICS = [
     {
         "topic_title": "3 CAPCANE DIN NORMATIVUL I7 LA EXAMENUL ANRE",
         "alert_badge": "EXAMEN AUTORIZARE ANRE",
-        "script_speech": "Dai examenul de autorizare A N R E anul acesta pentru gradul doi sau trei? Atenție la aceste trei capcane din Normativul I șapte! Unu: În circuitele de priză din băi și bucătării, protecția diferențială de maximum treizeci de miliamperi este obligatorie! Doi: Conductorul de protecție P E nu se întrerupe niciodată prin aparate de comutație sau siguranțe. Trei: Rezistența prizei de pământ pentru instalațiile de joasă tensiune nu trebuie să depășească patru ohmi! Exersează grilele oficiale pe anre-electrician-pro.vercel.app!",
+        "script_speech": "Dai examenul de autorizare A N R E anul acesta pentru gradul doi sau trei? Atenție la aceste trei capcane din Normativul I șapte! Unu: În circuitele de priză din băi și bucătării, protecția diferențială de maximum treizeci de miliamperi este obligatorie! Doi: Conductorul de protecție P E nu se întrerupe niciodată prin aparate de comutație sau siguranțe. Trei: Rezistența prizei de pământ pentru instalațiile de joasă tensiune nu trebuie să depășească patru ohmi! Exersează grilele oficiale pe anrepro.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -75,7 +75,7 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Dai examenul ANRE? 3 reguli esențiale din Normativul I7 care pică la fiecare sesiune! Antrenează-te pe https://anre-electrician-pro.vercel.app ! ⚡🔌 #anre #electrician #instalatiielectrice #normativuli7"
+        "tiktok_caption": "Dai examenul ANRE? 3 reguli esențiale din Normativul I7 care pică la fiecare sesiune! Antrenează-te pe https://anrepro.ro ! ⚡🔌 #anre #electrician #instalatiielectrice #normativuli7"
     }
 ]
 
@@ -106,7 +106,7 @@ def generate_scenario_with_gemini():
         return FALLBACK_TOPICS[day_idx]
 
     prompt = (
-        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei ANRE Electrician Pro (https://anre-electrician-pro.vercel.app) - specializată în examenul de autorizare ANRE pentru electricieni (Gradele II, III, IV A și B): Normativul I7, protecția la supracurenți și curent diferențial DDR, dimensionarea cablurilor și legarea la pământ.\n"
+        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei ANRE Electrician Pro (https://anrepro.ro) - specializată în examenul de autorizare ANRE pentru electricieni (Gradele II, III, IV A și B): Normativul I7, protecția la supracurenți și curent diferențial DDR, dimensionarea cablurilor și legarea la pământ.\n"
         "Folosește EXCLUSIV limba română literară corectă conform DOOM3, cu diacritice complete.\n"
         "Creează un scenariu alert de 25-30 secunde (65-75 cuvinte) cu Hook în primele 4 secunde, 3 puncte clare și îndemn final de accesare a platformei.\n"
         "RĂSPUNDE EXCLUSIV ÎN FORMAT JSON VALID:\n"
@@ -121,7 +121,7 @@ def generate_scenario_with_gemini():
         '    {"time_max": 27.5, "text": "3 • PUNCTUL TREI", "color": "#06B6D4"},\n'
         '    {"time_max": 99.0, "text": "SOLUȚIE • VERIFICĂ ACUM", "color": "#10B981"}\n'
         '  ],\n'
-        '  "tiktok_caption": "Descriere captivantă cu linkul https://anre-electrician-pro.vercel.app și hashtag-uri: #anre #electrician #autorizareanre #normativuli7 #instalatii #inginerie"\n'
+        '  "tiktok_caption": "Descriere captivantă cu linkul https://anrepro.ro și hashtag-uri: #anre #electrician #autorizareanre #normativuli7 #instalatii #inginerie"\n'
         "}"
     )
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
@@ -271,7 +271,7 @@ def render_video(scenario, words, total_duration, audio_path):
     ]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
     brand_text = "⚡ ANRE ELECTRICIAN PRO • AUTORIZARE GRAD II-IV"
-    cta_main = "Rezolvă grilele ANRE pe anre-electrician-pro.vercel.app"
+    cta_main = "Rezolvă grilele ANRE pe anrepro.ro"
     cta_sub = "Normativul I7, Electrotehnică, Legislație ANRE & Studii de Caz"
     disc1 = "Platformă de pregătire pentru examenul de autorizare a electricienilor ANRE (Gradele II, III, IV A/B)."
     disc2 = "Grile explicate din Normativul I7, PE 116, NTE și legislația primară ANRE."
@@ -382,7 +382,7 @@ def dispatch_to_telegram(scenario, duration):
         print("Lipsesc credențialele Telegram.")
         return False
     title = scenario.get("topic_title", "ANRE Electrician Pro TikTok")
-    caption_txt = scenario.get("tiktok_caption", "Accesează https://anre-electrician-pro.vercel.app !")
+    caption_txt = scenario.get("tiktok_caption", "Accesează https://anrepro.ro !")
     tg_caption = (
         f"🎬 <b>[ANRE ELECTRICIAN PRO TIKTOK DAILY]</b>\n\n"
         f"📌 <b>Subiect:</b> {title}\n"
