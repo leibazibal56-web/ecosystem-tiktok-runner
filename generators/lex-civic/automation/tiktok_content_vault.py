@@ -24,7 +24,7 @@ TIKTOK_SCRIPTS = [
             "Proprietarul NU are voie să intre neanunțat în chiria ta! 🚫🔑 "
             "Chiar dacă este apartamentul lui, pe durata contractului de închiriere spațiul reprezintă domiciliul tău ocrotit de lege. "
             "Conform art. 224 Cod Penal (Violul de domiciliu), pătrunderea fără permisiunea chiriașului este infracțiune! "
-            "Verifică-ți gratuit contractul și clauzele de risc pe link-ul din bio (https://lex-civic.vercel.app/)! ⚖️🇷🇴\n\n"
+            "Verifică-ți gratuit contractul și clauzele de risc pe link-ul din bio (https://lexcivic.ro/)! ⚖️🇷🇴\n\n"
             "#chirie #drepturichiriasi #proprietar #contractchirie #dreptcivil #legearomaniei #avocat #educatiejuridica #sfatjuridic #lexcivic #cetatean #chiriabucuresti #clujchirie"
         )
     },
@@ -48,7 +48,7 @@ TIKTOK_SCRIPTS = [
             "Banca NU are voie să-ți blocheze tot salariul! 💳🛑 "
             "Conform Art. 729 din Codul de Procedură Civilă, poprirea se poate pune pe MAXIMUM 1/3 din salariul net pentru o datorie, sau maximum 1/2 pentru mai multe datorii cumulate. "
             "Alocațiile copiilor și diurnele sunt 100% protejate prin lege și NU pot fi atinse! "
-            "Află exact cât îți poate opri legal executorul cu simulatorul gratuit de pe link-ul din bio (https://lex-civic.vercel.app/)! ⚖️🇷🇴\n\n"
+            "Află exact cât îți poate opri legal executorul cu simulatorul gratuit de pe link-ul din bio (https://lexcivic.ro/)! ⚖️🇷🇴\n\n"
             "#poprire #executaresilita #banca #salariu #datorii #bancatransilvania #bcr #ingromania #drepturiletale #educatiejuridica #calculatorpopriri #lexcivic #anaf"
         )
     },
@@ -73,7 +73,7 @@ TIKTOK_SCRIPTS = [
             "Cât timp are voie poliția să te țină la secție pentru verificare? ⏱️👮‍♂️ "
             "Conform Art. 36 din Legea nr. 218/2002, conducerea la sediu NU este reținere și poate dura MAXIMUM 8 ORE! "
             "Ai dreptul să suni un membru al familiei, să ceri avocat și să primești la plecare dovada scrisă cu ora exactă. "
-            "Cunoaște-ți drepturile și folosește cronometrul de siguranță civică pe link-ul din bio (https://lex-civic.vercel.app/)! 🇷🇴⚖️\n\n"
+            "Cunoaște-ți drepturile și folosește cronometrul de siguranță civică pe link-ul din bio (https://lexcivic.ro/)! 🇷🇴⚖️\n\n"
             "#politie #politiaromana #drepturilasecutie #legitimare #legea218 #drepturileomului #justitie #avocat #siguranta #lexcivic #educatiecivica #stiriromania"
         )
     },
@@ -98,7 +98,7 @@ TIKTOK_SCRIPTS = [
             "Cum se calculează corect termenul de 15 zile pentru o amendă? 📅🚗 "
             "Conform Art. 181 Cod Procedură Civilă, termenele pe zile se calculează pe sistemul zilelor libere: ziua comunicării și ziua expirării NU se socotesc! "
             "Iar dacă ultima zi este weekend sau sărbătoare legală, termenul se prelungește automat până luni la miezul nopții. "
-            "Calculează-ți termenul imperativ fără eroare pe calculatorul gratuit de pe link-ul din bio (https://lex-civic.vercel.app/)! ⚖️🇷🇴\n\n"
+            "Calculează-ți termenul imperativ fără eroare pe calculatorul gratuit de pe link-ul din bio (https://lexcivic.ro/)! ⚖️🇷🇴\n\n"
             "#amendarutiera #politiarutiera #procesverbal #art181cpc #termenlegal #contestatieamenda #soferi #permisauto #drepturiletale #lexcivic #educatiejuridica"
         )
     },
@@ -121,7 +121,7 @@ TIKTOK_SCRIPTS = [
             "Atenție la penalitățile de întârziere din contracte! ✍️⚠️ "
             "O clauză de 0.5% sau 1% pe zi înseamnă o dobândă penalizatoare de 180% - 365% pe an, considerată disproporționată conform Art. 1538 Cod Civil și Legii 193/2000. "
             "Cere întotdeauna plafonarea penalităților la nivelul debitului principal și negocierea unui procent rezonabil (0.05% pe zi). "
-            "Scanează-ți contractul gratuit în simulatorul de pe link-ul din bio (https://lex-civic.vercel.app/)! 💼🇷🇴\n\n"
+            "Scanează-ți contractul gratuit în simulatorul de pe link-ul din bio (https://lexcivic.ro/)! 💼🇷🇴\n\n"
             "#freelancerromania #contractprestari #clauzeabuzive #pfa #srl #antreprenoriat #afaceri #dreptcivil #penalitati #lexcivic #programatori #designeri"
         )
     },
@@ -144,7 +144,7 @@ TIKTOK_SCRIPTS = [
             "Clauza de neconcurență este NULĂ dacă nu e plătită! 👔🚫 "
             "Conform Art. 21 din Codul Muncii, angajatorul NU îți poate interzice să lucrezi la concurență după plecare DECÂT dacă îți plătește o indemnizație lunară de minim 50% din media salariilor brute din ultimele 6 luni! "
             "Fără această plată lunară, clauza nu produce niciun efect juridic. "
-            "Află-ți drepturile la locul de muncă pe link-ul din bio (https://lex-civic.vercel.app/)! ⚖️💼\n\n"
+            "Află-ți drepturile la locul de muncă pe link-ul din bio (https://lexcivic.ro/)! ⚖️💼\n\n"
             "#dreptulmuncii #angajat #demisie #concediere #salariu #codulmuncii #itromania #jobromania #contractdemunca #lexcivic #cariera"
         )
     },
@@ -168,7 +168,7 @@ TIKTOK_SCRIPTS = [
             "Ai dreptul să returnezi produsele chiar dacă ai deschis cutia! 📦🛒 "
             "Conform O.U.G. nr. 34/2014, consumatorul are dreptul de a deschide ambalajul pentru a stabili natura, caracteristicile și funcționarea bunurilor cumpărate online în termen de 14 zile. "
             "Comerciantul nu poate refuza returul pe simplul motiv al deschiderii cutiei! "
-            "Generează formularul oficial de retur și cunoaște-ți drepturile de consumator pe link-ul din bio (https://lex-civic.vercel.app/)! ⚖️🇷🇴\n\n"
+            "Generează formularul oficial de retur și cunoaște-ți drepturile de consumator pe link-ul din bio (https://lexcivic.ro/)! ⚖️🇷🇴\n\n"
             "#anpc #protectiaconsumatorului #retur #comertonline #emag #cumparaturi #oug34 #drepturiletale #baniiinapoi #lexcivic #teapaonline"
         )
     },
@@ -190,7 +190,7 @@ TIKTOK_SCRIPTS = [
         "copyable_caption": (
             "Știai că statul îți plătește avocatul dacă nu ai venituri suficiente? ⚖️🏛️ "
             "Conform O.U.G. nr. 51/2008 privind ajutorul public judiciar, persoanele cu venituri reduse beneficiază de scutire integrală de taxe de timbru, expertize gratuite și avocat asigurat din oficiu prin Barou. "
-            "Află dacă te încadrezi în plafoanele legale cu calculatorul gratuit de pe link-ul din bio (https://lex-civic.vercel.app/)! 🇷🇴\n\n"
+            "Află dacă te încadrezi în plafoanele legale cu calculatorul gratuit de pe link-ul din bio (https://lexcivic.ro/)! 🇷🇴\n\n"
             "#ajutorjudiciar #avocatgratuit #taxadetimbru #tribunal #judecatorie #justitie #oug51 #drepturilajustitie #lexcivic #romaniainformata"
         )
     }
