@@ -40,7 +40,7 @@ FALLBACK_TOPICS = [
     {
         "topic_title": "3 GREȘELI CARE TE PICĂ LA CONCURSUL NAȚIONAL ANFP",
         "alert_badge": "CONCURSUL NAȚIONAL 2026",
-        "script_speech": "Vrei să intri în sistemul public sau să devii funcționar public? Iată trei greșeli majore care elimină peste jumătate dintre candidați! Unu: Barem strict de cincizeci la sută la fiecare secțiune din proba preliminară SENEOSP. Dacă iei nouăzeci la sută la drept, dar pici la limba străină sau IT, ești respins direct! Doi: Ignorarea itemilor inversați de la testul psihometric. Dacă nu ești consecvent, algoritmul te depistează ca distorsiune deliberată. Trei: Calculul greșit al vechimii în specialitate. Verifică-ți gratuit eligibilitatea și testează grilele pe govtalent-romania.vercel.app!",
+        "script_speech": "Vrei să intri în sistemul public sau să devii funcționar public? Iată trei greșeli majore care elimină peste jumătate dintre candidați! Unu: Barem strict de cincizeci la sută la fiecare secțiune din proba preliminară SENEOSP. Dacă iei nouăzeci la sută la drept, dar pici la limba străină sau IT, ești respins direct! Doi: Ignorarea itemilor inversați de la testul psihometric. Dacă nu ești consecvent, algoritmul te depistează ca distorsiune deliberată. Trei: Calculul greșit al vechimii în specialitate. Verifică-ți gratuit eligibilitatea și testează grilele pe govtalent.ro!",
         "sections": [
             {"time_max": 6.0, "text": "CONCURSUL NAȚIONAL ANFP", "color": "#002B7F"},
             {"time_max": 13.5, "text": "1 • BAREMUL ELIMINATORIU 50%", "color": "#DC2626"},
@@ -48,12 +48,12 @@ FALLBACK_TOPICS = [
             {"time_max": 27.5, "text": "3 • CALCUL VECHIME ÎN SPECIALITATE", "color": "#2563EB"},
             {"time_max": 99.0, "text": "TESTEAZĂ GRATUIT PE GOVTALENT", "color": "#059669"}
         ],
-        "tiktok_caption": "Atenție dacă vrei să lucrezi la stat în 2026! 🏛️ 3 greșeli majore care te pică la Concursul Național ANFP și cum să le eviți. Testează-ți gratuit eligibilitatea și grilele oficiale pe govtalent-romania.vercel.app! 🇷🇴 #concursnational #anfp #functionarpublic #stat #angajarestabilitate #govtalent #romania"
+        "tiktok_caption": "Atenție dacă vrei să lucrezi la stat în 2026! 🏛️ 3 greșeli majore care te pică la Concursul Național ANFP și cum să le eviți. Testează-ți gratuit eligibilitatea și grilele oficiale pe govtalent.ro! 🇷🇴 #concursnational #anfp #functionarpublic #stat #angajarestabilitate #govtalent #romania"
     },
     {
         "topic_title": "CUM SE CALCULEAZĂ VECHIMEA ÎN SPECIALITATE LA STAT",
         "alert_badge": "VECHIME ART. 475",
-        "script_speech": "Știai că vechimea în muncă nu este același lucru cu vechimea în specialitate pentru concursurile de stat? Conform articolului 475 din Codul administrativ, vechimea în specialitate curge strict din ziua absolvirii facultății cu diplomă de licență și doar dacă atribuțiile din fișa postului corespund funcției publice vizate. Dacă ai lucrat cinci ani în privat ca vânzător și ai diplomă în administrație publică, vechimea ta în specialitate este zero! Folosește calculatorul legal gratuit pe govtalent-romania.vercel.app!",
+        "script_speech": "Știai că vechimea în muncă nu este același lucru cu vechimea în specialitate pentru concursurile de stat? Conform articolului 475 din Codul administrativ, vechimea în specialitate curge strict din ziua absolvirii facultății cu diplomă de licență și doar dacă atribuțiile din fișa postului corespund funcției publice vizate. Dacă ai lucrat cinci ani în privat ca vânzător și ai diplomă în administrație publică, vechimea ta în specialitate este zero! Folosește calculatorul legal gratuit pe govtalent.ro!",
         "sections": [
             {"time_max": 6.0, "text": "CALCUL VECHIME LA STAT", "color": "#002B7F"},
             {"time_max": 13.5, "text": "ATENȚIE: VECHIMEA ÎN MUNCĂ NU AJUNGE", "color": "#DC2626"},
@@ -61,12 +61,12 @@ FALLBACK_TOPICS = [
             {"time_max": 27.5, "text": "CORESPONDENȚĂ ATRIBUȚII FIȘĂ POST", "color": "#2563EB"},
             {"time_max": 99.0, "text": "CALCULATOR GRATUIT GOVTALENT", "color": "#059669"}
         ],
-        "tiktok_caption": "Nu-ți depune dosarul la stat înainte să verifici asta! ⚠️ Cum se calculează legal vechimea în specialitate conform art. 475 Codul Administrativ. Calculează gratuit pe govtalent-romania.vercel.app! 💼 #vechime #functionarpublic #stat #angajare #dosarconcurs #govtalent #romania"
+        "tiktok_caption": "Nu-ți depune dosarul la stat înainte să verifici asta! ⚠️ Cum se calculează legal vechimea în specialitate conform art. 475 Codul Administrativ. Calculează gratuit pe govtalent.ro! 💼 #vechime #functionarpublic #stat #angajare #dosarconcurs #govtalent #romania"
     },
     {
         "topic_title": "BAREMUL SECRET LA TESTUL PSIHOMETRIC ANFP",
         "alert_badge": "TEST PSIHOMETRIC",
-        "script_speech": "De ce pică peste 60% dintre candidați la Testarea Avansată Psihometrică de la stat? Iată secretul baremului oficial! Unu: Ai o scală de la 1 la 10, dar rezultatele se convertesc în note de la 1 la 5. Pragul minim este nota 3 la fiecare competență! Doi: Dacă pici o singură competență din cele opt, ești respins pe loc, chiar dacă la celelalte ai nota 5. Trei: Chestionarul conține aserțiuni inversate pentru controlul minciunii. Antrenează-te pe simulatorul real cu raport complet pe govtalent-romania.vercel.app!",
+        "script_speech": "De ce pică peste 60% dintre candidați la Testarea Avansată Psihometrică de la stat? Iată secretul baremului oficial! Unu: Ai o scală de la 1 la 10, dar rezultatele se convertesc în note de la 1 la 5. Pragul minim este nota 3 la fiecare competență! Doi: Dacă pici o singură competență din cele opt, ești respins pe loc, chiar dacă la celelalte ai nota 5. Trei: Chestionarul conține aserțiuni inversate pentru controlul minciunii. Antrenează-te pe simulatorul real cu raport complet pe govtalent.ro!",
         "sections": [
             {"time_max": 6.0, "text": "SECRETUL PSIHOMETRIC ANFP", "color": "#002B7F"},
             {"time_max": 13.0, "text": "1 • SCALARE FORMULĂ NOTE 1-5", "color": "#2563EB"},
@@ -74,12 +74,12 @@ FALLBACK_TOPICS = [
             {"time_max": 27.0, "text": "3 • ITEMI INVERSAȚI DE MINCIUNĂ", "color": "#D97706"},
             {"time_max": 99.0, "text": "ANTRENEAZĂ-TE PE GOVTALENT", "color": "#059669"}
         ],
-        "tiktok_caption": "Secretul de la Testul Psihometric ANFP pe care nimeni nu ți-l spune! 🧠 Nota minimă 3.00 este eliminatorie la fiecare competență. Simulează chestionarul complet pe govtalent-romania.vercel.app! 🇷🇴 #psihometric #anfp #concursstat #functionarpublic #govtalent #romania"
+        "tiktok_caption": "Secretul de la Testul Psihometric ANFP pe care nimeni nu ți-l spune! 🧠 Nota minimă 3.00 este eliminatorie la fiecare competență. Simulează chestionarul complet pe govtalent.ro! 🇷🇴 #psihometric #anfp #concursstat #functionarpublic #govtalent #romania"
     },
     {
         "topic_title": "TOP 5 POSTURI LA STAT CU SPOR DE 50% SALARIU",
         "alert_badge": "SPORURI SALARIALE 2026",
-        "script_speech": "Vrei un salariu de top în administrația publică? Iată posturile cu cele mai mari sporuri legale! Unu: Experți în achiziții publice SEAP și SICAP. Beneficiază de sporuri de complexitate și cerere uriașă în primării. Doi: Manageri de proiecte pe fonduri europene și PNRR, cu spor salarial legal de până la 50%! Trei: Auditori publici interni atestați UCAAPI și responsabili de control financiar preventiv. Învață legislația tehnică și pregătește-ți dosarul pe govtalent-romania.vercel.app!",
+        "script_speech": "Vrei un salariu de top în administrația publică? Iată posturile cu cele mai mari sporuri legale! Unu: Experți în achiziții publice SEAP și SICAP. Beneficiază de sporuri de complexitate și cerere uriașă în primării. Doi: Manageri de proiecte pe fonduri europene și PNRR, cu spor salarial legal de până la 50%! Trei: Auditori publici interni atestați UCAAPI și responsabili de control financiar preventiv. Învață legislația tehnică și pregătește-ți dosarul pe govtalent.ro!",
         "sections": [
             {"time_max": 6.0, "text": "POSTURI CU SPORURI LA STAT", "color": "#002B7F"},
             {"time_max": 13.0, "text": "1 • ACHIZIȚII PUBLICE SICAP", "color": "#2563EB"},
@@ -87,12 +87,12 @@ FALLBACK_TOPICS = [
             {"time_max": 27.5, "text": "3 • AUDIT PUBLIC UCAAPI & CFPP", "color": "#D97706"},
             {"time_max": 99.0, "text": "MODULE SPECIALIZATE GOVTALENT", "color": "#002B7F"}
         ],
-        "tiktok_caption": "Posturile de la stat care îți aduc sporuri salariale de până la 50%! 📈 Achiziții SICAP, Proiecte Europene PNRR și Audit Public Intern. Află cerințele de dosar pe govtalent-romania.vercel.app! 💶 #salariustat #pnrr #achizitiipublice #audit #govtalent #romania"
+        "tiktok_caption": "Posturile de la stat care îți aduc sporuri salariale de până la 50%! 📈 Achiziții SICAP, Proiecte Europene PNRR și Audit Public Intern. Află cerințele de dosar pe govtalent.ro! 💶 #salariustat #pnrr #achizitiipublice #audit #govtalent #romania"
     },
     {
         "topic_title": "CAPCANA LA INTERVIUL DE CONCURS LA STAT",
         "alert_badge": "INTERVIU METODA STAR",
-        "script_speech": "Ce răspunzi la interviul de concurs dacă președintele comisiei te întreabă: Ce faci dacă șeful ierarhic îți cere verbal să avizezi un dosar nelegal? Mulți răspund că respectă ierarhia și sunt picați instant! Conform articolului 437 din Codul administrativ, ești obligat prin lege să refuzi în scris și motivat îndeplinirea ordinului vădit nelegal! Antrenează-te pe simulatorul audio de interviu pe metoda STAR pe govtalent-romania.vercel.app!",
+        "script_speech": "Ce răspunzi la interviul de concurs dacă președintele comisiei te întreabă: Ce faci dacă șeful ierarhic îți cere verbal să avizezi un dosar nelegal? Mulți răspund că respectă ierarhia și sunt picați instant! Conform articolului 437 din Codul administrativ, ești obligat prin lege să refuzi în scris și motivat îndeplinirea ordinului vădit nelegal! Antrenează-te pe simulatorul audio de interviu pe metoda STAR pe govtalent.ro!",
         "sections": [
             {"time_max": 6.0, "text": "CAPCANĂ LA INTERVIU ANFP", "color": "#DC2626"},
             {"time_max": 14.0, "text": "ÎNTREBARE: DISPOZIȚIE IERARHICĂ ILEGALĂ", "color": "#002B7F"},
@@ -100,7 +100,7 @@ FALLBACK_TOPICS = [
             {"time_max": 28.0, "text": "RĂSPUNS CORECT: REFUZ ÎN SCRIS (ART. 437)", "color": "#059669"},
             {"time_max": 99.0, "text": "SIMULATOR AUDIO PE GOVTALENT", "color": "#2563EB"}
         ],
-        "tiktok_caption": "Întrebarea capcană la interviul pentru un post la stat! 🏛️ Cum să răspunzi conform art. 437 Codul Administrativ fără să fii eliminat. Antrenează-te cu simulatorul vocal pe govtalent-romania.vercel.app! ⚖️ #interviu #functionarpublic #stat #concursuri #star #govtalent #romania"
+        "tiktok_caption": "Întrebarea capcană la interviul pentru un post la stat! 🏛️ Cum să răspunzi conform art. 437 Codul Administrativ fără să fii eliminat. Antrenează-te cu simulatorul vocal pe govtalent.ro! ⚖️ #interviu #functionarpublic #stat #concursuri #star #govtalent #romania"
     }
 ]
 
@@ -133,7 +133,7 @@ def generate_scenario_with_gemini():
         return random.choice(FALLBACK_TOPICS)
 
     prompt = (
-        "Ești scenaristul oficial de marketing educațional pentru conținut video scurt (TikTok / Reels) al platformei GovTalent România (govtalent-romania.vercel.app).\n"
+        "Ești scenaristul oficial de marketing educațional pentru conținut video scurt (TikTok / Reels) al platformei GovTalent România (govtalent.ro).\n"
         "GovTalent este sistemul #1 de pregătire și orientare pentru Concursul Național ANFP și posturile din sectorul public din România (calculator vechime art. 475, simulator SENEOSP, test psihometric, interviu STAR, achiziții SICAP, fonduri PNRR).\n"
         "Creează un scenariu captivant, alert, de 25-30 de secunde (aproximativ 65-75 de cuvinte), pe o temă de mare interes pentru românii care vor un post stabil la stat.\n"
         "Exemple de teme: calculul legal al vechimii în specialitate, baremul de 50% la SENEOSP, capcanele de la testarea psihologică ANFP, diferența funcționar public vs contractual, sporuri salariale PNRR de 50%, întrebări grele la interviul de concurs.\n\n"
@@ -141,7 +141,7 @@ def generate_scenario_with_gemini():
         "{\n"
         '  "topic_title": "TITLU CU MAJUSCULE (max 6 cuvinte)",\n'
         '  "alert_badge": "CATEGORIE (max 3 cuvinte)",\n'
-        '  "script_speech": "Textul rostit în limba română (65-75 cuvinte). Trebuie să aibă Hook în primele 4 secunde, 3 puncte numerotate Unu/Doi/Trei și un îndemn final de testare gratuită pe govtalent-romania.vercel.app.",\n'
+        '  "script_speech": "Textul rostit în limba română (65-75 cuvinte). Trebuie să aibă Hook în primele 4 secunde, 3 puncte numerotate Unu/Doi/Trei și un îndemn final de testare gratuită pe govtalent.ro.",\n'
         '  "sections": [\n'
         '    {"time_max": 6.0, "text": "TITLU SECȚIUNE HOOK", "color": "#002B7F"},\n'
         '    {"time_max": 13.5, "text": "1 • PUNCT UNU", "color": "#DC2626"},\n'
@@ -361,7 +361,7 @@ def render_video(scenario, words, total_duration):
     
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
     brand_text = "GOVTALENT ROMÂNIA  •  CONCURSURI DE STAT"
-    cta_main = "Testează gratuit pe govtalent-romania.vercel.app"
+    cta_main = "Testează gratuit pe govtalent.ro"
     cta_sub = "Calculator vechime legală • Grile ANFP • Test psihometric"
     disc1 = "Platformă educațională independentă. Operator: TEODORESCU O. DIANA PFA (CAEN 8559)."
     disc2 = "Conținut orientativ conform OUG 57/2019 și OUG 121/2023. Fără garanția promovării."
@@ -494,7 +494,7 @@ def dispatch_to_telegram(scenario, duration):
         return False
 
     title = scenario.get("topic_title", "Concursul Național ANFP 2026")
-    caption_txt = scenario.get("tiktok_caption", "Testează-ți gratuit pregătirea pe govtalent-romania.vercel.app!")
+    caption_txt = scenario.get("tiktok_caption", "Testează-ți gratuit pregătirea pe govtalent.ro!")
     
     tg_caption = (
         f"🎬 <b>[GOVTALENT ROMÂNIA • TIKTOK DAILY]</b>\n\n"
