@@ -36,7 +36,7 @@ load_dotenv(os.path.join(ROOT_DIR, ".env"))
 GEMINI_API_KEY = (os.getenv("GEMINI_API_KEY") or "").strip()
 TELEGRAM_BOT_TOKEN = (os.getenv("TELEGRAM_BOT_TOKEN") or "").strip()
 TELEGRAM_CHAT_ID = (os.getenv("TELEGRAM_CHAT_ID") or "8867321650").strip()
-APP_URL = (os.getenv("APP_URL") or "https://cetatenie-romana-didactic.vercel.app").strip()
+APP_URL = (os.getenv("APP_URL") or "https://cetatenieromana.ro").strip()
 
 OUTPUT_DIR = os.path.abspath(os.path.join(ROOT_DIR, "video-generator"))
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -47,7 +47,7 @@ FALLBACK_TOPICS = [
     {
         "topic_title": "3 ÎNTREBĂRI CAPCANĂ LA INTERVIUL PENTRU CETĂȚENIA ROMÂNĂ",
         "alert_badge": "INTERVIU OFICIAL ANC",
-        "script_speech": "Te pregătești pentru interviul de cetățenie română la A N C? Iată trei întrebări din Constituție unde mulți candidați se încurcă din cauza emoțiilor! Unu: Care sunt culorile drapelului României și în ce ordine sunt așezate de la lance? Albastru, galben și roșu! Doi: Câți ani durează mandatul Președintelui României? Exact cinci ani, spre deosebire de Parlament care este ales pe patru ani! Trei: Cine a scris versurile imnului Deșteaptă-te, române? Poetul Andrei Mureșanu, pe muzica lui Anton Pann! Exersează toate întrebările cu audio pe cetatenie-romana-didactic.vercel.app!",
+        "script_speech": "Te pregătești pentru interviul de cetățenie română la A N C? Iată trei întrebări din Constituție unde mulți candidați se încurcă din cauza emoțiilor! Unu: Care sunt culorile drapelului României și în ce ordine sunt așezate de la lance? Albastru, galben și roșu! Doi: Câți ani durează mandatul Președintelui României? Exact cinci ani, spre deosebire de Parlament care este ales pe patru ani! Trei: Cine a scris versurile imnului Deșteaptă-te, române? Poetul Andrei Mureșanu, pe muzica lui Anton Pann! Exersează toate întrebările cu audio pe cetatenieromana.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -75,12 +75,12 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Te pregătești pentru interviul de cetățenie română la ANC? 3 întrebări esențiale din Constituție și simbolurile naționale! Antrenează-te pe https://cetatenie-romana-didactic.vercel.app ! 🇷🇴🏛️ #cetatenieromana #anc #interviucetatenie #romania"
+        "tiktok_caption": "Te pregătești pentru interviul de cetățenie română la ANC? 3 întrebări esențiale din Constituție și simbolurile naționale! Antrenează-te pe https://cetatenieromana.ro ! 🇷🇴🏛️ #cetatenieromana #anc #interviucetatenie #romania"
     },
     {
         "topic_title": "CE TREBUIE SĂ ȘTII DESPRE CONSTITUȚIA ROMÂNIEI LA INTERVIU",
         "alert_badge": "CONSTITUȚIA ROMÂNIEI",
-        "script_speech": "Comisia de interviu pentru cetățenie verifică întotdeauna dacă înțelegi principiile fundamentale ale statului român! Reține aceste trei articole cheie: Articolul unu prevede că România este stat național, suveran și independent, unitar și indivizibil. Forma de guvernământ este republica, iar puterea în stat este împărțită în trei: puterea legislativă, reprezentată de Parlament, puterea executivă și puterea judecătorească! Ascultă pronunția corectă a tuturor răspunsurilor pe cetatenie-romana-didactic.vercel.app!",
+        "script_speech": "Comisia de interviu pentru cetățenie verifică întotdeauna dacă înțelegi principiile fundamentale ale statului român! Reține aceste trei articole cheie: Articolul unu prevede că România este stat național, suveran și independent, unitar și indivizibil. Forma de guvernământ este republica, iar puterea în stat este împărțită în trei: puterea legislativă, reprezentată de Parlament, puterea executivă și puterea judecătorească! Ascultă pronunția corectă a tuturor răspunsurilor pe cetatenieromana.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -108,12 +108,12 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Cele mai importante întrebări din Constituția României pentru interviul ANC de cetățenie! Învață cu suport audio pe https://cetatenie-romana-didactic.vercel.app ! 🇷🇴⚖️ #cetatenieromana #constitutie #anc #interviu"
+        "tiktok_caption": "Cele mai importante întrebări din Constituția României pentru interviul ANC de cetățenie! Învață cu suport audio pe https://cetatenieromana.ro ! 🇷🇴⚖️ #cetatenieromana #constitutie #anc #interviu"
     },
     {
         "topic_title": "CELE 3 MOMENTE ISTORICE CARE PICĂ MEREU LA CETĂȚENIE",
         "alert_badge": "ISTORIA ROMÂNILOR ANC",
-        "script_speech": "Nu intra la interviul de cetățenie fără să știi aceste trei date fundamentale din istoria României! Unu: Douăzeci și patru ianuarie o mie opt sute cincizeci și nouă — Mica Unire a Moldovei cu Țara Românească sub Alexandru Ioan Cuza. Doi: Nouă mai o mie opt sute șaptezeci și șapte — proclamarea Independenței de Stat sub regele Carol întâi. Trei: Întâi decembrie o mie nouă sute optsprezece — Marea Unire de la Alba Iulia, Ziua Națională a României! Testează-te gratuit pe cetatenie-romana-didactic.vercel.app!",
+        "script_speech": "Nu intra la interviul de cetățenie fără să știi aceste trei date fundamentale din istoria României! Unu: Douăzeci și patru ianuarie o mie opt sute cincizeci și nouă — Mica Unire a Moldovei cu Țara Românească sub Alexandru Ioan Cuza. Doi: Nouă mai o mie opt sute șaptezeci și șapte — proclamarea Independenței de Stat sub regele Carol întâi. Trei: Întâi decembrie o mie nouă sute optsprezece — Marea Unire de la Alba Iulia, Ziua Națională a României! Testează-te gratuit pe cetatenieromana.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -141,12 +141,12 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Cele 3 date istorice pe care orice candidat la cetățenia română trebuie să le știe perfect! Exersează pe https://cetatenie-romana-didactic.vercel.app ! 🇷🇴📜 #istorie #cetatenieromana #anc #romania"
+        "tiktok_caption": "Cele 3 date istorice pe care orice candidat la cetățenia română trebuie să le știe perfect! Exersează pe https://cetatenieromana.ro ! 🇷🇴📜 #istorie #cetatenieromana #anc #romania"
     },
     {
         "topic_title": "GEOGRAFIA ROMÂNIEI ÎN 60 DE SECUNDE PENTRU INTERVIUL ANC",
         "alert_badge": "GEOGRAFIE ANC",
-        "script_speech": "Cum răspunzi rapid la întrebările de geografie de la interviul pentru cetățenie? Reține reperele esențiale: România are o suprafață de două sute treizeci și opt de mii trei sute nouăzeci și șapte de kilometri pătrați, este împărțită în patruzeci și unu de județe plus municipiul București, iar cel mai înalt vârf muntos este Vârful Moldoveanu din Munții Făgăraș, cu două mii cinci sute patruzeci și patru de metri! Parcurge toate întrebările oficiale pe cetatenie-romana-didactic.vercel.app!",
+        "script_speech": "Cum răspunzi rapid la întrebările de geografie de la interviul pentru cetățenie? Reține reperele esențiale: România are o suprafață de două sute treizeci și opt de mii trei sute nouăzeci și șapte de kilometri pătrați, este împărțită în patruzeci și unu de județe plus municipiul București, iar cel mai înalt vârf muntos este Vârful Moldoveanu din Munții Făgăraș, cu două mii cinci sute patruzeci și patru de metri! Parcurge toate întrebările oficiale pe cetatenieromana.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -174,7 +174,7 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Reperele esențiale de Geografia României pentru interviul de cetățenie ANC! Pregătește-te complet pe https://cetatenie-romana-didactic.vercel.app ! 🏔️🇷🇴 #geografie #cetatenieromana #anc #romania"
+        "tiktok_caption": "Reperele esențiale de Geografia României pentru interviul de cetățenie ANC! Pregătește-te complet pe https://cetatenieromana.ro ! 🏔️🇷🇴 #geografie #cetatenieromana #anc #romania"
     }
 ]
 
@@ -205,7 +205,7 @@ def generate_scenario_with_gemini():
         return FALLBACK_TOPICS[day_idx]
 
     prompt = (
-        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei Cetatenie Romana ANC (https://cetatenie-romana-didactic.vercel.app) - specializată în pregătirea interviului oficial la Autoritatea Națională pentru Cetățenie (ANC): Constituția României, Istoria și Geografia României, imnul național și simbolurile statului.\n"
+        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei Cetatenie Romana ANC (https://cetatenieromana.ro) - specializată în pregătirea interviului oficial la Autoritatea Națională pentru Cetățenie (ANC): Constituția României, Istoria și Geografia României, imnul național și simbolurile statului.\n"
         "Folosește EXCLUSIV limba română literară corectă conform DOOM3, cu diacritice complete.\n"
         "Creează un scenariu alert de 25-30 secunde (65-75 cuvinte) cu Hook în primele 4 secunde, 3 puncte clare și îndemn final de accesare a platformei.\n"
         "RĂSPUNDE EXCLUSIV ÎN FORMAT JSON VALID:\n"
@@ -220,7 +220,7 @@ def generate_scenario_with_gemini():
         '    {"time_max": 27.5, "text": "3 • PUNCTUL TREI", "color": "#06B6D4"},\n'
         '    {"time_max": 99.0, "text": "SOLUȚIE • VERIFICĂ ACUM", "color": "#10B981"}\n'
         '  ],\n'
-        '  "tiktok_caption": "Descriere captivantă cu linkul https://cetatenie-romana-didactic.vercel.app și hashtag-uri: #cetatenieromana #anc #interviucetatenie #constitutiaromaniei #istorie #romania"\n'
+        '  "tiktok_caption": "Descriere captivantă cu linkul https://cetatenieromana.ro și hashtag-uri: #cetatenieromana #anc #interviucetatenie #constitutiaromaniei #istorie #romania"\n'
         "}"
     )
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
@@ -370,7 +370,7 @@ def render_video(scenario, words, total_duration, audio_path):
     ]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
     brand_text = "🇷🇴 CETĂȚENIE ROMÂNĂ • INTERVIU ANC"
-    cta_main = "Simulează interviul pe cetatenie-romana-didactic.vercel.app"
+    cta_main = "Simulează interviul pe cetatenieromana.ro"
     cta_sub = "Întrebări oficiale ANC: Constituție, Istorie, Geografie & Cultură"
     disc1 = "Platformă didactică de pregătire pentru interviul de obținere sau redobândire a cetățeniei române (ANC)."
     disc2 = "Conține întrebările oficiale explicate cu pronunție audio în limba română."
@@ -481,7 +481,7 @@ def dispatch_to_telegram(scenario, duration):
         print("Lipsesc credențialele Telegram.")
         return False
     title = scenario.get("topic_title", "Cetatenie Romana ANC TikTok")
-    caption_txt = scenario.get("tiktok_caption", "Accesează https://cetatenie-romana-didactic.vercel.app !")
+    caption_txt = scenario.get("tiktok_caption", "Accesează https://cetatenieromana.ro !")
     tg_caption = (
         f"🎬 <b>[CETATENIE ROMANA ANC TIKTOK DAILY]</b>\n\n"
         f"📌 <b>Subiect:</b> {title}\n"
