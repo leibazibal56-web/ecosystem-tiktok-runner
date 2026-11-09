@@ -37,7 +37,7 @@ FALLBACK_TOPICS = [
     {
         "topic_title": "3 CAPCANE CLASICE LA GRILELE DE BAROU",
         "alert_badge": "GRILE BAROU & INM",
-        "script_speech": "Te pregătești pentru examenul de admitere la Barou sau INM? Iată trei capcane de formulare care păcălesc mii de candidați! Unu: Nuanța dintre nulitatea absolută și cea relativă în materia prescripției. Doi: Neatenția la adverbele de tip exclusiv, întotdeauna sau numai. Trei: Confundarea tentativei pedepsibile cu actele preparatorii. Antrenează-te pe simulatorul de o sută de grile pe lexstudio-ro.vercel.app/studio!",
+        "script_speech": "Te pregătești pentru examenul de admitere la Barou sau INM? Iată trei capcane de formulare care păcălesc mii de candidați! Unu: Nuanța dintre nulitatea absolută și cea relativă în materia prescripției. Doi: Neatenția la adverbele de tip exclusiv, întotdeauna sau numai. Trei: Confundarea tentativei pedepsibile cu actele preparatorii. Antrenează-te pe simulatorul de o sută de grile pe lexstudio.ro/studio!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -65,12 +65,12 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Atenție la capcanele de formulare din grilele oficiale de Barou și INM! 3 detalii care fac diferența între admis și respins. Antrenează-te pe https://lexstudio-ro.vercel.app/studio ! ⚖️🏛️ #barou #inm #drept #grile #lexstudio #romania"
+        "tiktok_caption": "Atenție la capcanele de formulare din grilele oficiale de Barou și INM! 3 detalii care fac diferența între admis și respins. Antrenează-te pe https://lexstudio.ro/studio ! ⚖️🏛️ #barou #inm #drept #grile #lexstudio #romania"
     },
     {
         "topic_title": "MIT SAU REALITATE: TREBUIE SĂ TOCEȘTI TOT CODUL CIVIL?",
         "alert_badge": "MIT VS REALITATE",
-        "script_speech": "Crezi că pentru a lua Baroul trebuie să memorezi mecanic fiecare articol din Codul Civil? Total fals! Grilele oficiale testează corelațiile logice dintre instituții, nu memoria brută a textului. Dacă stăpânești mecanismele răspunderii civile și excepțiile de procedură, elimini instant variantele greșite. Testează-ți raționamentul juridic pe simulatorul lexstudio-ro.vercel.app/studio!",
+        "script_speech": "Crezi că pentru a lua Baroul trebuie să memorezi mecanic fiecare articol din Codul Civil? Total fals! Grilele oficiale testează corelațiile logice dintre instituții, nu memoria brută a textului. Dacă stăpânești mecanismele răspunderii civile și excepțiile de procedură, elimini instant variantele greșite. Testează-ți raționamentul juridic pe simulatorul lexstudio.ro/studio!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -98,12 +98,12 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Cum se învață eficient pentru Barou și INM? De ce logica juridică bate memorarea mecanică. Descoperă pe https://lexstudio-ro.vercel.app/studio ! 📚⚖️ #inm #barou #dreptcivil #metoda #lexstudio"
+        "tiktok_caption": "Cum se învață eficient pentru Barou și INM? De ce logica juridică bate memorarea mecanică. Descoperă pe https://lexstudio.ro/studio ! 📚⚖️ #inm #barou #dreptcivil #metoda #lexstudio"
     },
     {
         "topic_title": "SPEȚĂ DE PENAL: COMPLICE SAU COAUTOR?",
         "alert_badge": "SPEȚĂ DE EXAMEN",
-        "script_speech": "Iată o speță clasică de drept penal: o persoană stă de șase în timp ce alta pătrunde prin efracție într-un imobil. Este complice sau coautor? La examen, mulți se grăbesc spunând complicitate! Însă dacă a existat o înțelegere prealabilă și prezența la locul faptei a asigurat succesul infracțiunii, comisia califică fapta drept coautorat! Rezolvă spețe și grile corelate pe lexstudio-ro.vercel.app/studio!",
+        "script_speech": "Iată o speță clasică de drept penal: o persoană stă de șase în timp ce alta pătrunde prin efracție într-un imobil. Este complice sau coautor? La examen, mulți se grăbesc spunând complicitate! Însă dacă a existat o înțelegere prealabilă și prezența la locul faptei a asigurat succesul infracțiunii, comisia califică fapta drept coautorat! Rezolvă spețe și grile corelate pe lexstudio.ro/studio!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -131,12 +131,12 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Cum rezolvi dilema dintre coautorat și complicitate în grilele de penal? Analiza speței pe https://lexstudio-ro.vercel.app/studio ! ⚖️🔍 #dreptpenal #speta #barou #inm #lexstudio"
+        "tiktok_caption": "Cum rezolvi dilema dintre coautorat și complicitate în grilele de penal? Analiza speței pe https://lexstudio.ro/studio ! ⚖️🔍 #dreptpenal #speta #barou #inm #lexstudio"
     },
     {
         "topic_title": "AUDIT ÎN 60 SEC: GESTIUNEA TIMPULUI LA BAROU",
         "alert_badge": "AUDIT ÎN 60 SECUNDE",
-        "script_speech": "Ai patru ore pentru o sută de grile. Fă acest calcul rapid pentru a nu rămâne fără timp în examen! Pasul unu: Alocă maximum două minute per grilă la prima trecere. Pasul doi: Marchează direct pe foaia de examen grilele sigure. Pasul trei: Păstrează ultimele 30 de minute exclusiv pentru trecerea pe borderoul final. Testează-ți viteza pe simulatorul complet pe lexstudio-ro.vercel.app/studio!",
+        "script_speech": "Ai patru ore pentru o sută de grile. Fă acest calcul rapid pentru a nu rămâne fără timp în examen! Pasul unu: Alocă maximum două minute per grilă la prima trecere. Pasul doi: Marchează direct pe foaia de examen grilele sigure. Pasul trei: Păstrează ultimele 30 de minute exclusiv pentru trecerea pe borderoul final. Testează-ți viteza pe simulatorul complet pe lexstudio.ro/studio!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -164,7 +164,7 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Cum împarți cele 4 ore la examenul de admitere? Testează-ți viteza și rezistența la efort pe simulatorul https://lexstudio-ro.vercel.app/studio ! ⏱️🎯 #barou #inm #managementtimp #grile #lexstudio"
+        "tiktok_caption": "Cum împarți cele 4 ore la examenul de admitere? Testează-ți viteza și rezistența la efort pe simulatorul https://lexstudio.ro/studio ! ⏱️🎯 #barou #inm #managementtimp #grile #lexstudio"
     }
 ]
 
@@ -198,7 +198,7 @@ ROTATING_FORMATS = [
             "FORMATUL 1: TOP 3 CAPCANE / GREȘELI FRECVENTE. "
             "Structură: Începe cu un Hook alert (primele 4 secunde) despre pericole sau greșeli majore. "
             "Urmează 3 puncte numerotate Unu / Doi / Trei (solide, concise, cu impact direct) "
-            "și un îndemn final de testare pe https://lexstudio-ro.vercel.app/studio."
+            "și un îndemn final de testare pe https://lexstudio.ro/studio."
         ),
         "section_structure": "Secțiunea 1 (problemă #DC2626), Punctul 1 (#2563EB), Punctul 2 (#D97706), Punctul 3 (#DC2626), CTA final (#10B981)."
     },
@@ -209,7 +209,7 @@ ROTATING_FORMATS = [
             "FORMATUL 2: MIT VS. REALITATE / ADEVĂRAT SAU FALS. "
             "Structură: Începe cu o întrebare provocatoare sau un mit larg răspândit ('Crezi că...? Total fals!'). "
             "Explică de ce este greșit ce crede majoritatea, oferă perspectiva corectă "
-            "și un îndemn final de verificare pe https://lexstudio-ro.vercel.app/studio."
+            "și un îndemn final de verificare pe https://lexstudio.ro/studio."
         ),
         "section_structure": "Secțiunea 1 (titlu mit #EF4444), De ce e fals (#F59E0B), Realitatea corectă (#2563EB), Regula de aur (#DC2626), CTA final (#10B981)."
     },
@@ -220,7 +220,7 @@ ROTATING_FORMATS = [
             "FORMATUL 3: STUDIU DE CAZ / SITUAȚIE CONCRETĂ. "
             "Structură: Începe cu o dilemă practică concretă ('Ce faci dacă te confrunți cu...?'). "
             "Prezintă greșeala tipică pe care o fac oamenii, pasul salvator sau soluția corectă "
-            "și îndemnul de a rezolva pe https://lexstudio-ro.vercel.app/studio."
+            "și îndemnul de a rezolva pe https://lexstudio.ro/studio."
         ),
         "section_structure": "Secțiunea 1 (dilemă #DC2626), Greșeala comună (#F59E0B), Soluția pas cu pas (#2563EB), Concluzie (#DC2626), CTA final (#10B981)."
     },
@@ -231,7 +231,7 @@ ROTATING_FORMATS = [
             "FORMATUL 4: GHID RAPID / TEST DE VERIFICARE ÎN 60 SECUNDE. "
             "Structură: Începe cu 'Fă acest test rapid în 3 pași înainte să...'. "
             "Prezintă pasul 1, pasul 2 și regula decisivă (pasul 3), "
-            "urmat de îndemnul de verificare pe https://lexstudio-ro.vercel.app/studio."
+            "urmat de îndemnul de verificare pe https://lexstudio.ro/studio."
         ),
         "section_structure": "Secțiunea 1 (titlu test #3B82F6), Pasul 1 (#2563EB), Pasul 2 (#F59E0B), Pasul 3 (#DC2626), CTA final (#10B981)."
     }
@@ -247,7 +247,7 @@ def generate_scenario_with_gemini():
         return FALLBACK_TOPICS[day_idx % len(FALLBACK_TOPICS)]
 
     prompt = (
-        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei profesionale Lex Studio (https://lexstudio-ro.vercel.app/studio) - pregătire pentru admiterea în profesiile juridice din România: Barou (avocatură), INM (magistratură - judecători și procurori), admitere Drept, notariat. Simulator 100 grile oficiale, antrenament pe 5 materii (Civil, Procedură Civilă, Penal, Procedură Penală, OEPA) și corelare instantă cu articolele din coduri.\n\n"
+        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei profesionale Lex Studio (https://lexstudio.ro/studio) - pregătire pentru admiterea în profesiile juridice din România: Barou (avocatură), INM (magistratură - judecători și procurori), admitere Drept, notariat. Simulator 100 grile oficiale, antrenament pe 5 materii (Civil, Procedură Civilă, Penal, Procedură Penală, OEPA) și corelare instantă cu articolele din coduri.\n\n"
         f"NORME OBLIGATORII PRIVIND LIMBA ROMÂNĂ (DOOM3 / ACADEMIA ROMÂNĂ):\n"
         f"- Folosește EXCLUSIV LIMBA ROMÂNĂ OFICIALĂ LITERARĂ, conform normelor ortografice, ortoepice și morfologice oficiale (DOOM3).\n"
         f"- Este STRICT INTERZISĂ orice greșeală de ortografie, fonetizare greșită sau tipar (de exemplu: scrie 'prestigiu', NICIODATĂ 'prestijiu'; 'succese', nu 'succesuri'; folosește diacritice corecte: ă, â, î, ș, ț).\n"
@@ -269,7 +269,7 @@ def generate_scenario_with_gemini():
         '    {"time_max": 27.5, "text": "PUNCTUL 3 / CONCLUZIE", "color": "#DC2626"},\n'
         '    {"time_max": 99.0, "text": "SOLUȚIE • VERIFICĂ ACUM", "color": "#10B981"}\n'
         '  ],\n'
-        '  "tiktok_caption": "Descriere captivantă pentru TikTok incluzând linkul https://lexstudio-ro.vercel.app/studio și 4-6 hashtag-uri relevante: #drept #barou #inm #avocat #magistratura #grile #lexstudio #romania"\n'
+        '  "tiktok_caption": "Descriere captivantă pentru TikTok incluzând linkul https://lexstudio.ro/studio și 4-6 hashtag-uri relevante: #drept #barou #inm #avocat #magistratura #grile #lexstudio #romania"\n'
         "}"
     )
 
@@ -513,7 +513,7 @@ def render_video(scenario, words, total_duration, audio_path):
     
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
     brand_text = "LEX STUDIO • ADMITERE BAROU & INM"
-    cta_main = "Pregătește-te pe lexstudio-ro.vercel.app/studio"
+    cta_main = "Pregătește-te pe lexstudio.ro/studio"
     cta_sub = "+ Urmărește pentru grile explicate zilnice"
     disc1 = "Platformă profesională de pregătire pentru admiterea în profesiile juridice."
     disc2 = "Simulator oficial de 100 de grile, 5 materii și conspectare instantanee pe articole de lege."
@@ -648,7 +648,7 @@ def dispatch_to_telegram(scenario, duration):
         return False
 
     title = scenario.get("topic_title", "Capcană Examen Barou & INM")
-    caption_txt = scenario.get("tiktok_caption", "Pregătește-te pe simulatorul https://lexstudio-ro.vercel.app/studio !")
+    caption_txt = scenario.get("tiktok_caption", "Pregătește-te pe simulatorul https://lexstudio.ro/studio !")
     
     tg_caption = (
         f"⚖️ <b>[LEX STUDIO TIKTOK DAILY]</b>\n\n"
