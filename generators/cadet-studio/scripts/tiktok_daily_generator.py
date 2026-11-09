@@ -29,7 +29,7 @@ if hasattr(sys.stdout, "reconfigure"):
 TELEGRAM_BOT_TOKEN = (os.getenv("TELEGRAM_BOT_TOKEN") or "").strip()
 TELEGRAM_CHAT_ID = (os.getenv("TELEGRAM_CHAT_ID") or "8867321650").strip()
 GEMINI_KEY = (os.getenv("GEMINI_API_KEY") or "").strip()
-APP_URL = os.getenv("APP_URL") or "https://cadet-studio-admitere-mai-mapn.vercel.app"
+APP_URL = os.getenv("APP_URL") or "https://cadetstudio.ro"
 
 OUTPUT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "video-generator"))
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -61,7 +61,7 @@ TIKTOK_SCENARIOS = [
     {
         "topic_title": "ADMITERE 2026: POLIȚIE (MAI) SAU ACADEMII MILITARE (MAPN)?",
         "alert_badge": "🎖️ ADMITERE MAI & MAPN 2026",
-        "script_speech": "Vrei o carieră de ofițer sau subofițer în 2026? Atenție la diferențele majore dintre MAI și MApN! La Poliție și Jandarmerie dai probă la Legislație, Română DOOM3, Istorie și traseu aplicativ cu 12 obstacole. La Academiile Militare MApN, cum ar fi ATM Ferdinand I, AFT Sibiu sau AFA Brașov, susții probe scrise la Matematică, Fizică și Engleză! Nu le confunda! Pe CadetStudio ai simulatoare oficiale dedicate atât pentru MAI, cât și pentru MApN. Antrenează-te inteligent pe cadet-studio-admitere-mai-mapn.vercel.app!",
+        "script_speech": "Vrei o carieră de ofițer sau subofițer în 2026? Atenție la diferențele majore dintre MAI și MApN! La Poliție și Jandarmerie dai probă la Legislație, Română DOOM3, Istorie și traseu aplicativ cu 12 obstacole. La Academiile Militare MApN, cum ar fi ATM Ferdinand I, AFT Sibiu sau AFA Brașov, susții probe scrise la Matematică, Fizică și Engleză! Nu le confunda! Pe CadetStudio ai simulatoare oficiale dedicate atât pentru MAI, cât și pentru MApN. Antrenează-te inteligent pe cadetstudio.ro!",
         "sections": [
             {"time_max": 5.5, "text": "🎖️ MAI SAU MAPN ÎN 2026?", "color": "#F59E0B"},
             {"time_max": 12.5, "text": "1 • MAI: LEGISLAȚIE & TRASEU", "color": "#2563EB"},
@@ -69,12 +69,12 @@ TIKTOK_SCENARIOS = [
             {"time_max": 26.5, "text": "3 • MATEMATICĂ & FIZICĂ MAPN", "color": "#DC2626"},
             {"time_max": 99.0, "text": "🛡️ SIMULATOR CADET STUDIO", "color": "#10B981"}
         ],
-        "tiktok_caption": "🎖️ Poliție (MAI) sau Academii Militare (MApN)? Află diferențele exacte de probe scrise și sportive pentru admiterea 2026! Rezolvă grilele oficiale pe https://cadet-studio-admitere-mai-mapn.vercel.app ! 🚓⚔️ #cadetstudio #academiadepolitie #mapn #atmferdinand #aftsibiu #afabrasov #campina #politia #armata"
+        "tiktok_caption": "🎖️ Poliție (MAI) sau Academii Militare (MApN)? Află diferențele exacte de probe scrise și sportive pentru admiterea 2026! Rezolvă grilele oficiale pe https://cadetstudio.ro ! 🚓⚔️ #cadetstudio #academiadepolitie #mapn #atmferdinand #aftsibiu #afabrasov #campina #politia #armata"
     },
     {
         "topic_title": "CAPCANE LA ADMITEREA ÎN ACADEMIILE MILITARE MAPN",
         "alert_badge": "⚔️ ACADEMII MILITARE MAPN",
-        "script_speech": "Visezi la Academia Tehnică Militară Ferdinand I, Forțele Terestre Sibiu sau Aviație la Brașov? Punctajul la Matematică și Fizică face diferența la sutimi între admiși la buget și respinși! Subiectele de tip grilă la Algebră și Analiză conțin capcane subtile la limite de șiruri și matrici parametrice. Pe lângă scris, proba sportivă MApN cere rezistență maximă la alergarea de două mii de metri. Exersează grilele parametrice ATM și baremele sportive pe cadet-studio-admitere-mai-mapn.vercel.app!",
+        "script_speech": "Visezi la Academia Tehnică Militară Ferdinand I, Forțele Terestre Sibiu sau Aviație la Brașov? Punctajul la Matematică și Fizică face diferența la sutimi între admiși la buget și respinși! Subiectele de tip grilă la Algebră și Analiză conțin capcane subtile la limite de șiruri și matrici parametrice. Pe lângă scris, proba sportivă MApN cere rezistență maximă la alergarea de două mii de metri. Exersează grilele parametrice ATM și baremele sportive pe cadetstudio.ro!",
         "sections": [
             {"time_max": 5.5, "text": "⚔️ ADMITERE ACADEMII MAPN", "color": "#10B981"},
             {"time_max": 12.5, "text": "1 • ATM FERDINAND I: MATEMATICĂ", "color": "#2563EB"},
@@ -82,12 +82,12 @@ TIKTOK_SCENARIOS = [
             {"time_max": 26.5, "text": "3 • ALERGARE 2000M BAREM SPORTIV", "color": "#DC2626"},
             {"time_max": 99.0, "text": "🎖️ BANCA DE GRILE MAPN PE CADET", "color": "#10B981"}
         ],
-        "tiktok_caption": "⚔️ Vrei la ATM Ferdinand I, AFT Sibiu sau AFA Brașov? Nu pierde admiterea la sutimi! Pregătește-te pe motorul parametric MApN și baremele sportive: https://cadet-studio-admitere-mai-mapn.vercel.app ! 🇷🇴🪖 #mapn #academiatehnicamilitara #atmferdinand #aftsibiu #afabrasov #anmb #cadetstudio #admitere2026"
+        "tiktok_caption": "⚔️ Vrei la ATM Ferdinand I, AFT Sibiu sau AFA Brașov? Nu pierde admiterea la sutimi! Pregătește-te pe motorul parametric MApN și baremele sportive: https://cadetstudio.ro ! 🇷🇴🪖 #mapn #academiatehnicamilitara #atmferdinand #aftsibiu #afabrasov #anmb #cadetstudio #admitere2026"
     },
     {
         "topic_title": "TOP 3 CAPCANE LA ADMITEREA ÎN POLIȚIE (CÂMPINA & CLUJ)",
         "alert_badge": "👮‍♂️ ADMITERE POLIȚIE MAI 2026",
-        "script_speech": "Vrei să intri la Academia de Poliție sau la Școlile de Agenți Câmpina și Cluj? Peste 40% dintre candidați pică proba teoretică din cauza a trei capcane majore! Unu: la Legislație MAI se confundă uzul de forță cu somația legală. Doi: la Română, verbele defective și acordul atributului pronominal triază masiv notele. Trei: la Istorie, cronologia tratatelor din secolul 19 face diferența la sutimi. Nu învăța la întâmplare! Antrenează-te pe simulatorul oficial cadet-studio-admitere-mai-mapn.vercel.app!",
+        "script_speech": "Vrei să intri la Academia de Poliție sau la Școlile de Agenți Câmpina și Cluj? Peste 40% dintre candidați pică proba teoretică din cauza a trei capcane majore! Unu: la Legislație MAI se confundă uzul de forță cu somația legală. Doi: la Română, verbele defective și acordul atributului pronominal triază masiv notele. Trei: la Istorie, cronologia tratatelor din secolul 19 face diferența la sutimi. Nu învăța la întâmplare! Antrenează-te pe simulatorul oficial cadetstudio.ro!",
         "sections": [
             {"time_max": 5.5, "text": "👮‍♂️ ADMITERE POLIȚIE 2026", "color": "#F59E0B"},
             {"time_max": 12.5, "text": "1 • CAPCANA LEGISLAȚIEI MAI", "color": "#2563EB"},
@@ -95,12 +95,12 @@ TIKTOK_SCENARIOS = [
             {"time_max": 26.5, "text": "3 • CRONOLOGIE ISTORIE SEC. XIX", "color": "#F59E0B"},
             {"time_max": 99.0, "text": "🛡️ SIMULATOR CADET STUDIO", "color": "#10B981"}
         ],
-        "tiktok_caption": "🎖️ Dai admiterea la Poliție sau Jandarmerie în 2026? Află cele 3 capcane din care se pierd cele mai multe puncte la proba scrisă! Rezolvă grilele oficiale pe https://cadet-studio-admitere-mai-mapn.vercel.app ! 🚓📚 #cadetstudio #academiadepolitie #scoaladepolitie #campina #politia #mapn #admitere2026"
+        "tiktok_caption": "🎖️ Dai admiterea la Poliție sau Jandarmerie în 2026? Află cele 3 capcane din care se pierd cele mai multe puncte la proba scrisă! Rezolvă grilele oficiale pe https://cadetstudio.ro ! 🚓📚 #cadetstudio #academiadepolitie #scoaladepolitie #campina #politia #mapn #admitere2026"
     },
     {
         "topic_title": "TRASEUL SPORTIV MAI (12 OBSTACOLE) VS PROBA MAPN",
         "alert_badge": "🏃 PROBE SPORTIVE MAI & MAPN",
-        "script_speech": "Proba fizică elimină anual sute de candidați la MAI și MApN! La MAI ai traseul practic-aplicativ cu 12 obstacole contra cronometru: săritura în lungime, gardurile, labirintul și transportul manechinului de 60 de kilograme. La MApN ai traseu utilitar aplicativ combinat cu alergare de rezistență de două mii de metri! Greșeala fatală este lipsa de ritm și penalizările la obstacole. Vezi simularea 3D a traseului și calculează-ți timpul oficial pe cadet-studio-admitere-mai-mapn.vercel.app!",
+        "script_speech": "Proba fizică elimină anual sute de candidați la MAI și MApN! La MAI ai traseul practic-aplicativ cu 12 obstacole contra cronometru: săritura în lungime, gardurile, labirintul și transportul manechinului de 60 de kilograme. La MApN ai traseu utilitar aplicativ combinat cu alergare de rezistență de două mii de metri! Greșeala fatală este lipsa de ritm și penalizările la obstacole. Vezi simularea 3D a traseului și calculează-ți timpul oficial pe cadetstudio.ro!",
         "sections": [
             {"time_max": 5.5, "text": "🏃 BAREME SPORTIVE OFICIALE", "color": "#10B981"},
             {"time_max": 12.5, "text": "1 • MAI: 12 OBSTACOLE & MANECHIN", "color": "#2563EB"},
@@ -108,12 +108,12 @@ TIKTOK_SCENARIOS = [
             {"time_max": 26.5, "text": "3 • EVITĂ PENALIZĂRILE DE TIMP!", "color": "#DC2626"},
             {"time_max": 99.0, "text": "⏱️ CALCULATOR DE TRASEU CADET", "color": "#10B981"}
         ],
-        "tiktok_caption": "🏃 Cum iei punctaj maxim la traseul sportiv MAI și alergarea de rezistență MApN? Vezi ghidul obstacolelor și calculatorul de barem: https://cadet-studio-admitere-mai-mapn.vercel.app ! ⏱️🏅 #traseusportiv #baremsportiv #academiadepolitie #campina #mapn #admitere2026 #cadetstudio"
+        "tiktok_caption": "🏃 Cum iei punctaj maxim la traseul sportiv MAI și alergarea de rezistență MApN? Vezi ghidul obstacolelor și calculatorul de barem: https://cadetstudio.ro ! ⏱️🏅 #traseusportiv #baremsportiv #academiadepolitie #campina #mapn #admitere2026 #cadetstudio"
     },
     {
         "topic_title": "CUM IEI AVIZUL PSIHOLOGIC APT LA MAI ȘI MAPN",
         "alert_badge": "🧠 TESTARE PSIHOLOGICĂ MAI & MAPN",
-        "script_speech": "Testarea psihologică este prima mare barieră la admiterea în MAI și MApN! Peste 30% dintre candidați sunt declarați inapt fără să înțeleagă de ce. Capcana numărul unu: Scala de Minciună. Dacă încerci să pari perfect, algoritmul te depistează instantaneu ca nesincer! La MApN se testează în plus viteza de reacție și orientarea spațială sub presiune. Pe CadetStudio ai simulatorul complet cu 600 de itemi și raport instant APT sau INAPT. Testează-te acum pe cadet-studio-admitere-mai-mapn.vercel.app!",
+        "script_speech": "Testarea psihologică este prima mare barieră la admiterea în MAI și MApN! Peste 30% dintre candidați sunt declarați inapt fără să înțeleagă de ce. Capcana numărul unu: Scala de Minciună. Dacă încerci să pari perfect, algoritmul te depistează instantaneu ca nesincer! La MApN se testează în plus viteza de reacție și orientarea spațială sub presiune. Pe CadetStudio ai simulatorul complet cu 600 de itemi și raport instant APT sau INAPT. Testează-te acum pe cadetstudio.ro!",
         "sections": [
             {"time_max": 5.5, "text": "🧠 TEST PSIHOLOGIC MAI & MAPN", "color": "#8B5CF6"},
             {"time_max": 12.5, "text": "1 • CAPCANA SCALEI DE MINCIUNĂ", "color": "#DC2626"},
@@ -121,12 +121,12 @@ TIKTOK_SCENARIOS = [
             {"time_max": 26.5, "text": "3 • RAPORT OFICIAL APT / INAPT", "color": "#10B981"},
             {"time_max": 99.0, "text": "🛡️ SIMULATOR PSIHOLOGIC CADET", "color": "#8B5CF6"}
         ],
-        "tiktok_caption": "🧠 Dai testul psihologic pentru Poliție sau Academii Militare MApN? Află cum să eviți capcana scalei de minciună și cum iei avizul APT: https://cadet-studio-admitere-mai-mapn.vercel.app ! 📑🎯 #testpsihologic #avizapt #academiadepolitie #campina #mapn #atmferdinand #cadetstudio"
+        "tiktok_caption": "🧠 Dai testul psihologic pentru Poliție sau Academii Militare MApN? Află cum să eviți capcana scalei de minciună și cum iei avizul APT: https://cadetstudio.ro ! 📑🎯 #testpsihologic #avizapt #academiadepolitie #campina #mapn #atmferdinand #cadetstudio"
     },
     {
         "topic_title": "TRUCURI LEGISLAȚIE MAI & LIMBĂ STRĂINĂ MAPN",
         "alert_badge": "⚖️ LEGISLAȚIE & LIMBI STRĂINE",
-        "script_speech": "La admiterea MAI, Legile 218 și 360 au grile formulate cu dublu înțeles! Dacă o variantă conține cuvintele întotdeauna sau fără excepție, în nouăzeci la sută din cazuri este o capcană falsă. Iar la Academiile Militare MApN, proba la Limba Engleză testează vocabular tehnic militar și structuri gramaticale avansate. Stăpânește ambele materii dintr-un singur loc! Exersează peste 16.000 de grile oficiale explicate pas cu pas pe cadet-studio-admitere-mai-mapn.vercel.app!",
+        "script_speech": "La admiterea MAI, Legile 218 și 360 au grile formulate cu dublu înțeles! Dacă o variantă conține cuvintele întotdeauna sau fără excepție, în nouăzeci la sută din cazuri este o capcană falsă. Iar la Academiile Militare MApN, proba la Limba Engleză testează vocabular tehnic militar și structuri gramaticale avansate. Stăpânește ambele materii dintr-un singur loc! Exersează peste 16.000 de grile oficiale explicate pas cu pas pe cadetstudio.ro!",
         "sections": [
             {"time_max": 5.5, "text": "⚖️ TRUCURI GRILE MAI & MAPN", "color": "#2563EB"},
             {"time_max": 12.5, "text": "1 • LEGISLAȚIE MAI: STATUT & 218", "color": "#F59E0B"},
@@ -134,7 +134,7 @@ TIKTOK_SCENARIOS = [
             {"time_max": 26.5, "text": "3 • REGULA EXCEPȚIEI LA GRILE", "color": "#DC2626"},
             {"time_max": 99.0, "text": "🎖️ 16.000+ GRILE PE CADET STUDIO", "color": "#2563EB"}
         ],
-        "tiktok_caption": "⚖️ Cum rezolvi grilele de Legislație MAI și Engleză MApN fără să pici în capcane? Antrenează-te pe simulatorul complet: https://cadet-studio-admitere-mai-mapn.vercel.app ! 📚👮‍♂️🪖 #legislatiemai #englezamilitara #academiadepolitie #mapn #admitere2026 #cadetstudio"
+        "tiktok_caption": "⚖️ Cum rezolvi grilele de Legislație MAI și Engleză MApN fără să pici în capcane? Antrenează-te pe simulatorul complet: https://cadetstudio.ro ! 📚👮‍♂️🪖 #legislatiemai #englezamilitara #academiadepolitie #mapn #admitere2026 #cadetstudio"
     }
 ]
 
@@ -239,7 +239,7 @@ async def generate_voice_and_timed_words(script_text):
         "DOOM 3": "D O O M 3",
         "L-scale": "L scheil",
         "L-Scale": "L scheil",
-        "cadet-studio-admitere-mai-mapn.vercel.app": "Cadet Studio punct vercel punct app"
+        "cadetstudio.ro": "Cadet Studio punct vercel punct app"
     }
     spoken_text = script_text
     for en_word, ro_phonetic in phonetic_map.items():
@@ -359,7 +359,7 @@ def render_video_mp4(scenario, words, total_duration, audio_path):
     badge_txt = scenario.get("alert_badge", "🎖️ CADET STUDIO ROMÂNIA")
     title_txt = scenario.get("topic_title", "ADMITERE POLIȚIE & MAPN")
     cta_main = "🎖️ SIMULATOR ADMITERE MAI & MAPN 2026"
-    cta_sub = "cadet-studio-admitere-mai-mapn.vercel.app  •  Grile Oficiale Explicație Pas cu Pas"
+    cta_sub = "cadetstudio.ro  •  Grile Oficiale Explicație Pas cu Pas"
 
     for frame_idx in range(total_frames):
         t = frame_idx / fps
@@ -455,7 +455,7 @@ def dispatch_video_to_telegram(scenario, duration):
         return False
 
     title = scenario.get("topic_title", "Admitere MAI & MApN")
-    caption_txt = scenario.get("tiktok_caption", "Pregătește-te pe simulatorul https://cadet-studio-admitere-mai-mapn.vercel.app !")
+    caption_txt = scenario.get("tiktok_caption", "Pregătește-te pe simulatorul https://cadetstudio.ro !")
 
     tg_caption = (
         f"🎖️ <b>[CADET STUDIO - TIKTOK DAILY VIDEO]</b>\n\n"
