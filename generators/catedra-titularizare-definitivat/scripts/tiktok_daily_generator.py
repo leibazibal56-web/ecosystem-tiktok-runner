@@ -55,7 +55,7 @@ FALLBACK_TOPICS = [
     {
         "topic_title": "3 GREȘELI FATALE LA PROBA SCRISĂ DE TITULARIZARE",
         "alert_badge": "TITULARIZARE 2026",
-        "script_speech": "Dai Titularizarea sau Definitivatul anul acesta? Iată trei greșeli care te pot costa titularizarea! Unu: Blocarea excesivă pe Subiectul întâi. Dacă aloci mai mult de două ore specialității, nu mai ai timp pentru pedagogie și metodică. Doi: Verbele pasive la obiective operaționale. Dacă scrii 'elevul să înțeleagă', ești depunctat instant! Folosește verbe măsurabile conform Robert Mager. Trei: Absența baremului analitic la proiectare. Testează-ți eseurile gratuit pe titularizare-si-definitivat.vercel.app!",
+        "script_speech": "Dai Titularizarea sau Definitivatul anul acesta? Iată trei greșeli care te pot costa titularizarea! Unu: Blocarea excesivă pe Subiectul întâi. Dacă aloci mai mult de două ore specialității, nu mai ai timp pentru pedagogie și metodică. Doi: Verbele pasive la obiective operaționale. Dacă scrii 'elevul să înțeleagă', ești depunctat instant! Folosește verbe măsurabile conform Robert Mager. Trei: Absența baremului analitic la proiectare. Testează-ți eseurile gratuit pe edutitularizare.ro!",
         "sections": [
             {"time_max": 6.5, "text": "GREȘELI SCRIS TITULARIZARE", "color": "#DC2626"},
             {"time_max": 14.5, "text": "1 • BLOCAJUL DE TIMP SUBIECTUL 1", "color": "#2563EB"},
@@ -63,12 +63,12 @@ FALLBACK_TOPICS = [
             {"time_max": 28.5, "text": "3 • BAREMUL ANALITIC LIPSĂ", "color": "#DC2626"},
             {"time_max": 99.0, "text": "SOLUȚIE • SIMULATOR PE BAREM", "color": "#10B981"}
         ],
-        "tiktok_caption": "Nu pierde catedra de titular din cauza gestiunii timpului sau a verbelor pasive! 3 greșeli majore conform metodologiei ME. Antrenează-te pe https://titularizare-si-definitivat.vercel.app ! 📚👩‍🏫 #titularizare #definitivat #profesori #invatamant #edutitularizare #educatie #scoala"
+        "tiktok_caption": "Nu pierde catedra de titular din cauza gestiunii timpului sau a verbelor pasive! 3 greșeli majore conform metodologiei ME. Antrenează-te pe https://edutitularizare.ro ! 📚👩‍🏫 #titularizare #definitivat #profesori #invatamant #edutitularizare #educatie #scoala"
     },
     {
         "topic_title": "MIT SAU REALITATE: NOTA 7 ÎȚI ASIGURĂ POSTUL PE VIAȚĂ?",
         "alert_badge": "MIT VS REALITATE",
-        "script_speech": "Crezi că dacă iei nota șapte la concursul național devii automat titular pe viață? Total fals! Baremul legal cere nota șapte, însă titularizarea pe perioadă nedeterminată este posibilă doar dacă postul are viabilitate de minim patru ani școlari. Dacă postul are viabilitate de unu până la trei ani, vei fi încadrat exclusiv ca suplinitor! Calculează-ți media de repartizare și verifică viabilitatea posturilor pe titularizare-si-definitivat.vercel.app!",
+        "script_speech": "Crezi că dacă iei nota șapte la concursul național devii automat titular pe viață? Total fals! Baremul legal cere nota șapte, însă titularizarea pe perioadă nedeterminată este posibilă doar dacă postul are viabilitate de minim patru ani școlari. Dacă postul are viabilitate de unu până la trei ani, vei fi încadrat exclusiv ca suplinitor! Calculează-ți media de repartizare și verifică viabilitatea posturilor pe edutitularizare.ro!",
         "sections": [
             {"time_max": 6.5, "text": "MITUL NOTEI 7 LA CONCURS", "color": "#EF4444"},
             {"time_max": 14.0, "text": "VIABILITATEA MINIM 4 ANI", "color": "#F59E0B"},
@@ -76,12 +76,12 @@ FALLBACK_TOPICS = [
             {"time_max": 27.5, "text": "MEDIA MR: 75% SCRIS + 25% PRACTICĂ", "color": "#DC2626"},
             {"time_max": 99.0, "text": "SOLUȚIE • CALCULATOR OFICIAL MR", "color": "#10B981"}
         ],
-        "tiktok_caption": "Cât valorează nota 7 la Titularizare dacă postul nu este viabil 4 ani? Află diferența critică dintre titularizare și suplinire! Verifică pe https://titularizare-si-definitivat.vercel.app ! 🏫🎓 #titularizare2026 #profesori #viabilitate #suplinitor #edutitularizare #scoala"
+        "tiktok_caption": "Cât valorează nota 7 la Titularizare dacă postul nu este viabil 4 ani? Află diferența critică dintre titularizare și suplinire! Verifică pe https://edutitularizare.ro ! 🏫🎓 #titularizare2026 #profesori #viabilitate #suplinitor #edutitularizare #scoala"
     },
     {
         "topic_title": "ATENȚIE LA DEFINITIVAT: BLOCAT ÎNAINTE DE PROBA SCRISĂ!",
         "alert_badge": "DEFINITIVAT OME 3858",
-        "script_speech": "Te pregătești pentru examenul de Definitivat? Atenție la regula eliminatorie din noul ordin de ministru! Nu ai voie să intri în sala de examen scris dacă media celor două inspecții și a portofoliului este sub nota opt, sau dacă ai obținut chiar și un singur șapte virgulă nouăzeci și nouă la o inspecție. O singură notă sub șapte te descalifică automat! Descarcă șabloanele celor cinci piese de portofoliu de pe titularizare-si-definitivat.vercel.app!",
+        "script_speech": "Te pregătești pentru examenul de Definitivat? Atenție la regula eliminatorie din noul ordin de ministru! Nu ai voie să intri în sala de examen scris dacă media celor două inspecții și a portofoliului este sub nota opt, sau dacă ai obținut chiar și un singur șapte virgulă nouăzeci și nouă la o inspecție. O singură notă sub șapte te descalifică automat! Descarcă șabloanele celor cinci piese de portofoliu de pe edutitularizare.ro!",
         "sections": [
             {"time_max": 6.5, "text": "ELIMINARE LA DEFINITIVAT", "color": "#DC2626"},
             {"time_max": 14.0, "text": "CONDITIA 1: MEDIA MINIM 8.00", "color": "#F59E0B"},
@@ -89,12 +89,12 @@ FALLBACK_TOPICS = [
             {"time_max": 27.5, "text": "OME 3858/2026: CELE 5 PIESE", "color": "#DC2626"},
             {"time_max": 99.0, "text": "SOLUȚIE • PORTOFOLIU OFICIAL", "color": "#10B981"}
         ],
-        "tiktok_caption": "Știai că poți fi blocat de la proba scrisă de Definitivat înainte să intri în sală? Condițiile eliminatorii OME 3858/2026 explicate! Descarcă șabloanele pe https://titularizare-si-definitivat.vercel.app ! 📑👩‍🏫 #definitivat #definitivat2026 #portofoliudidactic #profesoridebutanti #edutitularizare"
+        "tiktok_caption": "Știai că poți fi blocat de la proba scrisă de Definitivat înainte să intri în sală? Condițiile eliminatorii OME 3858/2026 explicate! Descarcă șabloanele pe https://edutitularizare.ro ! 📑👩‍🏫 #definitivat #definitivat2026 #portofoliudidactic #profesoridebutanti #edutitularizare"
     },
     {
         "topic_title": "AUDIT ÎN 60 SEC: STRUCTURA LECȚIEI DE NOTA 10",
         "alert_badge": "AUDIT ÎN 60 SECUNDE",
-        "script_speech": "Vrei să obții punctaj maxim la proiectarea didactică la Titularizare? Fă acest test rapid în trei pași! Pasul unu: Ai integrat cele nouă evenimente ale instruirii definite de Robert Gagné? Pasul doi: Obiectivele tale operaționale conțin comportamentul observabil și criteriul de reușită conform lui Mager? Pasul trei: Ai corelat fiecare secvență cu o metodă activă și un instrument de evaluare formativă? Evaluează-ți proiectele pe titularizare-si-definitivat.vercel.app!",
+        "script_speech": "Vrei să obții punctaj maxim la proiectarea didactică la Titularizare? Fă acest test rapid în trei pași! Pasul unu: Ai integrat cele nouă evenimente ale instruirii definite de Robert Gagné? Pasul doi: Obiectivele tale operaționale conțin comportamentul observabil și criteriul de reușită conform lui Mager? Pasul trei: Ai corelat fiecare secvență cu o metodă activă și un instrument de evaluare formativă? Evaluează-ți proiectele pe edutitularizare.ro!",
         "sections": [
             {"time_max": 6.5, "text": "TESTUL PROIECTĂRII DE NOTA 10", "color": "#3B82F6"},
             {"time_max": 13.5, "text": "1 • EVENIMENTELE LUI GAGNE", "color": "#2563EB"},
@@ -102,7 +102,7 @@ FALLBACK_TOPICS = [
             {"time_max": 27.0, "text": "3 • EVALUARE FORMATIVĂ", "color": "#DC2626"},
             {"time_max": 99.0, "text": "SOLUȚIE • EVALUATOR DIDACTIC AI", "color": "#10B981"}
         ],
-        "tiktok_caption": "Cum arată proiectul didactic de nota 10 la Titularizare? Verifică-ți planificarea în 60 de secunde după standardele Robert Gagné și Bloom pe https://titularizare-si-definitivat.vercel.app ! 📝⏱️ #titularizare #didactica #pedagogie #proiectdidactic #edutitularizare #profesori"
+        "tiktok_caption": "Cum arată proiectul didactic de nota 10 la Titularizare? Verifică-ți planificarea în 60 de secunde după standardele Robert Gagné și Bloom pe https://edutitularizare.ro ! 📝⏱️ #titularizare #didactica #pedagogie #proiectdidactic #edutitularizare #profesori"
     }
 ]
 
@@ -136,7 +136,7 @@ ROTATING_FORMATS = [
             "FORMATUL 1: TOP 3 CAPCANE / GREȘELI FRECVENTE LA TITULARIZARE SAU DEFINITIVAT. "
             "Structură: Începe cu un Hook alert (primele 4 secunde) despre pericole sau scăpări majore din subiecte sau legislație. "
             "Urmează 3 puncte numerotate Unu / Doi / Trei (solide, concise, cu impact direct pe barem) "
-            "și un îndemn final de testare pe https://titularizare-si-definitivat.vercel.app."
+            "și un îndemn final de testare pe https://edutitularizare.ro."
         ),
         "section_structure": "Secțiunea 1 (problemă #DC2626), Punctul 1 (#2563EB), Punctul 2 (#D97706), Punctul 3 (#DC2626), CTA final (#10B981)."
     },
@@ -147,7 +147,7 @@ ROTATING_FORMATS = [
             "FORMATUL 2: MIT VS. REALITATE / ADEVĂRAT SAU FALS. "
             "Structură: Începe cu o întrebare provocatoare sau un mit larg răspândit în cancelarii ('Crezi că...? Total fals!'). "
             "Explică de ce este greșit ce crede majoritatea profesorilor debutanți, oferă perspectiva legală exactă (Legea 198/2023 sau OME 3858/2026) "
-            "și un îndemn final de verificare pe https://titularizare-si-definitivat.vercel.app."
+            "și un îndemn final de verificare pe https://edutitularizare.ro."
         ),
         "section_structure": "Secțiunea 1 (titlu mit #EF4444), De ce e fals (#F59E0B), Realitatea corectă (#2563EB), Regula de aur (#DC2626), CTA final (#10B981)."
     },
@@ -158,7 +158,7 @@ ROTATING_FORMATS = [
             "FORMATUL 3: STUDIU DE CAZ / SITUAȚIE CONCRETĂ. "
             "Structură: Începe cu o dilemă practică sau docimologică din sala de examen ('Ce faci dacă te confrunți cu...?'). "
             "Prezintă greșeala tipică la inspecție sau la scris, pasul salvator sau soluția metodică corectă "
-            "și îndemnul de a simula pe https://titularizare-si-definitivat.vercel.app."
+            "și îndemnul de a simula pe https://edutitularizare.ro."
         ),
         "section_structure": "Secțiunea 1 (dilemă #DC2626), Greșeala comună (#F59E0B), Soluția pas cu pas (#2563EB), Concluzie (#DC2626), CTA final (#10B981)."
     },
@@ -169,7 +169,7 @@ ROTATING_FORMATS = [
             "FORMATUL 4: GHID RAPID / TEST DE VERIFICARE ÎN 60 SECUNDE. "
             "Structură: Începe cu 'Fă acest test rapid în 3 pași înainte să predai lucrarea/portofoliul...'. "
             "Prezintă pasul 1, pasul 2 și regula decisivă (pasul 3), "
-            "urmat de îndemnul de verificare pe https://titularizare-si-definitivat.vercel.app."
+            "urmat de îndemnul de verificare pe https://edutitularizare.ro."
         ),
         "section_structure": "Secțiunea 1 (titlu test #3B82F6), Pasul 1 (#2563EB), Pasul 2 (#F59E0B), Pasul 3 (#DC2626), CTA final (#10B981)."
     }
@@ -185,7 +185,7 @@ def generate_scenario_with_gemini():
         return FALLBACK_TOPICS[day_idx % len(FALLBACK_TOPICS)]
 
     prompt = (
-        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels / YouTube Shorts) al platformei EduTitularizare (https://titularizare-si-definitivat.vercel.app) - platforma națională de pregătire pentru Concursul de Titularizare și Examenul de Definitivat, bazată pe Legea învățământului preuniversitar nr. 198/2023 și Ordinul de ministru nr. 3858/2026.\n\n"
+        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels / YouTube Shorts) al platformei EduTitularizare (https://edutitularizare.ro) - platforma națională de pregătire pentru Concursul de Titularizare și Examenul de Definitivat, bazată pe Legea învățământului preuniversitar nr. 198/2023 și Ordinul de ministru nr. 3858/2026.\n\n"
         f"NORME OBLIGATORII PRIVIND LIMBA ROMÂNĂ (DOOM3 / ACADEMIA ROMÂNĂ):\n"
         f"- Folosește EXCLUSIV LIMBA ROMÂNĂ OFICIALĂ LITERARĂ, conform normelor ortografice, ortoepice și morfologice oficiale (DOOM3).\n"
         f"- Este STRICT INTERZISĂ orice greșeală gramaticală sau ortografică (folosește diacritice corecte: ă, â, î, ș, ț).\n"
@@ -207,7 +207,7 @@ def generate_scenario_with_gemini():
         '    {"time_max": 27.5, "text": "PUNCTUL 3 / CONCLUZIE", "color": "#DC2626"},\n'
         '    {"time_max": 99.0, "text": "SOLUȚIE • VERIFICĂ ACUM", "color": "#10B981"}\n'
         '  ],\n'
-        '  "tiktok_caption": "Descriere captivantă pentru TikTok incluzând linkul https://titularizare-si-definitivat.vercel.app și 4-6 hashtag-uri relevante: #titularizare #definitivat #profesori #invatamant #edutitularizare #educatie"\n'
+        '  "tiktok_caption": "Descriere captivantă pentru TikTok incluzând linkul https://edutitularizare.ro și 4-6 hashtag-uri relevante: #titularizare #definitivat #profesori #invatamant #edutitularizare #educatie"\n'
         "}"
     )
 
@@ -340,9 +340,9 @@ async def generate_audio_and_timestamps(script_text):
         "SSM": "S S M", "VET": "V E T", "TIC": "T I C", "Gagné": "Ganie",
         "Gagne": "Ganie", "Mager": "Meigher", "Bloom": "Blum", "MR": "M R",
         "ND": "N D", "NS": "N S", "NP": "N P", "NI1": "N I 1", "NI2": "N I 2",
-        "titularizare-si-definitivat.vercel.app": "titularizare și definitivat punct versel punct ap",
-        "vercel.app": "versel punct ap",
-        "vercel": "versel"
+        "edutitularizare.ro": "titularizare și definitivat punct ro",
+        
+        
     }
     spoken_text = script_text
     for en_word, ro_phonetic in phonetic_map.items():
@@ -459,7 +459,7 @@ def render_video(scenario, words, total_duration, audio_path):
     
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
     brand_text = "EDUTITULARIZARE • TITULARIZARE & DEFINITIVAT"
-    cta_main = "Pregătește-te pe titularizare-si-definitivat.vercel.app"
+    cta_main = "Pregătește-te pe edutitularizare.ro"
     cta_sub = "+ Urmărește pentru trucuri didactice de nota 10"
     disc1 = "Platformă națională de pregătire conform Legii nr. 198/2023."
     disc2 = "Portofoliu didactic OME nr. 3858/2026 și simulatoare oficiale de examen."
@@ -595,7 +595,7 @@ async def dispatch_to_telegram(scenario, duration):
         return False
 
     title = scenario.get("topic_title", "Truc Metodic pentru Titularizare & Definitivat")
-    caption_txt = scenario.get("tiktok_caption", "Pregătește-te inteligent pe https://titularizare-si-definitivat.vercel.app !")
+    caption_txt = scenario.get("tiktok_caption", "Pregătește-te inteligent pe https://edutitularizare.ro !")
 
     # 1. Încercare prin telegram_publisher dacă este disponibil
     try:
