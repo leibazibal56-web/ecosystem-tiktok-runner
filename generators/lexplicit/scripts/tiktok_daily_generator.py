@@ -38,7 +38,7 @@ FALLBACK_TOPICS = [
     {
         "topic_title": "3 CLAUZE CAPCANĂ ÎN CONTRACTUL DE MUNCĂ",
         "alert_badge": "CONTRACT DE MUNCĂ",
-        "script_speech": "Te angajezi sau semnezi un nou contract de muncă? Iată trei clauze care îți pot crea probleme majore! Unu: Perioada de probă prelungită ilegal. Conform legii, aceasta nu poate depăși nouăzeci de zile. Doi: Clauza de neconcurență fără indemnizație lunară. Dacă angajatorul nu plătește cel puțin cincizeci la sută din salariu, clauza este nulă. Trei: Orele suplimentare necompensate. Verifică gratuit contractul tău pe lexplicit.vercel.app înainte să semnezi!",
+        "script_speech": "Te angajezi sau semnezi un nou contract de muncă? Iată trei clauze care îți pot crea probleme majore! Unu: Perioada de probă prelungită ilegal. Conform legii, aceasta nu poate depăși nouăzeci de zile. Doi: Clauza de neconcurență fără indemnizație lunară. Dacă angajatorul nu plătește cel puțin cincizeci la sută din salariu, clauza este nulă. Trei: Orele suplimentare necompensate. Verifică gratuit contractul tău pe lexplicit.ro înainte să semnezi!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -66,12 +66,12 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Atenție când semnezi un nou contract de muncă! 3 clauze capcană frecvente și drepturile tale conform Codului Muncii. Verifică-ți contractul gratuit pe https://lexplicit.vercel.app/ ! ⚖️ #munca #salariu #angajare #lexplicit #romania"
+        "tiktok_caption": "Atenție când semnezi un nou contract de muncă! 3 clauze capcană frecvente și drepturile tale conform Codului Muncii. Verifică-ți contractul gratuit pe https://lexplicit.ro/ ! ⚖️ #munca #salariu #angajare #lexplicit #romania"
     },
     {
         "topic_title": "MIT SAU REALITATE: ORICE CONTRACT VERBAL E NUL?",
         "alert_badge": "MIT VS REALITATE",
-        "script_speech": "Crezi că dacă nu ai semnat pe hârtie, o înțelegere nu are nicio valoare legală? Total greșit! Codul Civil recunoaște valabilitatea acordului verbal în majoritatea situațiilor uzuale. Însă fără o dovadă scrisă sau mesaje clare, recuperarea banilor devine un coșmar în instanță. Nu lăsa nimic la voia întâmplării: redactează și verifică gratuit un acord clar pe lexplicit.vercel.app!",
+        "script_speech": "Crezi că dacă nu ai semnat pe hârtie, o înțelegere nu are nicio valoare legală? Total greșit! Codul Civil recunoaște valabilitatea acordului verbal în majoritatea situațiilor uzuale. Însă fără o dovadă scrisă sau mesaje clare, recuperarea banilor devine un coșmar în instanță. Nu lăsa nimic la voia întâmplării: redactează și verifică gratuit un acord clar pe lexplicit.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -99,12 +99,12 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Are valoare legală o înțelegere verbală? Adevărul din Codul Civil și de ce trebuie mereu să pui totul în scris. Verifică gratuit pe https://lexplicit.vercel.app/ ! 📝⚖️ #drept #contract #sfatjuridic #lexplicit #romania"
+        "tiktok_caption": "Are valoare legală o înțelegere verbală? Adevărul din Codul Civil și de ce trebuie mereu să pui totul în scris. Verifică gratuit pe https://lexplicit.ro/ ! 📝⚖️ #drept #contract #sfatjuridic #lexplicit #romania"
     },
     {
         "topic_title": "CUM ÎȚI RECUPEREZI GARANȚIA LA CHIRIE",
         "alert_badge": "STUDIU DE CAZ CHIRIE",
-        "script_speech": "Ce faci dacă proprietarul refuză să-ți restituie garanția de cinci sute de euro pe motiv că pereții sunt murdari? Iată soluția concretă! În primul rând, legea distinge clar între uzura normală și degradarea din culpă. Dacă ai făcut fotografii la mutare și ai proces-verbal de predare, proprietarul nu poate opri niciun leu abuziv. Verifică gratuit clauzele de garanție din contractul tău pe lexplicit.vercel.app!",
+        "script_speech": "Ce faci dacă proprietarul refuză să-ți restituie garanția de cinci sute de euro pe motiv că pereții sunt murdari? Iată soluția concretă! În primul rând, legea distinge clar între uzura normală și degradarea din culpă. Dacă ai făcut fotografii la mutare și ai proces-verbal de predare, proprietarul nu poate opri niciun leu abuziv. Verifică gratuit clauzele de garanție din contractul tău pe lexplicit.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -132,12 +132,12 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Nu lăsa proprietarul să-ți rețină abuziv garanția la chirie! Iată ce spune legea despre uzura normală. Verifică gratuit pe https://lexplicit.vercel.app/ ! 🏠⚖️ #chirie #proprietar #garantie #lexplicit #romania"
+        "tiktok_caption": "Nu lăsa proprietarul să-ți rețină abuziv garanția la chirie! Iată ce spune legea despre uzura normală. Verifică gratuit pe https://lexplicit.ro/ ! 🏠⚖️ #chirie #proprietar #garantie #lexplicit #romania"
     },
     {
         "topic_title": "TEST RAPID ÎN 60 SEC: RETUR 14 ZILE ONLINE",
         "alert_badge": "AUDIT ÎN 60 SECUNDE",
-        "script_speech": "Ai cumpărat online și vrei banii înapoi? Fă acest test rapid în trei pași înainte să trimiți coletul! Pasul unu: Verifică dacă magazinul este din Uniunea Europeană. Ai garantat 14 zile fără motiv. Pasul doi: Asigură-te că produsul nu intră la excepții de igienă sau perisabile. Pasul trei: Notifică în scris comerciantul. Verifică gratuit contractele și termenii pe lexplicit.vercel.app!",
+        "script_speech": "Ai cumpărat online și vrei banii înapoi? Fă acest test rapid în trei pași înainte să trimiți coletul! Pasul unu: Verifică dacă magazinul este din Uniunea Europeană. Ai garantat 14 zile fără motiv. Pasul doi: Asigură-te că produsul nu intră la excepții de igienă sau perisabile. Pasul trei: Notifică în scris comerciantul. Verifică gratuit contractele și termenii pe lexplicit.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -165,7 +165,7 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Vrei să returnezi un produs comandat online? Fă acest test rapid în 60 de secunde și află-ți drepturile de consumator! https://lexplicit.vercel.app/ 📦⚖️ #retur #cumparaturionline #protectiaconsumatorului #lexplicit #romania"
+        "tiktok_caption": "Vrei să returnezi un produs comandat online? Fă acest test rapid în 60 de secunde și află-ți drepturile de consumator! https://lexplicit.ro/ 📦⚖️ #retur #cumparaturionline #protectiaconsumatorului #lexplicit #romania"
     }
 ]
 
@@ -199,7 +199,7 @@ ROTATING_FORMATS = [
             "FORMATUL 1: TOP 3 CAPCANE / GREȘELI FRECVENTE. "
             "Structură: Începe cu un Hook alert (primele 4 secunde) despre pericole sau greșeli majore. "
             "Urmează 3 puncte numerotate Unu / Doi / Trei (solide, concise, cu impact direct) "
-            "și un îndemn final de testare pe https://lexplicit.vercel.app/."
+            "și un îndemn final de testare pe https://lexplicit.ro/."
         ),
         "section_structure": "Secțiunea 1 (problemă #DC2626), Punctul 1 (#2563EB), Punctul 2 (#D97706), Punctul 3 (#DC2626), CTA final (#10B981)."
     },
@@ -210,7 +210,7 @@ ROTATING_FORMATS = [
             "FORMATUL 2: MIT VS. REALITATE / ADEVĂRAT SAU FALS. "
             "Structură: Începe cu o întrebare provocatoare sau un mit larg răspândit ('Crezi că...? Total fals!'). "
             "Explică de ce este greșit ce crede majoritatea, oferă perspectiva corectă "
-            "și un îndemn final de verificare pe https://lexplicit.vercel.app/."
+            "și un îndemn final de verificare pe https://lexplicit.ro/."
         ),
         "section_structure": "Secțiunea 1 (titlu mit #EF4444), De ce e fals (#F59E0B), Realitatea corectă (#2563EB), Regula de aur (#DC2626), CTA final (#10B981)."
     },
@@ -221,7 +221,7 @@ ROTATING_FORMATS = [
             "FORMATUL 3: STUDIU DE CAZ / SITUAȚIE CONCRETĂ. "
             "Structură: Începe cu o dilemă practică concretă ('Ce faci dacă te confrunți cu...?'). "
             "Prezintă greșeala tipică pe care o fac oamenii, pasul salvator sau soluția corectă "
-            "și îndemnul de a rezolva pe https://lexplicit.vercel.app/."
+            "și îndemnul de a rezolva pe https://lexplicit.ro/."
         ),
         "section_structure": "Secțiunea 1 (dilemă #DC2626), Greșeala comună (#F59E0B), Soluția pas cu pas (#2563EB), Concluzie (#DC2626), CTA final (#10B981)."
     },
@@ -232,7 +232,7 @@ ROTATING_FORMATS = [
             "FORMATUL 4: GHID RAPID / TEST DE VERIFICARE ÎN 60 SECUNDE. "
             "Structură: Începe cu 'Fă acest test rapid în 3 pași înainte să...'. "
             "Prezintă pasul 1, pasul 2 și regula decisivă (pasul 3), "
-            "urmat de îndemnul de verificare pe https://lexplicit.vercel.app/."
+            "urmat de îndemnul de verificare pe https://lexplicit.ro/."
         ),
         "section_structure": "Secțiunea 1 (titlu test #3B82F6), Pasul 1 (#2563EB), Pasul 2 (#F59E0B), Pasul 3 (#DC2626), CTA final (#10B981)."
     }
@@ -248,7 +248,7 @@ def generate_scenario_with_gemini():
         return FALLBACK_TOPICS[day_idx % len(FALLBACK_TOPICS)]
 
     prompt = (
-        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei Lexplicit (https://lexplicit.vercel.app/) - asistență educațională și analiză textuală a contractelor prin NLP (conform Legii 51/1995, exclusiv orientativ, fără a oferi consultanță de avocat).\n\n"
+        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei Lexplicit (https://lexplicit.ro/) - asistență educațională și analiză textuală a contractelor prin NLP (conform Legii 51/1995, exclusiv orientativ, fără a oferi consultanță de avocat).\n\n"
         f"NORME OBLIGATORII PRIVIND LIMBA ROMÂNĂ (DOOM3 / ACADEMIA ROMÂNĂ):\n"
         f"- Folosește EXCLUSIV LIMBA ROMÂNĂ OFICIALĂ LITERARĂ, conform normelor ortografice, ortoepice și morfologice oficiale (DOOM3).\n"
         f"- Este STRICT INTERZISĂ orice greșeală de ortografie, fonetizare greșită sau tipar (de exemplu: scrie 'prestigiu', NICIODATĂ 'prestijiu'; 'succese', nu 'succesuri'; folosește diacritice corecte: ă, â, î, ș, ț).\n"
@@ -270,7 +270,7 @@ def generate_scenario_with_gemini():
         '    {"time_max": 27.5, "text": "PUNCTUL 3 / CONCLUZIE", "color": "#DC2626"},\n'
         '    {"time_max": 99.0, "text": "SOLUȚIE • VERIFICĂ ACUM", "color": "#10B981"}\n'
         '  ],\n'
-        '  "tiktok_caption": "Descriere captivantă pentru TikTok incluzând linkul https://lexplicit.vercel.app/ și 4-6 hashtag-uri relevante: #drept #contracte #munca #chirie #auto #consumator #lexplicit #romania"\n'
+        '  "tiktok_caption": "Descriere captivantă pentru TikTok incluzând linkul https://lexplicit.ro/ și 4-6 hashtag-uri relevante: #drept #contracte #munca #chirie #auto #consumator #lexplicit #romania"\n'
         "}"
     )
 
@@ -508,7 +508,7 @@ def render_video(scenario, words, total_duration, audio_path):
     
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
     brand_text = "LEXPLICIT  •  NLP & DOCUMENTE"
-    cta_main = "Verifică gratuit pe lexplicit.vercel.app"
+    cta_main = "Verifică gratuit pe lexplicit.ro"
     cta_sub = "+ Urmărește pentru mai multe sfaturi practice"
     disc1 = "Informații cu caracter educativ și orientativ."
     disc2 = "Conform Legii 51/1995, Lexplicit oferă exclusiv asistență de analiză textuală NLP."
@@ -641,7 +641,7 @@ def dispatch_to_telegram(scenario, duration):
         return False
 
     title = scenario.get("topic_title", "Sfat Juridic Practic")
-    caption_txt = scenario.get("tiktok_caption", "Verifică-ți gratuit contractul pe https://lexplicit.vercel.app/ !")
+    caption_txt = scenario.get("tiktok_caption", "Verifică-ți gratuit contractul pe https://lexplicit.ro/ !")
     
     tg_caption = (
         f"🎬 <b>[LEXPLICIT TIKTOK DAILY]</b>\n\n"
