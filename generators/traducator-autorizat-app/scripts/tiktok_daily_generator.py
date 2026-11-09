@@ -36,7 +36,7 @@ load_dotenv(os.path.join(ROOT_DIR, ".env"))
 GEMINI_API_KEY = (os.getenv("GEMINI_API_KEY") or "").strip()
 TELEGRAM_BOT_TOKEN = (os.getenv("TELEGRAM_BOT_TOKEN") or "").strip()
 TELEGRAM_CHAT_ID = (os.getenv("TELEGRAM_CHAT_ID") or "8867321650").strip()
-APP_URL = (os.getenv("APP_URL") or "https://traducator-autorizat.vercel.app").strip()
+APP_URL = (os.getenv("APP_URL") or "https://traducatorpro.ro").strip()
 
 OUTPUT_DIR = os.path.abspath(os.path.join(ROOT_DIR, "video-generator"))
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -47,7 +47,7 @@ FALLBACK_TOPICS = [
     {
         "topic_title": "3 ERORI CARE TE DEZCALIFICĂ LA EXAMENUL DE TRADUCĂTOR AUTORIZAT",
         "alert_badge": "EXAMEN INCFC • JURIDIC",
-        "script_speech": "Susții examenul de traducător autorizat pentru științe juridice organizat de I N C F C? Atenție la baremul sever de corectare! Unu: O singură omisiune a unei propoziții sau a unui termen juridic esențial se depunctează cu până la două puncte din nota zece! Doi: Nu lăsa niciodată variante alternative între paranteze pe foaia de examen, deoarece comisia le consideră nehotărâre și scade punctaj. Trei: Atenție la diferența dintre hotărâre judecătorească definitivă și încheiere de ședință! Antrenează-te pe texte oficiale pe traducator-autorizat.vercel.app!",
+        "script_speech": "Susții examenul de traducător autorizat pentru științe juridice organizat de I N C F C? Atenție la baremul sever de corectare! Unu: O singură omisiune a unei propoziții sau a unui termen juridic esențial se depunctează cu până la două puncte din nota zece! Doi: Nu lăsa niciodată variante alternative între paranteze pe foaia de examen, deoarece comisia le consideră nehotărâre și scade punctaj. Trei: Atenție la diferența dintre hotărâre judecătorească definitivă și încheiere de ședință! Antrenează-te pe texte oficiale pe traducatorpro.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -75,7 +75,7 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Te pregătești pentru examenul de Traducător Autorizat INCFC (științe juridice)? 3 reguli critice de barem pe https://traducator-autorizat.vercel.app ! 📜⚖️ #traducator #incfc #traducerijuridice #engleza"
+        "tiktok_caption": "Te pregătești pentru examenul de Traducător Autorizat INCFC (științe juridice)? 3 reguli critice de barem pe https://traducatorpro.ro ! 📜⚖️ #traducator #incfc #traducerijuridice #engleza"
     }
 ]
 
@@ -106,7 +106,7 @@ def generate_scenario_with_gemini():
         return FALLBACK_TOPICS[day_idx]
 
     prompt = (
-        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei TraducatorPro (https://traducator-autorizat.vercel.app) - specializată în examenul național de traducător și interpret autorizat (INCFC / Ministerul Culturii și Ministerul Justiției): traducerea textelor juridice, baremul de depunctare pentru omisiuni și falsi prieteni terminologici.\n"
+        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei TraducatorPro (https://traducatorpro.ro) - specializată în examenul național de traducător și interpret autorizat (INCFC / Ministerul Culturii și Ministerul Justiției): traducerea textelor juridice, baremul de depunctare pentru omisiuni și falsi prieteni terminologici.\n"
         "Folosește EXCLUSIV limba română literară corectă conform DOOM3, cu diacritice complete.\n"
         "Creează un scenariu alert de 25-30 secunde (65-75 cuvinte) cu Hook în primele 4 secunde, 3 puncte clare și îndemn final de accesare a platformei.\n"
         "RĂSPUNDE EXCLUSIV ÎN FORMAT JSON VALID:\n"
@@ -121,7 +121,7 @@ def generate_scenario_with_gemini():
         '    {"time_max": 27.5, "text": "3 • PUNCTUL TREI", "color": "#06B6D4"},\n'
         '    {"time_max": 99.0, "text": "SOLUȚIE • VERIFICĂ ACUM", "color": "#10B981"}\n'
         '  ],\n'
-        '  "tiktok_caption": "Descriere captivantă cu linkul https://traducator-autorizat.vercel.app și hashtag-uri: #traducatorautorizat #incfc #traducerijuridice #limbi #ministeruljustitiei #traducatorpro"\n'
+        '  "tiktok_caption": "Descriere captivantă cu linkul https://traducatorpro.ro și hashtag-uri: #traducatorautorizat #incfc #traducerijuridice #limbi #ministeruljustitiei #traducatorpro"\n'
         "}"
     )
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
@@ -271,7 +271,7 @@ def render_video(scenario, words, total_duration, audio_path):
     ]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
     brand_text = "📜 TRADUCĂTORPRO • EXAMEN TRADUCĂTORI AUTORIZAȚI"
-    cta_main = "Pregătește examenul pe traducator-autorizat.vercel.app"
+    cta_main = "Pregătește examenul pe traducatorpro.ro"
     cta_sub = "Examen INCFC & Ministerul Justiției: Traduceri Juridice și Oficiale"
     disc1 = "Platformă de pregătire pentru examenul de Traducător și Interpret Autorizat (INCFC / MJ)."
     disc2 = "Glosare juridice oficiale, bareme de depunctare și simulări de texte legislative."
@@ -382,7 +382,7 @@ def dispatch_to_telegram(scenario, duration):
         print("Lipsesc credențialele Telegram.")
         return False
     title = scenario.get("topic_title", "TraducatorPro TikTok")
-    caption_txt = scenario.get("tiktok_caption", "Accesează https://traducator-autorizat.vercel.app !")
+    caption_txt = scenario.get("tiktok_caption", "Accesează https://traducatorpro.ro !")
     tg_caption = (
         f"🎬 <b>[TRADUCATORPRO TIKTOK DAILY]</b>\n\n"
         f"📌 <b>Subiect:</b> {title}\n"
