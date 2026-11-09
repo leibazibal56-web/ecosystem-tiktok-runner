@@ -56,7 +56,7 @@ FALLBACK_TOPICS = [
     {
         "topic_title": "3 CAPCANE LA MATEMATICĂ LA POLITEHNICĂ",
         "alert_badge": "MATEMATICĂ ADMITERE UPB",
-        "script_speech": "Dai admiterea la Politehnică anul acesta? Iată trei capcane clasice la matematică din care se pierd două puncte! Unu: La calculul integralei funcției inverse, nu te apuca să calculezi inversa explicit. Folosește formula ariei! Doi: La polinoame, rădăcinile reale se verifică mereu prin relațiile lui Viète și schema Horner. Trei: Nu uita condițiile de existență la logaritmi. Exersează cele 794 de grile oficiale rezolvate pe poliprep-upb.vercel.app!",
+        "script_speech": "Dai admiterea la Politehnică anul acesta? Iată trei capcane clasice la matematică din care se pierd două puncte! Unu: La calculul integralei funcției inverse, nu te apuca să calculezi inversa explicit. Folosește formula ariei! Doi: La polinoame, rădăcinile reale se verifică mereu prin relațiile lui Viète și schema Horner. Trei: Nu uita condițiile de existență la logaritmi. Exersează cele 794 de grile oficiale rezolvate pe poliprep.ro!",
         "sections": [
             {"time_max": 6.5, "text": "CAPCANE MATE UPB", "color": "#0284C7"},
             {"time_max": 14.0, "text": "1 • INTEGRALA INVERSEI", "color": "#6366F1"},
@@ -64,12 +64,12 @@ FALLBACK_TOPICS = [
             {"time_max": 27.5, "text": "3 • DOMENIU LOGARITMI", "color": "#EF4444"},
             {"time_max": 99.0, "text": "SOLUȚIE • SIMULATOR 180 MIN", "color": "#10B981"}
         ],
-        "tiktok_caption": "3 capcane clasice la examenul scris de Matematică la Politehnică! Antrenează-te pe simulatoarele oficiale de 180 minute pe https://poliprep-upb.vercel.app ! 📐🚀 #upb #politehnica #admitere2026 #matematica #acs #etti #poliprep"
+        "tiktok_caption": "3 capcane clasice la examenul scris de Matematică la Politehnică! Antrenează-te pe simulatoarele oficiale de 180 minute pe https://poliprep.ro ! 📐🚀 #upb #politehnica #admitere2026 #matematica #acs #etti #poliprep"
     },
     {
         "topic_title": "CUM GESTIONEZI CELE 180 MINUTE LA POLI?",
         "alert_badge": "STRATEGIE EXAMEN UPB",
-        "script_speech": "Ai 10 probleme și 180 de minute la admiterea la Politehnică. Cum îți împarți timpul ca să iei peste nota nouă? Pasul unu: Rezolvă în primele 40 de minute cele patru grile rapide de nivel mediu. Pasul doi: Alocă 80 de minute pentru cele cinci probleme de sinteză. Pasul trei: Păstrează ultima jumătate de oră pentru verificarea calculelor și completarea atentă a foii de răspuns optice. Testează simulatorul oficial cu cronometru pe poliprep-upb.vercel.app!",
+        "script_speech": "Ai 10 probleme și 180 de minute la admiterea la Politehnică. Cum îți împarți timpul ca să iei peste nota nouă? Pasul unu: Rezolvă în primele 40 de minute cele patru grile rapide de nivel mediu. Pasul doi: Alocă 80 de minute pentru cele cinci probleme de sinteză. Pasul trei: Păstrează ultima jumătate de oră pentru verificarea calculelor și completarea atentă a foii de răspuns optice. Testează simulatorul oficial cu cronometru pe poliprep.ro!",
         "sections": [
             {"time_max": 6.5, "text": "TACTICA 180 MINUTE", "color": "#0284C7"},
             {"time_max": 13.5, "text": "ETAPA 1 • 40 MIN / GRILE RAPIDE", "color": "#10B981"},
@@ -77,12 +77,12 @@ FALLBACK_TOPICS = [
             {"time_max": 27.5, "text": "ETAPA 3 • 30 MIN / FOAIA OPTICĂ", "color": "#EF4444"},
             {"time_max": 99.0, "text": "SIMULATOR CU BULINE OPTICE", "color": "#38BDF8"}
         ],
-        "tiktok_caption": "Cum îți împarți cele 180 de minute la examenul scris UPB? Strategia care te duce la Buget la ACS sau ETTI! Testează pe https://poliprep-upb.vercel.app ! ⏱️🎯 #politehnica #admitereupb #bacalaureat #inginerie #simulatorupb"
+        "tiktok_caption": "Cum îți împarți cele 180 de minute la examenul scris UPB? Strategia care te duce la Buget la ACS sau ETTI! Testează pe https://poliprep.ro ! ⏱️🎯 #politehnica #admitereupb #bacalaureat #inginerie #simulatorupb"
     },
     {
         "topic_title": "SECRETUL RANDAMENTULUI LA FIZICĂ UPB",
         "alert_badge": "FIZICĂ CONCURS UPB",
-        "script_speech": "Te sperie problemele de termodinamică la fizică pentru admitere? Iată secretul ciclului Carnot! Randamentul maxim depinde doar de temperaturile sursei calde și ale sursei reci. Niciodată de natura gazului ideal! Dacă sursa rece scade cu 50 de Kelvin, randamentul crește instantaneu. Fii atent la unitățile de măsură: transformă mereu gradele Celsius în Kelvin! Găsești rezolvările demonstrative pas cu pas pe poliprep-upb.vercel.app!",
+        "script_speech": "Te sperie problemele de termodinamică la fizică pentru admitere? Iată secretul ciclului Carnot! Randamentul maxim depinde doar de temperaturile sursei calde și ale sursei reci. Niciodată de natura gazului ideal! Dacă sursa rece scade cu 50 de Kelvin, randamentul crește instantaneu. Fii atent la unitățile de măsură: transformă mereu gradele Celsius în Kelvin! Găsești rezolvările demonstrative pas cu pas pe poliprep.ro!",
         "sections": [
             {"time_max": 6.5, "text": "TERMODINAMICĂ UPB", "color": "#F59E0B"},
             {"time_max": 14.0, "text": "RANDAMENTUL CARNOT", "color": "#0284C7"},
@@ -90,12 +90,12 @@ FALLBACK_TOPICS = [
             {"time_max": 27.5, "text": "UNITĂȚI ÎN SISTEM INTERNAȚIONAL", "color": "#6366F1"},
             {"time_max": 99.0, "text": "SOLUȚIE • 250+ GRILE FIZICĂ", "color": "#10B981"}
         ],
-        "tiktok_caption": "Capcana randamentului Carnot la Fizică la Politehnică! Învață trucurile de concurs pe https://poliprep-upb.vercel.app ! ⚡🔬 #fizica #upb #admitere #termodinamica #politehnicabucuresti"
+        "tiktok_caption": "Capcana randamentului Carnot la Fizică la Politehnică! Învață trucurile de concurs pe https://poliprep.ro ! ⚡🔬 #fizica #upb #admitere #termodinamica #politehnicabucuresti"
     },
     {
         "topic_title": "ALGORITMI PE ARBORI PENTRU ADMITERE LA CTI",
         "alert_badge": "INFORMATICĂ C++ ACS",
-        "script_speech": "Dai admiterea la Calculatoare și Tehnologia Informației? Iată ce pică mereu la informatică: parcurgerile de arbori și analiza de complexitate! Reține că o căutare binară are complexitate logaritmică, dar dacă vectorul nu este sortat din start, ai greșit grila! Fii atent la valorile de frontieră și indicii de la zero la n minus unu. Exersează subiectele oficiale din 2026 pe poliprep-upb.vercel.app!",
+        "script_speech": "Dai admiterea la Calculatoare și Tehnologia Informației? Iată ce pică mereu la informatică: parcurgerile de arbori și analiza de complexitate! Reține că o căutare binară are complexitate logaritmică, dar dacă vectorul nu este sortat din start, ai greșit grila! Fii atent la valorile de frontieră și indicii de la zero la n minus unu. Exersează subiectele oficiale din 2026 pe poliprep.ro!",
         "sections": [
             {"time_max": 6.5, "text": "INFORMATICĂ C++ CTI", "color": "#10B981"},
             {"time_max": 13.5, "text": "ARBORI & RECURSIVITATE", "color": "#0284C7"},
@@ -103,7 +103,7 @@ FALLBACK_TOPICS = [
             {"time_max": 27.0, "text": "COMPLEXITATE O(LOG N)", "color": "#F59E0B"},
             {"time_max": 99.0, "text": "SOLUȚIE • GRILE OFICIALE 2026", "color": "#38BDF8"}
         ],
-        "tiktok_caption": "Trucuri esențiale de Informatică C++ pentru admiterea la ACS / CTI Politehnică! Antrenează-te pe https://poliprep-upb.vercel.app ! 💻🚀 #informatica #cplusplus #acs #cti #upb #admitere2026"
+        "tiktok_caption": "Trucuri esențiale de Informatică C++ pentru admiterea la ACS / CTI Politehnică! Antrenează-te pe https://poliprep.ro ! 💻🚀 #informatica #cplusplus #acs #cti #upb #admitere2026"
     }
 ]
 
@@ -140,14 +140,14 @@ def generate_scenario_with_gemini():
         return fallback
 
     prompt = (
-        "Ești scenaristul oficial pentru videoclipurile TikTok/Reels ale platformei educaționale PoliPrep Pro (https://poliprep-upb.vercel.app) – platforma de elită pentru admiterea la Universitatea Națională de Știință și Tehnologie Politehnica București (UNSTPB / UPB).\n"
+        "Ești scenaristul oficial pentru videoclipurile TikTok/Reels ale platformei educaționale PoliPrep Pro (https://poliprep.ro) – platforma de elită pentru admiterea la Universitatea Națională de Știință și Tehnologie Politehnica București (UNSTPB / UPB).\n"
         "Creează un scenariu ultra-captivant, alert, de 65-75 cuvinte, rostit de o voce feminină caldă, sigură și inteligentă.\n"
         "Subiecte posibile: capcane la matematică (analiză/algebră), fizică (mecanică/termo/electricitate), informatică C++ (CTI/ACS) sau sfaturi tactice pentru gestionarea celor 180 de minute de concurs și baremul de 0.90p/grilă.\n\n"
         "Returnează EXCLUSIV un obiect JSON cu structura:\n"
         "{\n"
         '  "topic_title": "TITLU ÎN MAJUSCULE (max 5 cuvinte)",\n'
         '  "alert_badge": "CATEGORIE (ex: MATEMATICĂ UPB, STRATEGIE 180 MIN, FIZICĂ CONCURS)",\n'
-        '  "script_speech": "Textul rostit în limba română (65-75 cuvinte), cursiv, alert, cu cifre scrise în cuvinte (unu, doi, trei, zece, o sută optzeci), îndemnând spre https://poliprep-upb.vercel.app la final.",\n'
+        '  "script_speech": "Textul rostit în limba română (65-75 cuvinte), cursiv, alert, cu cifre scrise în cuvinte (unu, doi, trei, zece, o sută optzeci), îndemnând spre https://poliprep.ro la final.",\n'
         '  "sections": [\n'
         '    {"time_max": 6.5, "text": "TITLU INTRODUcere", "color": "#0284C7"},\n'
         '    {"time_max": 14.0, "text": "PUNCTUL 1", "color": "#6366F1"},\n'
@@ -155,7 +155,7 @@ def generate_scenario_with_gemini():
         '    {"time_max": 27.5, "text": "PUNCTUL 3 / CONCLUZIE", "color": "#EF4444"},\n'
         '    {"time_max": 99.0, "text": "SOLUȚIE • SIMULATOR OFICIAL", "color": "#10B981"}\n'
         '  ],\n'
-        '  "tiktok_caption": "Descriere captivantă pentru TikTok incluzând https://poliprep-upb.vercel.app și 4-6 hashtag-uri: #upb #politehnica #admitere2026 #matematica #fizica #acs #etti #poliprep"\n'
+        '  "tiktok_caption": "Descriere captivantă pentru TikTok incluzând https://poliprep.ro și 4-6 hashtag-uri: #upb #politehnica #admitere2026 #matematica #fizica #acs #etti #poliprep"\n'
         "}"
     )
 
@@ -409,8 +409,8 @@ def render_video(scenario, words, total_duration, audio_path):
 
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
     brand_text = "POLIPREP PRO • ADMITERE POLITEHNICĂ UPB"
-    cta_main = "https://poliprep-upb.vercel.app/"
-    cta_sub = "Exersează pe https://poliprep-upb.vercel.app/ • 794 Grile UPB"
+    cta_main = "https://poliprep.ro/"
+    cta_sub = "Exersează pe https://poliprep.ro/ • 794 Grile UPB"
     disc1 = "Platformă de elită pentru admiterea la Universitatea Națională de Știință și Tehnologie Politehnica București."
     disc2 = "794 grile explicate, subiecte oficiale 2026 și simulare cu foaie optică • TEODORESCU O.DIANA PFA"
 
@@ -552,7 +552,7 @@ async def dispatch_to_telegram(scenario, duration):
         return False
 
     title = scenario.get("topic_title", "Capcană Admitere Politehnică UPB")
-    caption_txt = scenario.get("tiktok_caption", "Pregătește-te de concurs pe https://poliprep-upb.vercel.app !")
+    caption_txt = scenario.get("tiktok_caption", "Pregătește-te de concurs pe https://poliprep.ro !")
 
     tg_caption = (
         f"🎓 <b>[POLIPREP UPB • TIKTOK DAILY]</b>\n\n"
