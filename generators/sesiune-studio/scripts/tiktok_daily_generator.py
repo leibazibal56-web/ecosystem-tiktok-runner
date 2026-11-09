@@ -32,7 +32,7 @@ if hasattr(sys.stdout, "reconfigure"):
 TELEGRAM_BOT_TOKEN = (os.getenv("TELEGRAM_BOT_TOKEN") or "").strip()
 TELEGRAM_CHAT_ID = (os.getenv("TELEGRAM_CHAT_ID") or "8867321650").strip()
 GEMINI_KEY = (os.getenv("GEMINI_API_KEY") or "").strip()
-APP_URL = os.getenv("APP_URL") or "https://sesiune-studio.vercel.app"
+APP_URL = os.getenv("APP_URL") or "https://sesiune.ro"
 
 OUTPUT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "video-generator"))
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -65,7 +65,7 @@ SESIUNE_SCENARIOS = [
     {
         "topic_title": "CUM TRECI DE MATERIA DE BARAJ FĂRĂ RESTANȚĂ",
         "alert_badge": "🎓 SALVARE ÎN SESIUNE",
-        "script_speech": "Ești student și te prinde sesiunea nepregătit la cea mai grea materie de baraj? Nu intra în panică și nu toci cursuri de cinci sute de pagini! Secretul celor de zece este principiul optzeci douăzeci: la fiecare examen, doar trei capitole cheie dau peste șaptezeci la sută din subiecte! Pe sesiune-studio.vercel.app ai radarele de catedră decodificate: vezi exact ponderile reale ale profesorilor, spețele rezolvate pe barem și treci sesiunea lejer la buget! Intră acum și salvează-ți sesiunea!",
+        "script_speech": "Ești student și te prinde sesiunea nepregătit la cea mai grea materie de baraj? Nu intra în panică și nu toci cursuri de cinci sute de pagini! Secretul celor de zece este principiul optzeci douăzeci: la fiecare examen, doar trei capitole cheie dau peste șaptezeci la sută din subiecte! Pe sesiune.ro ai radarele de catedră decodificate: vezi exact ponderile reale ale profesorilor, spețele rezolvate pe barem și treci sesiunea lejer la buget! Intră acum și salvează-ți sesiunea!",
         "sections": [
             {"time_max": 5.5, "text": "🎓 PANICĂ ÎN SESIUNE?", "color": "#F43F5E"},
             {"time_max": 12.0, "text": "1 • NU TOCI 500 PAGINI", "color": "#F59E0B"},
@@ -73,12 +73,12 @@ SESIUNE_SCENARIOS = [
             {"time_max": 26.5, "text": "3 • RADARUL DE CATEDRĂ", "color": "#06B6D4"},
             {"time_max": 99.0, "text": "🔥 TRECI LEJER LA BUGET!", "color": "#10B981"}
         ],
-        "tiktok_caption": "📚 Ai materie grea de baraj în sesiune? Nu mai citi haotic 500 de pagini! Află cum decodifici cerințele profesorului și treci examenul direct la buget pe https://sesiune-studio.vercel.app ! 🎓✨ #studenti #sesiune #facultate #sesiunestudio #studentlife #examene #drept #medicina #politehnica #ase"
+        "tiktok_caption": "📚 Ai materie grea de baraj în sesiune? Nu mai citi haotic 500 de pagini! Află cum decodifici cerințele profesorului și treci examenul direct la buget pe https://sesiune.ro ! 🎓✨ #studenti #sesiune #facultate #sesiunestudio #studentlife #examene #drept #medicina #politehnica #ase"
     },
     {
         "topic_title": "METODA SECRETĂ: CUM ÎNVEȚI PENTRU EXAMEN ÎN DOAR 3 ZILE",
         "alert_badge": "⚡ STRATEGIE DE URGENȚĂ",
-        "script_speech": "Ai examen peste trei zile și nici măcar nu ai deschis cursurile? Oprește-te din citit mecanic! Metoda Salvării Rapide funcționează așa: Unu: ia subiectele din anii trecuți și extrage tiparele repetate. Doi: folosește flashcard-uri de memorare activă pentru definiții și formule cheie. Trei: rezolvă probleme direct pe baremul de corectare al profesorului. Toate radarele de curs și spețele rezolvate le găsești pe sesiune-studio.vercel.app! Treci examenul garantat!",
+        "script_speech": "Ai examen peste trei zile și nici măcar nu ai deschis cursurile? Oprește-te din citit mecanic! Metoda Salvării Rapide funcționează așa: Unu: ia subiectele din anii trecuți și extrage tiparele repetate. Doi: folosește flashcard-uri de memorare activă pentru definiții și formule cheie. Trei: rezolvă probleme direct pe baremul de corectare al profesorului. Toate radarele de curs și spețele rezolvate le găsești pe sesiune.ro! Treci examenul garantat!",
         "sections": [
             {"time_max": 5.0, "text": "⚡ EXAMEN ÎN 3 ZILE?", "color": "#EF4444"},
             {"time_max": 12.0, "text": "1 • TIPARE SUBIECTE VECHI", "color": "#F59E0B"},
@@ -86,12 +86,12 @@ SESIUNE_SCENARIOS = [
             {"time_max": 25.0, "text": "3 • REZOLVARE PE BAREM", "color": "#06B6D4"},
             {"time_max": 99.0, "text": "🎯 EXAMEN PROMOVAT GARANTAT", "color": "#10B981"}
         ],
-        "tiktok_caption": "⚡ Cum înveți pentru un examen universitar greu în doar 3 zile fără să pierzi nopțile? Secretul pregătirii pe barem și radare de curs pe https://sesiune-studio.vercel.app ! 🚀📖 #sesiune #student #facultate #invatare #sesiunestudio #examene #bac #studentromania"
+        "tiktok_caption": "⚡ Cum înveți pentru un examen universitar greu în doar 3 zile fără să pierzi nopțile? Secretul pregătirii pe barem și radare de curs pe https://sesiune.ro ! 🚀📖 #sesiune #student #facultate #invatare #sesiunestudio #examene #bac #studentromania"
     },
     {
         "topic_title": "DE CE PICĂ 60% DINTRE STUDENȚI LA MATERIILE GRELE?",
         "alert_badge": "🛑 CAPCANE DE CATEDRĂ",
-        "script_speech": "Știi de ce pică peste șaizeci la sută dintre studenți la materiile grele din facultate? Nu pentru că nu învață, ci pentru că învață greșit! Profesorii caută cuvinte cheie și structura din barem, nu zeci de pagini povestite din memorie! Dacă nu respecți terminologia de catedră, punctajul se înjumătățește instant. Intră pe sesiune-studio.vercel.app, verifică ghidurile de examen pentru facultatea ta și învață inteligent, nu epuizant!",
+        "script_speech": "Știi de ce pică peste șaizeci la sută dintre studenți la materiile grele din facultate? Nu pentru că nu învață, ci pentru că învață greșit! Profesorii caută cuvinte cheie și structura din barem, nu zeci de pagini povestite din memorie! Dacă nu respecți terminologia de catedră, punctajul se înjumătățește instant. Intră pe sesiune.ro, verifică ghidurile de examen pentru facultatea ta și învață inteligent, nu epuizant!",
         "sections": [
             {"time_max": 5.5, "text": "🛑 DE CE PICĂ 60% DIN SERIE?", "color": "#DC2626"},
             {"time_max": 12.5, "text": "NU ÎNVEȚI PREA PUȚIN...", "color": "#F59E0B"},
@@ -99,12 +99,12 @@ SESIUNE_SCENARIOS = [
             {"time_max": 25.5, "text": "STRUCTURA BAREMULUI", "color": "#06B6D4"},
             {"time_max": 99.0, "text": "🧠 ÎNVAȚĂ INTELIGENT CU SESIUNESTUDIO", "color": "#10B981"}
         ],
-        "tiktok_caption": "🛑 Greșeala fatală pe care o fac 60% dintre studenți în sesiune: tocitul fără barem! Descoperă ce caută profesorii la corectare pe https://sesiune-studio.vercel.app ! 🏛️💡 #sesiune #studenti #facultate #restante #sesiunestudio #examene #viataDeStudent #universitate"
+        "tiktok_caption": "🛑 Greșeala fatală pe care o fac 60% dintre studenți în sesiune: tocitul fără barem! Descoperă ce caută profesorii la corectare pe https://sesiune.ro ! 🏛️💡 #sesiune #studenti #facultate #restante #sesiunestudio #examene #viataDeStudent #universitate"
     },
     {
         "topic_title": "CUM ÎȚI PLANIFICI SESIUNEA CA SĂ RĂMÂI LA BUGET",
         "alert_badge": "🏆 BURSE & BUGET",
-        "script_speech": "Vrei să iei bursă sau să-ți asiguri locul la buget în anul următor? Iată planul invers de sesiune: împarte zilele de studiu pornind de la cel mai greu examen înapoi, dedică primele ore dimineața capitolelor cu pondere maximă și verifică-te zilnic pe spețe rezolvate. Pe sesiune-studio.vercel.app ai ghidurile complete pe materii, exact ce-ți trebuie ca să iei note mari fără nopți albe!",
+        "script_speech": "Vrei să iei bursă sau să-ți asiguri locul la buget în anul următor? Iată planul invers de sesiune: împarte zilele de studiu pornind de la cel mai greu examen înapoi, dedică primele ore dimineața capitolelor cu pondere maximă și verifică-te zilnic pe spețe rezolvate. Pe sesiune.ro ai ghidurile complete pe materii, exact ce-ți trebuie ca să iei note mari fără nopți albe!",
         "sections": [
             {"time_max": 5.5, "text": "🏆 BURSE ȘI LOC LA BUGET", "color": "#10B981"},
             {"time_max": 12.5, "text": "PLANIFICAREA INVERSĂ", "color": "#F59E0B"},
@@ -112,7 +112,7 @@ SESIUNE_SCENARIOS = [
             {"time_max": 25.5, "text": "SPEȚE & BAREME REALE", "color": "#06B6D4"},
             {"time_max": 99.0, "text": "🚀 SUCCES ASIGURAT ÎN SESIUNE", "color": "#10B981"}
         ],
-        "tiktok_caption": "🏆 Vrei să iei bursă sau să nu treci la taxă? Tehnica planificării inverse în sesiune + radarele de catedră pe https://sesiune-studio.vercel.app ! 🎯✨ #bursa #buget #studenti #sesiune #sesiunestudio #facultate #viataDeStudent #examene"
+        "tiktok_caption": "🏆 Vrei să iei bursă sau să nu treci la taxă? Tehnica planificării inverse în sesiune + radarele de catedră pe https://sesiune.ro ! 🎯✨ #bursa #buget #studenti #sesiune #sesiunestudio #facultate #viataDeStudent #examene"
     }
 ]
 
@@ -187,7 +187,7 @@ async def generate_voice_and_timed_words(script_text: str):
     phonetic_map = {
         "online": "onlain", "site": "sait", "site-ul": "saitul",
         "feedback": "fidbac", "AI": "A I", "BAC": "Bac",
-        "sesiune-studio.vercel.app": "Sesiune Studio punct vercel punct app",
+        "sesiune.ro": "Sesiune Studio punct vercel punct app",
         "high-yield": "hai iild", "flashcard": "fleșcard", "flashcard-uri": "fleșcarduri",
         "80/20": "optzeci douăzeci", "60%": "șaizeci la sută", "70%": "șaptezeci la sută", "80%": "optzeci la sută"
     }
@@ -291,7 +291,7 @@ def render_video_mp4(scenario, words, total_duration, audio_path):
     badge_txt = scenario.get("alert_badge", "🎓 SALVARE ÎN SESIUNE")
     title_txt = scenario.get("topic_title", "CUM TRECI DE MATERIA DE BARAJ")
     sections = scenario.get("sections", [])
-    cta_main = "🔥 Treci examenele pe sesiune-studio.vercel.app"
+    cta_main = "🔥 Treci examenele pe sesiune.ro"
     cta_sub = "Radare de catedră • Spețe pe barem • Flashcards de memorare"
 
     phrases = build_phrases(words)
@@ -441,7 +441,7 @@ def dispatch_video_to_telegram(scenario, duration):
         return False
 
     title = scenario.get("topic_title", "Salvare în Sesiune")
-    caption_txt = scenario.get("tiktok_caption", "Treci sesiunea pe https://sesiune-studio.vercel.app !")
+    caption_txt = scenario.get("tiktok_caption", "Treci sesiunea pe https://sesiune.ro !")
 
     tg_caption = (
         f"🎬 <b>[SESIUNESTUDIO - TIKTOK DAILY VIDEO]</b>\n\n"
