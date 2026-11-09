@@ -12,6 +12,6 @@ TELEGRAM_CHAT_ID = (os.getenv("TELEGRAM_CHAT_ID") or "8867321650").strip()
 GEMINI_API_KEY = (os.getenv("GEMINI_API_KEY") or "").strip()
 
 # Platform URL
-PLATFORM_URL = "https://lex-civic.vercel.app/"
+PLATFORM_URL = "https://lexcivic.ro/"
 OPERATOR_NAME = "TEODORESCU O. DIANA PFA"
 CAEN_CODE = "8559 - Alte forme de învățământ n.c.a."
