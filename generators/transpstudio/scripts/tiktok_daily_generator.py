@@ -36,7 +36,7 @@ load_dotenv(os.path.join(ROOT_DIR, ".env"))
 GEMINI_API_KEY = (os.getenv("GEMINI_API_KEY") or "").strip()
 TELEGRAM_BOT_TOKEN = (os.getenv("TELEGRAM_BOT_TOKEN") or "").strip()
 TELEGRAM_CHAT_ID = (os.getenv("TELEGRAM_CHAT_ID") or "8867321650").strip()
-APP_URL = (os.getenv("APP_URL") or "https://transpstudio.vercel.app").strip()
+APP_URL = (os.getenv("APP_URL") or "https://transpstudio.ro").strip()
 
 OUTPUT_DIR = os.path.abspath(os.path.join(ROOT_DIR, "video-generator"))
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -47,7 +47,7 @@ FALLBACK_TOPICS = [
     {
         "topic_title": "3 CAPCANE LA TIMPII DE CONDUCERE LA EXAMENUL PENTRU ATESTAT ARR",
         "alert_badge": "ATESTAT ARR • CPI & CPC",
-        "script_speech": "Dai examenul A R R pentru atestatul de transport marfă C P I sau C P C? Nu confunda cifrele din Regulamentul cinci sute șaizeci și unu! Unu: După patru ore și jumătate de conducere, pauza regulamentară de patruzeci și cinci de minute poate fi împărțită DOAR în cincisprezece minute urmate de treizeci de minute, niciodată invers! Doi: Durata zilnică de conducere poate fi extinsă la zece ore de maximum două ori pe săptămână. Trei: Limita maximă de conducere în două săptămâni consecutive este de nouăzeci de ore! Exersează chestionarele și studiile de caz pe transpstudio.vercel.app!",
+        "script_speech": "Dai examenul A R R pentru atestatul de transport marfă C P I sau C P C? Nu confunda cifrele din Regulamentul cinci sute șaizeci și unu! Unu: După patru ore și jumătate de conducere, pauza regulamentară de patruzeci și cinci de minute poate fi împărțită DOAR în cincisprezece minute urmate de treizeci de minute, niciodată invers! Doi: Durata zilnică de conducere poate fi extinsă la zece ore de maximum două ori pe săptămână. Trei: Limita maximă de conducere în două săptămâni consecutive este de nouăzeci de ore! Exersează chestionarele și studiile de caz pe transpstudio.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -75,7 +75,7 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Dai examenul ARR pentru atestat CPI, CPC, ADR sau Manager Transport? Regula pauzei 15+30 min explicată pe https://transpstudio.vercel.app ! 🚛⏱️ #arr #atestat #sofertir #cpi #cpc #transport"
+        "tiktok_caption": "Dai examenul ARR pentru atestat CPI, CPC, ADR sau Manager Transport? Regula pauzei 15+30 min explicată pe https://transpstudio.ro ! 🚛⏱️ #arr #atestat #sofertir #cpi #cpc #transport"
     }
 ]
 
@@ -106,7 +106,7 @@ def generate_scenario_with_gemini():
         return FALLBACK_TOPICS[day_idx]
 
     prompt = (
-        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei TranspStudio ARR (https://transpstudio.vercel.app) - specializată în examenele pentru atestatele profesionale auto ARR (CPI, CPC transport marfă și persoane, ADR mărfuri periculoase, Manager de Transport, Regulamentul CE 561/2006 timpi de conducere și odihnă).\n"
+        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei TranspStudio ARR (https://transpstudio.ro) - specializată în examenele pentru atestatele profesionale auto ARR (CPI, CPC transport marfă și persoane, ADR mărfuri periculoase, Manager de Transport, Regulamentul CE 561/2006 timpi de conducere și odihnă).\n"
         "Folosește EXCLUSIV limba română literară corectă conform DOOM3, cu diacritice complete.\n"
         "Creează un scenariu alert de 25-30 secunde (65-75 cuvinte) cu Hook în primele 4 secunde, 3 puncte clare și îndemn final de accesare a platformei.\n"
         "RĂSPUNDE EXCLUSIV ÎN FORMAT JSON VALID:\n"
@@ -121,7 +121,7 @@ def generate_scenario_with_gemini():
         '    {"time_max": 27.5, "text": "3 • PUNCTUL TREI", "color": "#06B6D4"},\n'
         '    {"time_max": 99.0, "text": "SOLUȚIE • VERIFICĂ ACUM", "color": "#10B981"}\n'
         '  ],\n'
-        '  "tiktok_caption": "Descriere captivantă cu linkul https://transpstudio.vercel.app și hashtag-uri: #arr #atestatprofesional #soferprofesionist #cpi #cpc #adr #camioane"\n'
+        '  "tiktok_caption": "Descriere captivantă cu linkul https://transpstudio.ro și hashtag-uri: #arr #atestatprofesional #soferprofesionist #cpi #cpc #adr #camioane"\n'
         "}"
     )
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
@@ -271,7 +271,7 @@ def render_video(scenario, words, total_duration, audio_path):
     ]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
     brand_text = "🚛 TRANSPSTUDIO • ATESTATE PROFESIONALE ARR"
-    cta_main = "Simulează examenul ARR pe transpstudio.vercel.app"
+    cta_main = "Simulează examenul ARR pe transpstudio.ro"
     cta_sub = "CPI, CPC Marfă & Persoane, ADR, Taximetrie & Manageri Transport"
     disc1 = "Platformă de pregătire pentru obținerea atestatelor profesionale rutiere ARR."
     disc2 = "Chestionare oficiale Regulamentul CE 561/2006 (timpi de conducere), tahograf, CPI/CPC și ADR."
@@ -382,7 +382,7 @@ def dispatch_to_telegram(scenario, duration):
         print("Lipsesc credențialele Telegram.")
         return False
     title = scenario.get("topic_title", "TranspStudio ARR TikTok")
-    caption_txt = scenario.get("tiktok_caption", "Accesează https://transpstudio.vercel.app !")
+    caption_txt = scenario.get("tiktok_caption", "Accesează https://transpstudio.ro !")
     tg_caption = (
         f"🎬 <b>[TRANSPSTUDIO ARR TIKTOK DAILY]</b>\n\n"
         f"📌 <b>Subiect:</b> {title}\n"
