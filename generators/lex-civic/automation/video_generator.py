@@ -182,7 +182,7 @@ class TikTokVideoGenerator:
         # CTA Box
         cta_bbox = [80, 1530, 1000, 1720]
         self._draw_rounded_card(draw, cta_bbox, fill=(15, 23, 42), outline=(16, 185, 129), width=3, radius=30)
-        draw.text((540, 1580), "Testează gratuit pe: https://lex-civic.vercel.app/", font=self.fonts["cta_url"], fill=(52, 211, 153), anchor="mm")
+        draw.text((540, 1580), "Testează gratuit pe: https://lexcivic.ro/", font=self.fonts["cta_url"], fill=(52, 211, 153), anchor="mm")
         draw.text((540, 1635), "Simulator Clauze Abuzive • Calculatoare Civice • Modele Cereri", font=self.fonts["footer_bold"], fill=(229, 231, 235), anchor="mm")
         draw.text((540, 1680), "Link accesibil în Bio!", font=self.fonts["body_bold"], fill=(251, 191, 36), anchor="mm")
 
