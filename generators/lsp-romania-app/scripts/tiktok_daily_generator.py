@@ -36,7 +36,7 @@ load_dotenv(os.path.join(ROOT_DIR, ".env"))
 GEMINI_API_KEY = (os.getenv("GEMINI_API_KEY") or "").strip()
 TELEGRAM_BOT_TOKEN = (os.getenv("TELEGRAM_BOT_TOKEN") or "").strip()
 TELEGRAM_CHAT_ID = (os.getenv("TELEGRAM_CHAT_ID") or "8867321650").strip()
-APP_URL = (os.getenv("APP_URL") or "https://lsp-romania.vercel.app").strip()
+APP_URL = (os.getenv("APP_URL") or "https://lspromania.ro").strip()
 
 OUTPUT_DIR = os.path.abspath(os.path.join(ROOT_DIR, "video-generator"))
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -47,7 +47,7 @@ FALLBACK_TOPICS = [
     {
         "topic_title": "LIMBILE CARE ÎȚI ADUC +50% LA SALARIU ÎN ROMÂNIA",
         "alert_badge": "SPOR SALARIAL LSP 2026",
-        "script_speech": "Știai că în România engleza generală nu mai este un avantaj competitiv, ci doar minimul obligatoriu? Conform datelor din piața muncii, specialiștii care stăpânesc un limbaj profesional de nișă — precum germana tehnică pentru automotive, engleza clinică medicală sau limbile nordice pentru finanțe — câștigă cu douăzeci și cinci până la cincizeci la sută mai mult net pe lună! Calculează-ți sporul salarial și alege-ți specializarea pe lsp-romania.vercel.app!",
+        "script_speech": "Știai că în România engleza generală nu mai este un avantaj competitiv, ci doar minimul obligatoriu? Conform datelor din piața muncii, specialiștii care stăpânesc un limbaj profesional de nișă — precum germana tehnică pentru automotive, engleza clinică medicală sau limbile nordice pentru finanțe — câștigă cu douăzeci și cinci până la cincizeci la sută mai mult net pe lună! Calculează-ți sporul salarial și alege-ți specializarea pe lspromania.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -75,12 +75,12 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Cât câștigă în plus un specialist care stăpânește limbajul tehnic în Germană, Engleză Medicală sau Limbi Nordice? Calculează pe https://lsp-romania.vercel.app ! 📈🌍 #lspromania #salariu #cariera #bpo #corporatie"
+        "tiktok_caption": "Cât câștigă în plus un specialist care stăpânește limbajul tehnic în Germană, Engleză Medicală sau Limbi Nordice? Calculează pe https://lspromania.ro ! 📈🌍 #lspromania #salariu #cariera #bpo #corporatie"
     },
     {
         "topic_title": "MEDIC SAU ASISTENT? CAPCANA EXAMENULUI FACHSPRACHENPRÜFUNG",
         "alert_badge": "MEDICAL LSP • GERMANIA & UK",
-        "script_speech": "Ești medic sau asistent medical și vrei să profesezi în Germania sau Marea Britanie? Examenul de limbaj medical Fachsprachenprüfung sau O E T nu te testează pe gramatică școlară, ci pe anamneză clinică, consimțământ informat și traducerea termenilor din latină pe înțelesul pacientului! Dacă folosești jargonul academic când vorbești cu pacientul, pici proba de comunicare. Antrenează-te pe cazuri clinice reale pe lsp-romania.vercel.app!",
+        "script_speech": "Ești medic sau asistent medical și vrei să profesezi în Germania sau Marea Britanie? Examenul de limbaj medical Fachsprachenprüfung sau O E T nu te testează pe gramatică școlară, ci pe anamneză clinică, consimțământ informat și traducerea termenilor din latină pe înțelesul pacientului! Dacă folosești jargonul academic când vorbești cu pacientul, pici proba de comunicare. Antrenează-te pe cazuri clinice reale pe lspromania.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -108,12 +108,12 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Te pregătești pentru OET sau Fachsprachenprüfung (Approbation)? Secretele comunicării clinice medic-pacient pe https://lsp-romania.vercel.app ! 🩺🏥 #medicina #rezidentiat #germania #oet #lspromania"
+        "tiktok_caption": "Te pregătești pentru OET sau Fachsprachenprüfung (Approbation)? Secretele comunicării clinice medic-pacient pe https://lspromania.ro ! 🩺🏥 #medicina #rezidentiat #germania #oet #lspromania"
     },
     {
         "topic_title": "3 TERMENI DIN CONTRACTE INTERNAȚIONALE PE CARE ÎI TRADUCI GREȘIT",
         "alert_badge": "LEGAL ENGLISH • LEX-LSP",
-        "script_speech": "Lucrezi cu contracte în limba engleză? Atenție la acești trei termeni juridici pe care mulți îi traduc greșit! Unu: 'Consideration' în dreptul anglo-saxon nu înseamnă considerație sau respect, ci contraprestație financiară obligatorie! Doi: 'Liquidated damages' înseamnă clauză penală cu despăgubiri prestabilite, nu daune lichidate. Trei: 'Shall' exprimă o obligație juridică imperativă, nu timpul viitor! Stăpânește engleza juridică pe lsp-romania.vercel.app!",
+        "script_speech": "Lucrezi cu contracte în limba engleză? Atenție la acești trei termeni juridici pe care mulți îi traduc greșit! Unu: 'Consideration' în dreptul anglo-saxon nu înseamnă considerație sau respect, ci contraprestație financiară obligatorie! Doi: 'Liquidated damages' înseamnă clauză penală cu despăgubiri prestabilite, nu daune lichidate. Trei: 'Shall' exprimă o obligație juridică imperativă, nu timpul viitor! Stăpânește engleza juridică pe lspromania.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -141,12 +141,12 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Ce înseamnă de fapt 'Consideration' și 'Liquidated Damages' într-un contract internațional? Nu le traduce literal! Învață pe https://lsp-romania.vercel.app ! ⚖️📄 #drept #contracte #legalenglish #avocat #lspromania"
+        "tiktok_caption": "Ce înseamnă de fapt 'Consideration' și 'Liquidated Damages' într-un contract internațional? Nu le traduce literal! Învață pe https://lspromania.ro ! ⚖️📄 #drept #contracte #legalenglish #avocat #lspromania"
     },
     {
         "topic_title": "GERMANA PENTRU AUTOMOTIVE ÎN TIMIȘOARA, CLUJ, SIBIU ȘI BRAȘOV",
         "alert_badge": "AUTO-LSP • INDUSTRIE DACH",
-        "script_speech": "Ești inginer în Timișoara, Sibiu, Cluj sau Brașov și lucrezi cu clienți din Germania? În industria automotive, ședințele tehnice se câștigă prin stăpânirea precisă a vocabularului de calitate: audituri I A T F, analiză F M E A, rapoarte opt D și deviații de proces! Nu lăsa bariera lingvistică să-ți blocheze promovarea în poziții de management regional. Antrenează-te pe scenarii industriale reale pe lsp-romania.vercel.app!",
+        "script_speech": "Ești inginer în Timișoara, Sibiu, Cluj sau Brașov și lucrezi cu clienți din Germania? În industria automotive, ședințele tehnice se câștigă prin stăpânirea precisă a vocabularului de calitate: audituri I A T F, analiză F M E A, rapoarte opt D și deviații de proces! Nu lăsa bariera lingvistică să-ți blocheze promovarea în poziții de management regional. Antrenează-te pe scenarii industriale reale pe lspromania.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -174,7 +174,7 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Lucrezi în automotive sau inginerie cu parteneri din Germania? Stăpânește germana tehnică (IATF, FMEA, 8D) pe https://lsp-romania.vercel.app ! ⚙️🚗 #inginerie #automotive #germana #timisoara #cluj #sibiu #brasov"
+        "tiktok_caption": "Lucrezi în automotive sau inginerie cu parteneri din Germania? Stăpânește germana tehnică (IATF, FMEA, 8D) pe https://lspromania.ro ! ⚙️🚗 #inginerie #automotive #germana #timisoara #cluj #sibiu #brasov"
     }
 ]
 
@@ -205,7 +205,7 @@ def generate_scenario_with_gemini():
         return FALLBACK_TOPICS[day_idx]
 
     prompt = (
-        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei LSP Romania ProLingo (https://lsp-romania.vercel.app) - specializată în limbaje specializate profesionale (Medical English/German OET & Approbation, Legal English, Automotive German IATF, IT System Design, Limbi Nordice cu spor salarial de +50%).\n"
+        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei LSP Romania ProLingo (https://lspromania.ro) - specializată în limbaje specializate profesionale (Medical English/German OET & Approbation, Legal English, Automotive German IATF, IT System Design, Limbi Nordice cu spor salarial de +50%).\n"
         "Folosește EXCLUSIV limba română literară corectă conform DOOM3, cu diacritice complete.\n"
         "Creează un scenariu alert de 25-30 secunde (65-75 cuvinte) cu Hook în primele 4 secunde, 3 puncte clare și îndemn final de accesare a platformei.\n"
         "RĂSPUNDE EXCLUSIV ÎN FORMAT JSON VALID:\n"
@@ -220,7 +220,7 @@ def generate_scenario_with_gemini():
         '    {"time_max": 27.5, "text": "3 • PUNCTUL TREI", "color": "#06B6D4"},\n'
         '    {"time_max": 99.0, "text": "SOLUȚIE • VERIFICĂ ACUM", "color": "#10B981"}\n'
         '  ],\n'
-        '  "tiktok_caption": "Descriere captivantă cu linkul https://lsp-romania.vercel.app și hashtag-uri: #lspromania #limbispecializate #cariera #salariu #medicina #it #automotive"\n'
+        '  "tiktok_caption": "Descriere captivantă cu linkul https://lspromania.ro și hashtag-uri: #lspromania #limbispecializate #cariera #salariu #medicina #it #automotive"\n'
         "}"
     )
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
@@ -370,7 +370,7 @@ def render_video(scenario, words, total_duration, audio_path):
     ]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
     brand_text = "🌐 LSP ROMÂNIA • LIMBAJE SPECIALIZATE"
-    cta_main = "Stăpânește limbajul tehnic pe lsp-romania.vercel.app"
+    cta_main = "Stăpânește limbajul tehnic pe lspromania.ro"
     cta_sub = "Limbi pentru Scopuri Specifice: Medical, IT, Juridic, Automotive & BPO"
     disc1 = "Platformă de Limbi pentru Scopuri Specifice (LSP) calibrată pe cele 8 clustere economice din România."
     disc2 = "Operator: TEODORESCU O. DIANA PFA • CUI 44874282 • Cod CAEN 8559."
@@ -481,7 +481,7 @@ def dispatch_to_telegram(scenario, duration):
         print("Lipsesc credențialele Telegram.")
         return False
     title = scenario.get("topic_title", "LSP Romania ProLingo TikTok")
-    caption_txt = scenario.get("tiktok_caption", "Accesează https://lsp-romania.vercel.app !")
+    caption_txt = scenario.get("tiktok_caption", "Accesează https://lspromania.ro !")
     tg_caption = (
         f"🎬 <b>[LSP ROMANIA PROLINGO TIKTOK DAILY]</b>\n\n"
         f"📌 <b>Subiect:</b> {title}\n"
