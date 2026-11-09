@@ -28,7 +28,7 @@ if hasattr(sys.stdout, "reconfigure"):
 TELEGRAM_BOT_TOKEN = (os.getenv("TELEGRAM_BOT_TOKEN") or "").strip()
 TELEGRAM_CHAT_ID = (os.getenv("TELEGRAM_CHAT_ID") or "8867321650").strip()
 GEMINI_KEY = (os.getenv("GEMINI_API_KEY") or "").strip()
-APP_URL = os.getenv("APP_URL") or "https://veritas-gandire-critica.vercel.app"
+APP_URL = os.getenv("APP_URL") or "https://veritas.ro"
 
 OUTPUT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "video-generator"))
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -60,7 +60,7 @@ TIKTOK_SCENARIOS = [
     {
         "topic_title": "3 MINCIUNI VIRALE DE PE TIKTOK DEMONTATE",
         "alert_badge": "🛑 ALERTĂ FAKE NEWS",
-        "script_speech": "Ai văzut și tu clipul viral care susține că alimentele din magazin conțin nanoparticule secrete? Iată trei dovezi clare de manipulare! Unu: citează un presupus medic anonim. În știință, anonim înseamnă zero dovezi! Doi: produsele sunt strict controlate sanitar de ANSVSA. Nu există particule care să modifice ADN-ul prin digestie! Trei: îți cer să distribui urgent doar ca să monetizeze frica ta. Nu te mai lăsa păcălit! Verifică orice știre pe veritas-gandire-critica.vercel.app!",
+        "script_speech": "Ai văzut și tu clipul viral care susține că alimentele din magazin conțin nanoparticule secrete? Iată trei dovezi clare de manipulare! Unu: citează un presupus medic anonim. În știință, anonim înseamnă zero dovezi! Doi: produsele sunt strict controlate sanitar de ANSVSA. Nu există particule care să modifice ADN-ul prin digestie! Trei: îți cer să distribui urgent doar ca să monetizeze frica ta. Nu te mai lăsa păcălit! Verifică orice știre pe veritas.ro!",
         "sections": [
             {"time_max": 5.5, "text": "🛑 DECONSTRUCȚIE FAKE NEWS", "color": "#DC2626"},
             {"time_max": 12.5, "text": "1 • MEDIC ANONIM = ZERO DOVEZI", "color": "#F59E0B"},
@@ -68,12 +68,12 @@ TIKTOK_SCENARIOS = [
             {"time_max": 26.5, "text": "3 • CAPCANA: DISTRIBUIȚI URGENT", "color": "#DC2626"},
             {"time_max": 99.0, "text": "🛡️ SCUTUL VERITAS ROMÂNIA", "color": "#10B981"}
         ],
-        "tiktok_caption": "🛑 Ai văzut clipul cu nanoparticulele din alimente? Află cum demontezi manipularea emoțională în 30 de secunde cu gândire critică! Verifică pe https://veritas-gandire-critica.vercel.app ! 🛡️🔍 #fakenews #gandirecritica #educatiemedia #romania #veritasromania #adevar"
+        "tiktok_caption": "🛑 Ai văzut clipul cu nanoparticulele din alimente? Află cum demontezi manipularea emoțională în 30 de secunde cu gândire critică! Verifică pe https://veritas.ro ! 🛡️🔍 #fakenews #gandirecritica #educatiemedia #romania #veritasromania #adevar"
     },
     {
         "topic_title": "SECRETUL DE 10 LA ADMITERE LA DREPT (UB & UBB)",
         "alert_badge": "⚖️ ADMITERE DREPT & INM",
-        "script_speech": "Dai admiterea la Facultatea de Drept sau la INM și te sperie proba de gândire critică? Iată secretul suprem pentru cerințele cu asumpția tacită! Se numește Testul Negației: iei fiecare variantă de răspuns și o transformi în negație. Dacă prin negarea ei argumentul autorului se prăbușește imediat, ai găsit varianta corectă! Nu toci mecanic grile vechi, antrenează-ți reflexul logic pe simulatorul veritas-gandire-critica.vercel.app!",
+        "script_speech": "Dai admiterea la Facultatea de Drept sau la INM și te sperie proba de gândire critică? Iată secretul suprem pentru cerințele cu asumpția tacită! Se numește Testul Negației: iei fiecare variantă de răspuns și o transformi în negație. Dacă prin negarea ei argumentul autorului se prăbușește imediat, ai găsit varianta corectă! Nu toci mecanic grile vechi, antrenează-ți reflexul logic pe simulatorul veritas.ro!",
         "sections": [
             {"time_max": 5.5, "text": "⚖️ SECRETUL ADMITERII LA DREPT", "color": "#2563EB"},
             {"time_max": 12.5, "text": "CAPCANA: ASUMPȚIA TACITĂ", "color": "#F59E0B"},
@@ -81,12 +81,12 @@ TIKTOK_SCENARIOS = [
             {"time_max": 26.5, "text": "ARGUMENTUL SE PRĂBUȘEȘTE!", "color": "#7C3AED"},
             {"time_max": 99.0, "text": "🎓 SIMULATOR OFICIAL DREPT/INM", "color": "#10B981"}
         ],
-        "tiktok_caption": "⚖️ Cum iei nota maximă la proba de gândire critică la Drept UB, UBB sau INM? Învață Testul Negației pe simulatorul oficial https://veritas-gandire-critica.vercel.app ! 🏛️📚 #admiteredrept #dreptub #inm #magistratura #gandirecritica #veritasromania"
+        "tiktok_caption": "⚖️ Cum iei nota maximă la proba de gândire critică la Drept UB, UBB sau INM? Învață Testul Negației pe simulatorul oficial https://veritas.ro ! 🏛️📚 #admiteredrept #dreptub #inm #magistratura #gandirecritica #veritasromania"
     },
     {
         "topic_title": "MANIPULARE LA ȘTIRI: SOFISMUL OMULUI DE PAIE",
         "alert_badge": "🎭 DECONSTRUCȚIE RETORICĂ",
-        "script_speech": "Ai observat cum la dezbaterile televizate invitații nu răspund niciodată la ce au fost întrebați? Folosesc sofismul Omului de Paie! Dacă spui că vrei camere video în parcuri pentru siguranță, oponentul strigă revoltat: deci vreți să transformați orașul într-un stat polițienesc! Deformează intenționat mesajul tău ca să aibă ce ataca. Învață să recunoști toate sofismele pe veritas-gandire-critica.vercel.app!",
+        "script_speech": "Ai observat cum la dezbaterile televizate invitații nu răspund niciodată la ce au fost întrebați? Folosesc sofismul Omului de Paie! Dacă spui că vrei camere video în parcuri pentru siguranță, oponentul strigă revoltat: deci vreți să transformați orașul într-un stat polițienesc! Deformează intenționat mesajul tău ca să aibă ce ataca. Învață să recunoști toate sofismele pe veritas.ro!",
         "sections": [
             {"time_max": 5.5, "text": "🎭 MANIPULARE: OMUL DE PAIE", "color": "#DC2626"},
             {"time_max": 13.0, "text": "TU ZICI: SIGURANȚĂ ÎN PARCURI", "color": "#2563EB"},
@@ -94,7 +94,7 @@ TIKTOK_SCENARIOS = [
             {"time_max": 26.5, "text": "DEFORMARE CARICATURALĂ", "color": "#DC2626"},
             {"time_max": 99.0, "text": "🧠 ENCICLOPEDIA SOFISMELOR", "color": "#10B981"}
         ],
-        "tiktok_caption": "🎭 Cum funcționează sofismul Omului de Paie în discursurile din România? Nu te mai lăsa păcălit de trucuri retorice! Descoperă ghidul pe https://veritas-gandire-critica.vercel.app ! 🧠🔍 #manipulare #retorica #gandirecritica #educatiemedia #veritasromania"
+        "tiktok_caption": "🎭 Cum funcționează sofismul Omului de Paie în discursurile din România? Nu te mai lăsa păcălit de trucuri retorice! Descoperă ghidul pe https://veritas.ro ! 🧠🔍 #manipulare #retorica #gandirecritica #educatiemedia #veritasromania"
     }
 ]
 
@@ -184,7 +184,7 @@ async def generate_voice_and_timed_words(script_text):
     phonetic_map = {
         "online": "onlain", "site": "sait", "site-ul": "saitul",
         "feedback": "fidbac", "AI": "A I", "BAC": "Bac",
-        "veritas-gandire-critica.vercel.app": "Veritas Gândire Critică punct vercel punct app"
+        "veritas.ro": "Veritas Gândire Critică punct vercel punct app"
     }
     spoken_text = script_text
     for en_word, ro_phonetic in phonetic_map.items():
@@ -302,7 +302,7 @@ def render_video_mp4(scenario, words, total_duration, audio_path):
 
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
     brand_text = "⚖️ VERITAS ROMÂNIA • RADAR ANTI-FAKE & DREPT"
-    cta_main = "Testează gratuit pe veritas-gandire-critica.vercel.app"
+    cta_main = "Testează gratuit pe veritas.ro"
     cta_sub = "Urmărește pentru deconstrucții zilnice și grile de admitere"
 
     def get_current_section(t):
@@ -414,7 +414,7 @@ def dispatch_video_to_telegram(scenario, duration):
         return False
 
     title = scenario.get("topic_title", "Capcană Examen Barou & INM")
-    caption_txt = scenario.get("tiktok_caption", "Pregătește-te pe simulatorul https://veritas-gandire-critica.vercel.app !")
+    caption_txt = scenario.get("tiktok_caption", "Pregătește-te pe simulatorul https://veritas.ro !")
 
     tg_caption = (
         f"🎬 <b>[VERITAS ROMÂNIA - TIKTOK DAILY VIDEO]</b>\n\n"
