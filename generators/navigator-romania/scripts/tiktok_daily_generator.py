@@ -36,7 +36,7 @@ load_dotenv(os.path.join(ROOT_DIR, ".env"))
 GEMINI_API_KEY = (os.getenv("GEMINI_API_KEY") or "").strip()
 TELEGRAM_BOT_TOKEN = (os.getenv("TELEGRAM_BOT_TOKEN") or "").strip()
 TELEGRAM_CHAT_ID = (os.getenv("TELEGRAM_CHAT_ID") or "8867321650").strip()
-APP_URL = (os.getenv("APP_URL") or "https://navigator-romania.vercel.app").strip()
+APP_URL = (os.getenv("APP_URL") or "https://navigatorromania.ro").strip()
 
 OUTPUT_DIR = os.path.abspath(os.path.join(ROOT_DIR, "video-generator"))
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -47,7 +47,7 @@ FALLBACK_TOPICS = [
     {
         "topic_title": "PFA SAU SRL ÎN 2026? PRAGUL EXACT UNDE PIERZI BANI LA TAXE",
         "alert_badge": "SIMULATOR FISCAL 2026",
-        "script_speech": "Vrei să deschizi un P F A sau un S R L în douăzeci douăzeci și șase și nu știi unde rămâi cu mai mulți bani în mână? Totul depinde de plafoanele C A S de douăsprezece și douăzeci și patru de salarii minime și de plafonul C A S S de până la șaizeci de salarii! Iar dacă ai deja contract de muncă în paralel, ești scutit de plata a șase salarii minime la sănătate pe P F A! În plus, Legea o sută șaptezeci pe douăzeci douăzeci și șase îți oferă bonificație de trei la sută la impozit. Calculează-ți venitul net exact pe navigator-romania.vercel.app!",
+        "script_speech": "Vrei să deschizi un P F A sau un S R L în douăzeci douăzeci și șase și nu știi unde rămâi cu mai mulți bani în mână? Totul depinde de plafoanele C A S de douăsprezece și douăzeci și patru de salarii minime și de plafonul C A S S de până la șaizeci de salarii! Iar dacă ai deja contract de muncă în paralel, ești scutit de plata a șase salarii minime la sănătate pe P F A! În plus, Legea o sută șaptezeci pe douăzeci douăzeci și șase îți oferă bonificație de trei la sută la impozit. Calculează-ți venitul net exact pe navigatorromania.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -75,12 +75,12 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "PFA în sistem real, normă de venit sau SRL în 2026? Calculează exact cu câți bani rămâi în mână după CAS, CASS și bonificația de 3% pe https://navigator-romania.vercel.app ! 🧮💼 #pfa #srl #taxe2026 #anaf #contabilitate #rezolvaro"
+        "tiktok_caption": "PFA în sistem real, normă de venit sau SRL în 2026? Calculează exact cu câți bani rămâi în mână după CAS, CASS și bonificația de 3% pe https://navigatorromania.ro ! 🧮💼 #pfa #srl #taxe2026 #anaf #contabilitate #rezolvaro"
     },
     {
         "topic_title": "AI VOIE SĂ AI FIRMĂ DACĂ DAI ADMITEREA ÎN POLIȚIE (MAI)?",
         "alert_badge": "ELIGIBILITATE MAI • LEGEA 360",
-        "script_speech": "Vrei să dai admiterea în Poliție sau din sursă externă în M A I, dar ai deja o firmă sau un P F A? Atenție la distincția juridică decisivă dintre asociat și administrator! Conform Legii trei sute șaizeci pe două mii doi și Legii o sută șaizeci și unu pe două mii trei, polițistul nu poate fi administrator de S R L și nici titular de P F A, însă are dreptul legal să dețină părți sociale ca simplu asociat fără funcție de conducere! Verifică-ți eligibilitatea și pașii de cesiune pe navigator-romania.vercel.app!",
+        "script_speech": "Vrei să dai admiterea în Poliție sau din sursă externă în M A I, dar ai deja o firmă sau un P F A? Atenție la distincția juridică decisivă dintre asociat și administrator! Conform Legii trei sute șaizeci pe două mii doi și Legii o sută șaizeci și unu pe două mii trei, polițistul nu poate fi administrator de S R L și nici titular de P F A, însă are dreptul legal să dețină părți sociale ca simplu asociat fără funcție de conducere! Verifică-ți eligibilitatea și pașii de cesiune pe navigatorromania.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -108,12 +108,12 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Poți intra în Poliție (MAI) dacă ai un SRL sau un PFA? Diferența legală critică dintre Asociat și Administrator explicată pe https://navigator-romania.vercel.app ! 👮‍♂️⚖️ #politie #admitere #mai #srl #pfa #rezolvaro"
+        "tiktok_caption": "Poți intra în Poliție (MAI) dacă ai un SRL sau un PFA? Diferența legală critică dintre Asociat și Administrator explicată pe https://navigatorromania.ro ! 👮‍♂️⚖️ #politie #admitere #mai #srl #pfa #rezolvaro"
     },
     {
         "topic_title": "ATENȚIE: S-AU ÎNCHIS CASIERIILE FIZICE LA REGISTRUL COMERȚULUI!",
         "alert_badge": "PROCEDURĂ ONRC v2.0",
-        "script_speech": "Vrei să-ți înființezi un P F A sau un S R L la Registrul Comerțului? Nu mai merge la ghișeu cu bani cash, pentru că toate casieriile fizice O N R C au fost desființate definitiv! Tot procesul se face prin portalul myportal.onrc.ro cu semnătură electronică calificată, iar rezervarea de denumire trebuie să treacă de noul filtru automat anti-similitudine. Urmează checklist-ul pas cu pas cu toate documentele și costurile oficiale pe navigator-romania.vercel.app!",
+        "script_speech": "Vrei să-ți înființezi un P F A sau un S R L la Registrul Comerțului? Nu mai merge la ghișeu cu bani cash, pentru că toate casieriile fizice O N R C au fost desființate definitiv! Tot procesul se face prin portalul myportal.onrc.ro cu semnătură electronică calificată, iar rezervarea de denumire trebuie să treacă de noul filtru automat anti-similitudine. Urmează checklist-ul pas cu pas cu toate documentele și costurile oficiale pe navigatorromania.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -141,12 +141,12 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Cum îți înființezi singur un PFA sau SRL în 2026 pe noul portal ONRC fără să plătești intermediari? Checklist complet pe https://navigator-romania.vercel.app ! 📄🏢 #onrc #infiintarefirma #pfa #srl #antreprenor"
+        "tiktok_caption": "Cum îți înființezi singur un PFA sau SRL în 2026 pe noul portal ONRC fără să plătești intermediari? Checklist complet pe https://navigatorromania.ro ! 📄🏢 #onrc #infiintarefirma #pfa #srl #antreprenor"
     },
     {
         "topic_title": "CELE 3 CONTESTAȚII SEPARATE ÎN 48 DE ORE LA INM ȘI BAROU",
         "alert_badge": "PROCEDURĂ CONTESTAȚII 48H",
-        "script_speech": "Ai susținut proba grilă la I N M sau la Barou și ești la un singur punct de admis? Atenție: ai o fereastră strictă de patruzeci și opt de ore de la afișare, dar nu depune o singură contestație generică! Regulamentul separă strict contestația la barem — care, dacă este admisă, ajută toți candidații — de contestația la punctaj pentru erori de scanare optică! Generează-ți calendarul invers de execuție pe navigator-romania.vercel.app!",
+        "script_speech": "Ai susținut proba grilă la I N M sau la Barou și ești la un singur punct de admis? Atenție: ai o fereastră strictă de patruzeci și opt de ore de la afișare, dar nu depune o singură contestație generică! Regulamentul separă strict contestația la barem — care, dacă este admisă, ajută toți candidații — de contestația la punctaj pentru erori de scanare optică! Generează-ți calendarul invers de execuție pe navigatorromania.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -174,7 +174,7 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Diferența decisivă dintre contestația la barem și contestația la punctaj în fereastra de 48h la INM și Barou! Planifică pe https://navigator-romania.vercel.app ! ⏱️⚖️ #inm #barou #drept #contestatie #rezolvaro"
+        "tiktok_caption": "Diferența decisivă dintre contestația la barem și contestația la punctaj în fereastra de 48h la INM și Barou! Planifică pe https://navigatorromania.ro ! ⏱️⚖️ #inm #barou #drept #contestatie #rezolvaro"
     }
 ]
 
@@ -205,7 +205,7 @@ def generate_scenario_with_gemini():
         return FALLBACK_TOPICS[day_idx]
 
     prompt = (
-        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei Rezolva.RO Navigator (https://navigator-romania.vercel.app) - specializată în navigația procedurală și fiscală în România 2026: comparație deterministă PFA vs SRL (CAS 12/24 salarii, CASS 6-60 salarii, bonificația 3% Legea 170/2026), înființare firmă pe myportal.onrc.ro fără casierii fizice, eligibilitate MAI (asociat vs administrator SRL) și contestații în 48h la Barou/INM.\n"
+        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei Rezolva.RO Navigator (https://navigatorromania.ro) - specializată în navigația procedurală și fiscală în România 2026: comparație deterministă PFA vs SRL (CAS 12/24 salarii, CASS 6-60 salarii, bonificația 3% Legea 170/2026), înființare firmă pe myportal.onrc.ro fără casierii fizice, eligibilitate MAI (asociat vs administrator SRL) și contestații în 48h la Barou/INM.\n"
         "Folosește EXCLUSIV limba română literară corectă conform DOOM3, cu diacritice complete.\n"
         "Creează un scenariu alert de 25-30 secunde (65-75 cuvinte) cu Hook în primele 4 secunde, 3 puncte clare și îndemn final de accesare a platformei.\n"
         "RĂSPUNDE EXCLUSIV ÎN FORMAT JSON VALID:\n"
@@ -220,7 +220,7 @@ def generate_scenario_with_gemini():
         '    {"time_max": 27.5, "text": "3 • PUNCTUL TREI", "color": "#06B6D4"},\n'
         '    {"time_max": 99.0, "text": "SOLUȚIE • VERIFICĂ ACUM", "color": "#10B981"}\n'
         '  ],\n'
-        '  "tiktok_caption": "Descriere captivantă cu linkul https://navigator-romania.vercel.app și hashtag-uri: #rezolvaro #pfavssrl #onrc #taxe2026 #antreprenor #admitereinm #barou #politie"\n'
+        '  "tiktok_caption": "Descriere captivantă cu linkul https://navigatorromania.ro și hashtag-uri: #rezolvaro #pfavssrl #onrc #taxe2026 #antreprenor #admitereinm #barou #politie"\n'
         "}"
     )
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
@@ -370,7 +370,7 @@ def render_video(scenario, words, total_duration, audio_path):
     ]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
     brand_text = "🧭 REZOLVĂ.RO • NAVIGATOR PROCEDURAL & FISCAL"
-    cta_main = "Vezi pașii și calculul pe navigator-romania.vercel.app"
+    cta_main = "Vezi pașii și calculul pe navigatorromania.ro"
     cta_sub = "PFA vs SRL 2026, Înființare ONRC, Contestații 48h & Eligibilitate MAI"
     disc1 = "Platformă de navigație informațională și orientare procedurală asistată bazată pe surse primare."
     disc2 = "Operator: TEODORESCU O. DIANA PFA • CUI 44874282 • Cod CAEN 8559."
@@ -481,7 +481,7 @@ def dispatch_to_telegram(scenario, duration):
         print("Lipsesc credențialele Telegram.")
         return False
     title = scenario.get("topic_title", "Rezolva.RO Navigator TikTok")
-    caption_txt = scenario.get("tiktok_caption", "Accesează https://navigator-romania.vercel.app !")
+    caption_txt = scenario.get("tiktok_caption", "Accesează https://navigatorromania.ro !")
     tg_caption = (
         f"🎬 <b>[REZOLVA.RO NAVIGATOR TIKTOK DAILY]</b>\n\n"
         f"📌 <b>Subiect:</b> {title}\n"
