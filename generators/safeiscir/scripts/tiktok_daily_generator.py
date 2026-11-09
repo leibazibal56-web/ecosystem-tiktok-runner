@@ -36,7 +36,7 @@ load_dotenv(os.path.join(ROOT_DIR, ".env"))
 GEMINI_API_KEY = (os.getenv("GEMINI_API_KEY") or "").strip()
 TELEGRAM_BOT_TOKEN = (os.getenv("TELEGRAM_BOT_TOKEN") or "").strip()
 TELEGRAM_CHAT_ID = (os.getenv("TELEGRAM_CHAT_ID") or "8867321650").strip()
-APP_URL = (os.getenv("APP_URL") or "https://safeiscir.vercel.app").strip()
+APP_URL = (os.getenv("APP_URL") or "https://safeiscir.ro").strip()
 
 OUTPUT_DIR = os.path.abspath(os.path.join(ROOT_DIR, "video-generator"))
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -47,7 +47,7 @@ FALLBACK_TOPICS = [
     {
         "topic_title": "3 REGULI DIN PT R1 ȘI LEGEA 64/2008 LA EXAMENUL ISCIR & RSVTI",
         "alert_badge": "EXAMEN RSVTI & ISCIR",
-        "script_speech": "Te pregătești pentru examenul de operator R S V T I, stivuitorist sau macaragiu autorizat I S C I R? Atenție la aceste trei reguli eliminatorii din Prescripția Tehnică P T R unu și Legea șaizeci și patru pe două mii opt! Unu: Este strict interzisă funcționarea instalațiilor de ridicat fără avizul obligatoriu de instalare și fără verificarea tehnică în utilizare la scadență. Doi: Carnetul de manevrant trebuie vizat anual de operatorul R S V T I! Trei: Încercarea statică la macarale se face cu o suprasarcină de douăzeci și cinci la sută! Rezolvă grilele pe safeiscir.vercel.app!",
+        "script_speech": "Te pregătești pentru examenul de operator R S V T I, stivuitorist sau macaragiu autorizat I S C I R? Atenție la aceste trei reguli eliminatorii din Prescripția Tehnică P T R unu și Legea șaizeci și patru pe două mii opt! Unu: Este strict interzisă funcționarea instalațiilor de ridicat fără avizul obligatoriu de instalare și fără verificarea tehnică în utilizare la scadență. Doi: Carnetul de manevrant trebuie vizat anual de operatorul R S V T I! Trei: Încercarea statică la macarale se face cu o suprasarcină de douăzeci și cinci la sută! Rezolvă grilele pe safeiscir.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -75,7 +75,7 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Te pregătești pentru autorizarea ISCIR sau RSVTI? 3 întrebări cheie din PT R1 și Legea 64/2008 pe https://safeiscir.vercel.app ! ⚙️🏗️ #iscir #rsvti #stivuitor #macara #industrie"
+        "tiktok_caption": "Te pregătești pentru autorizarea ISCIR sau RSVTI? 3 întrebări cheie din PT R1 și Legea 64/2008 pe https://safeiscir.ro ! ⚙️🏗️ #iscir #rsvti #stivuitor #macara #industrie"
     }
 ]
 
@@ -106,7 +106,7 @@ def generate_scenario_with_gemini():
         return FALLBACK_TOPICS[day_idx]
 
     prompt = (
-        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei SafeISCIR (https://safeiscir.vercel.app) - specializată în autorizarea ISCIR și examenul de operator RSVTI (Legea 64/2008, Ordinul 130/2011, PT R1 mașini de ridicat, stivuitoare, macarale și instalații sub presiune).\n"
+        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei SafeISCIR (https://safeiscir.ro) - specializată în autorizarea ISCIR și examenul de operator RSVTI (Legea 64/2008, Ordinul 130/2011, PT R1 mașini de ridicat, stivuitoare, macarale și instalații sub presiune).\n"
         "Folosește EXCLUSIV limba română literară corectă conform DOOM3, cu diacritice complete.\n"
         "Creează un scenariu alert de 25-30 secunde (65-75 cuvinte) cu Hook în primele 4 secunde, 3 puncte clare și îndemn final de accesare a platformei.\n"
         "RĂSPUNDE EXCLUSIV ÎN FORMAT JSON VALID:\n"
@@ -121,7 +121,7 @@ def generate_scenario_with_gemini():
         '    {"time_max": 27.5, "text": "3 • PUNCTUL TREI", "color": "#06B6D4"},\n'
         '    {"time_max": 99.0, "text": "SOLUȚIE • VERIFICĂ ACUM", "color": "#10B981"}\n'
         '  ],\n'
-        '  "tiktok_caption": "Descriere captivantă cu linkul https://safeiscir.vercel.app și hashtag-uri: #iscir #rsvti #stivuitorist #macaragiu #echipamenteindustriale #safeiscir"\n'
+        '  "tiktok_caption": "Descriere captivantă cu linkul https://safeiscir.ro și hashtag-uri: #iscir #rsvti #stivuitorist #macaragiu #echipamenteindustriale #safeiscir"\n'
         "}"
     )
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
@@ -271,7 +271,7 @@ def render_video(scenario, words, total_duration, audio_path):
     ]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
     brand_text = "⚙️ SAFEISCIR • AUTORIZARE RSVTI & ECHIPAMENTE ISCIR"
-    cta_main = "Exersează prescripțiile PT pe safeiscir.vercel.app"
+    cta_main = "Exersează prescripțiile PT pe safeiscir.ro"
     cta_sub = "Examen RSVTI, Macaragii, Stivuitoriști, Cazanii & Legea 64/2008"
     disc1 = "Platformă de pregătire pentru autorizarea ISCIR: Operatori RSVTI, instalații de ridicat (IR) și sub presiune (IP)."
     disc2 = "Conformă cu Legea nr. 64/2008, Ordinul 130/2011 și Prescripțiile Tehnice PT R1, CR4, CR8."
@@ -382,7 +382,7 @@ def dispatch_to_telegram(scenario, duration):
         print("Lipsesc credențialele Telegram.")
         return False
     title = scenario.get("topic_title", "SafeISCIR TikTok")
-    caption_txt = scenario.get("tiktok_caption", "Accesează https://safeiscir.vercel.app !")
+    caption_txt = scenario.get("tiktok_caption", "Accesează https://safeiscir.ro !")
     tg_caption = (
         f"🎬 <b>[SAFEISCIR TIKTOK DAILY]</b>\n\n"
         f"📌 <b>Subiect:</b> {title}\n"
