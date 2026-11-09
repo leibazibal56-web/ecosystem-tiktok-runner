@@ -36,7 +36,7 @@ load_dotenv(os.path.join(ROOT_DIR, ".env"))
 GEMINI_API_KEY = (os.getenv("GEMINI_API_KEY") or "").strip()
 TELEGRAM_BOT_TOKEN = (os.getenv("TELEGRAM_BOT_TOKEN") or "").strip()
 TELEGRAM_CHAT_ID = (os.getenv("TELEGRAM_CHAT_ID") or "8867321650").strip()
-APP_URL = (os.getenv("APP_URL") or "https://lingvo-romania.vercel.app").strip()
+APP_URL = (os.getenv("APP_URL") or "https://lingvo.ro").strip()
 
 OUTPUT_DIR = os.path.abspath(os.path.join(ROOT_DIR, "video-generator"))
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -47,7 +47,7 @@ FALLBACK_TOPICS = [
     {
         "topic_title": "DE CE TE BLOCHEZI CÂND TREBUIE SĂ VORBEȘTI ENGLEZA?",
         "alert_badge": "BLOCAJUL CONVERSAȚIONAL",
-        "script_speech": "Înțelegi perfect engleza sau germana când citești un text, dar când trebuie să vorbești într-o ședință te blochezi total și traduci fiecare cuvânt în minte? Nu este vina ta! Peste nouăzeci la sută dintre români pățesc asta deoarece școala pune accent doar pe gramatică pe hârtie, fără reflexe vocale active. Antrenează-ți vorbirea spontană cincisprezece minute pe zi cu simulatorul vocal AI pe lingvo-romania.vercel.app!",
+        "script_speech": "Înțelegi perfect engleza sau germana când citești un text, dar când trebuie să vorbești într-o ședință te blochezi total și traduci fiecare cuvânt în minte? Nu este vina ta! Peste nouăzeci la sută dintre români pățesc asta deoarece școala pune accent doar pe gramatică pe hârtie, fără reflexe vocale active. Antrenează-ți vorbirea spontană cincisprezece minute pe zi cu simulatorul vocal AI pe lingvo.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -75,12 +75,12 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Înțelegi tot dar te blochezi când trebuie să vorbești engleza sau germana? Scapă de traducerea în minte pe https://lingvo-romania.vercel.app ! 🗣️🚀 #lingvoromania #engleza #germana #fluenta #cariera #romania"
+        "tiktok_caption": "Înțelegi tot dar te blochezi când trebuie să vorbești engleza sau germana? Scapă de traducerea în minte pe https://lingvo.ro ! 🗣️🚀 #lingvoromania #engleza #germana #fluenta #cariera #romania"
     },
     {
         "topic_title": "3 EXPRESII CARE TE TRĂDEAZĂ LA INTERVIUL ÎN ENGLEZĂ",
         "alert_badge": "BUSINESS ENGLISH",
-        "script_speech": "Ai interviu în limba engleză pentru o multinațională? Evită aceste trei traduceri mot-a-mot din română care îți scad instant credibilitatea! Unu: Nu spune 'I have twenty five years', ci 'I am twenty five years old'. Doi: Nu spune 'I make a training', ci 'I attend a training session'. Trei: În loc de 'Depends of', folosește întotdeauna 'It depends on'! Exersează dialogul profesional la microfon pe lingvo-romania.vercel.app!",
+        "script_speech": "Ai interviu în limba engleză pentru o multinațională? Evită aceste trei traduceri mot-a-mot din română care îți scad instant credibilitatea! Unu: Nu spune 'I have twenty five years', ci 'I am twenty five years old'. Doi: Nu spune 'I make a training', ci 'I attend a training session'. Trei: În loc de 'Depends of', folosește întotdeauna 'It depends on'! Exersează dialogul profesional la microfon pe lingvo.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -108,12 +108,12 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Nu traduce mot-a-mot din română la interviul în engleză! 3 greșeli frecvente și forma lor corectă. Antrenează-te pe https://lingvo-romania.vercel.app ! 💼🇬🇧 #businessenglish #interviu #engleza #lingvoromania"
+        "tiktok_caption": "Nu traduce mot-a-mot din română la interviul în engleză! 3 greșeli frecvente și forma lor corectă. Antrenează-te pe https://lingvo.ro ! 💼🇬🇧 #businessenglish #interviu #engleza #lingvoromania"
     },
     {
         "topic_title": "CUM CÂȘTIGI CU 40% MAI MULT CU GERMANA ÎN ROMÂNIA",
         "alert_badge": "GERMANĂ DACH • SALARII",
-        "script_speech": "Știai că un profesionist care vorbește limba germană la nivel conversațional câștigă în România cu până la patruzeci la sută mai mult decât unul care știe doar engleză? Companiile din Germania, Austria și Elveția caută mii de specialiști, dar majoritatea candidaților renunță din cauza fricii de a vorbi. Cu antrenamente vocale scurte de cincisprezece minute pe zi, îți dezvolți reflexul de răspuns automat pe lingvo-romania.vercel.app!",
+        "script_speech": "Știai că un profesionist care vorbește limba germană la nivel conversațional câștigă în România cu până la patruzeci la sută mai mult decât unul care știe doar engleză? Companiile din Germania, Austria și Elveția caută mii de specialiști, dar majoritatea candidaților renunță din cauza fricii de a vorbi. Cu antrenamente vocale scurte de cincisprezece minute pe zi, îți dezvolți reflexul de răspuns automat pe lingvo.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -141,12 +141,12 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "De ce îți aduce limba germană un spor salarial de până la 40% în România? Antrenează-ți vorbirea pe https://lingvo-romania.vercel.app ! 🇩🇪💶 #germana #salariu #cariera #lingvoromania #joburi"
+        "tiktok_caption": "De ce îți aduce limba germană un spor salarial de până la 40% în România? Antrenează-ți vorbirea pe https://lingvo.ro ! 🇩🇪💶 #germana #salariu #cariera #lingvoromania #joburi"
     },
     {
         "topic_title": "REGULA CELOR 3 SECUNDE PENTRU FLUENȚĂ ÎN LIMBI STRĂINE",
         "alert_badge": "TEHNICĂ DE FLUENȚĂ",
-        "script_speech": "Vrei să răspunzi instant în engleză fără pauze stânjenitoare? Aplică regula celor trei secunde! Creierul tău se blochează atunci când caută perfecțiunea gramaticală înainte să deschidă gura. Începe propoziția imediat cu conectori naturali precum 'From my perspective' sau 'The key point is', iar structura frazei se va lega natural din mers. Antrenează acest reflex cu partenerul vocal AI pe lingvo-romania.vercel.app!",
+        "script_speech": "Vrei să răspunzi instant în engleză fără pauze stânjenitoare? Aplică regula celor trei secunde! Creierul tău se blochează atunci când caută perfecțiunea gramaticală înainte să deschidă gura. Începe propoziția imediat cu conectori naturali precum 'From my perspective' sau 'The key point is', iar structura frazei se va lega natural din mers. Antrenează acest reflex cu partenerul vocal AI pe lingvo.ro!",
         "sections": [
             {
                 "time_max": 6.5,
@@ -174,7 +174,7 @@ FALLBACK_TOPICS = [
                 "color": "#10B981"
             }
         ],
-        "tiktok_caption": "Trucul psihologic de 3 secunde care elimină pauzele stânjenitoare când vorbești în engleză! Exersează pe https://lingvo-romania.vercel.app ! ⚡🎙️ #engleza #fluenta #speaking #lingvoromania"
+        "tiktok_caption": "Trucul psihologic de 3 secunde care elimină pauzele stânjenitoare când vorbești în engleză! Exersează pe https://lingvo.ro ! ⚡🎙️ #engleza #fluenta #speaking #lingvoromania"
     }
 ]
 
@@ -205,7 +205,7 @@ def generate_scenario_with_gemini():
         return FALLBACK_TOPICS[day_idx]
 
     prompt = (
-        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei LingvoRomania (https://lingvo-romania.vercel.app) - specializată în învățarea practică a limbilor străine (Engleză și Germană conversațională), eliminarea blocajului de vorbire și a traducerii mentale cuvânt cu cuvânt.\n"
+        f"Ești scenaristul oficial pentru conținutul video scurt (TikTok / Reels) al platformei LingvoRomania (https://lingvo.ro) - specializată în învățarea practică a limbilor străine (Engleză și Germană conversațională), eliminarea blocajului de vorbire și a traducerii mentale cuvânt cu cuvânt.\n"
         "Folosește EXCLUSIV limba română literară corectă conform DOOM3, cu diacritice complete.\n"
         "Creează un scenariu alert de 25-30 secunde (65-75 cuvinte) cu Hook în primele 4 secunde, 3 puncte clare și îndemn final de accesare a platformei.\n"
         "RĂSPUNDE EXCLUSIV ÎN FORMAT JSON VALID:\n"
@@ -220,7 +220,7 @@ def generate_scenario_with_gemini():
         '    {"time_max": 27.5, "text": "3 • PUNCTUL TREI", "color": "#06B6D4"},\n'
         '    {"time_max": 99.0, "text": "SOLUȚIE • VERIFICĂ ACUM", "color": "#10B981"}\n'
         '  ],\n'
-        '  "tiktok_caption": "Descriere captivantă cu linkul https://lingvo-romania.vercel.app și hashtag-uri: #lingvoromania #engleza #germana #cursuriengleza #vorbirefluenta #cariera"\n'
+        '  "tiktok_caption": "Descriere captivantă cu linkul https://lingvo.ro și hashtag-uri: #lingvoromania #engleza #germana #cursuriengleza #vorbirefluenta #cariera"\n'
         "}"
     )
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
@@ -370,7 +370,7 @@ def render_video(scenario, words, total_duration, audio_path):
     ]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
     brand_text = "🗣️ LINGVOROMANIA • ANTRENOR VOCAL AI"
-    cta_main = "Vorbește fluent pe lingvo-romania.vercel.app"
+    cta_main = "Vorbește fluent pe lingvo.ro"
     cta_sub = "Elimină blocajul de vorbire în Engleză & Germană în 15 min/zi"
     disc1 = "Platformă de antrenament vocal AI pentru fluență conversațională în Engleză și Germană."
     disc2 = "Operator: TEODORESCU O. DIANA PFA • CUI 44874282 • Cod CAEN 8559."
@@ -481,7 +481,7 @@ def dispatch_to_telegram(scenario, duration):
         print("Lipsesc credențialele Telegram.")
         return False
     title = scenario.get("topic_title", "LingvoRomania TikTok")
-    caption_txt = scenario.get("tiktok_caption", "Accesează https://lingvo-romania.vercel.app !")
+    caption_txt = scenario.get("tiktok_caption", "Accesează https://lingvo.ro !")
     tg_caption = (
         f"🎬 <b>[LINGVOROMANIA TIKTOK DAILY]</b>\n\n"
         f"📌 <b>Subiect:</b> {title}\n"
